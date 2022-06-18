@@ -1,0 +1,37 @@
+[
+	// Loom
+
+	{
+		"ProducerName": "Loom", 
+		"InputIdentifier": "Alpaca Wool", 
+		"InputStack": 1, 
+		"FuelIdentifier": null, 
+		"FuelStack": 1, 
+		"MinutesUntilReady": 720, 
+		"OutputIdentifier": "Alpaca Yarn",  
+		"OutputName": null, 
+		"PreserveType": null, 
+		"InputPriceBased": false, 
+		"OutputPriceIncrement": 200, 
+		"OutputPriceMultiplier": 2.5, 
+		"KeepInputQuanlity": false, 
+		"OutputQuality": 0, 
+		"OutputStack": 1, 
+		"Sounds": ["Ship"], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "White", 
+		"SilverQualityInput": { 
+			"Probability": 0.1, 
+			"OutputStack": 2,
+		},		
+		"GoldQualityInput": { 
+			"Probability": 0.25,
+			"OutputStack": 2, 
+		},		
+		"IridiumQualityInput": {
+			"Probability": 0.5,
+			"OutputStack": 2, 
+		},
+	},
+
+]

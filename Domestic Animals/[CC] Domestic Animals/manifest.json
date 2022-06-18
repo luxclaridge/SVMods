@@ -1,0 +1,12 @@
+﻿{
+	"Name": "Domestic Animals",
+	"Author": "SmolHooman",
+	"Version": "1.0.8",
+	"Description": "Adds domestic animals to your game.",
+	"UniqueID": "SmolHooman.DomesticAnimalsCC",
+	"UpdateKeys": [ "Nexus:???" ],
+	"ContentPackFor": {
+		"UniqueID": "PeacefulEnd.CustomCompanions",
+		"MinimumVersion": "1.4.3"
+  }
+}

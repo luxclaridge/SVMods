@@ -1,0 +1,10 @@
+RSV 2.1.4 Hotfix 1
+------------------------------------------------------
+Fixes:
+Fixed string issues with Odd Jobs shop
+
+Additions:
+New sprites for Blair
+
+Changes:
+Changed Sean's 10 heart event to trigger in the BusStop instead at the farm

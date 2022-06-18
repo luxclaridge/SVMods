@@ -1,0 +1,18 @@
+{
+    "Name": "Ox Tail",
+    "Description": "Tail of an ox.",
+    "Category": "AnimalGoods",
+    "Edibility": 50,
+    "Price": 1200,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes":
+    {
+        "Love": ["Lewis", "Harvey"],
+		"Like": ["Linus"],
+        "Dislike": ["Marnie", "Haley"],
+    },
+       "ContextTags": [
+        "color_white",
+    ]
+}

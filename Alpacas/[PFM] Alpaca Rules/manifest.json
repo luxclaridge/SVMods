@@ -1,0 +1,13 @@
+﻿{
+	"Name": "Alpaca Rules",
+	"Author": "bidb",
+	"Version": "1.0.0",
+	"Description": "Adds producing rules for Alpaca goods.",
+	"UniqueID": "bb.alpacarules",
+	"MinimumApiVersion": "3.0.0",
+	"UpdateKeys": [],
+	"Dependencies": [],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.ProducerFrameworkMod"
+	}
+}

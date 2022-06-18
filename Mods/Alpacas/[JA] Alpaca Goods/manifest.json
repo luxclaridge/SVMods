@@ -1,0 +1,13 @@
+{
+   "Name": "Alpaca Goods",
+   "Author": "birdb",
+   "Version": "1.0",
+   "Description": "Adds Alpaca goods.",
+   "UniqueID": "Alpacagoods.bb",
+   "MinimumApiVersion": "2.5",
+   "UpdateKeys": [ "Nexus: " ],
+	"ContentPackFor": {
+		"UniqueID": "spacechase0.JsonAssets",
+		"IsRequired": true
+	},
+}

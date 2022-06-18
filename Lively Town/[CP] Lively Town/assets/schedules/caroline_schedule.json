@@ -1,0 +1,26 @@
+{
+    "Changes": [
+		{
+			"Action": "EditData",
+            "Target": "Characters/schedules/Caroline",
+			// this does make this incompatible with basically any Caroline editing mod, but to be fair it probably would be anyway
+			"Entries": {
+				"rain": null, // null out what needs to be replaced, might still be kinda screwy
+				"Fri": null,
+				"Sat": null,
+				"Sun": null,
+				"summer_Fri": "800 SeedShop 37 6 3/1000 Sunroom 5 7 1/1200 ArchaeologyHouse 14 4 2 caroline_read \"Strings\\schedules\\Caroline:Fri.000\"/1700 SeedShop 25 18 2 square_9_9/2100 SeedShop 25 4 1 caroline_sleep",
+				"summer_Sat": "800 SeedShop 37 6 3/1100 CommunityCenter 26 9 0/1700 SeedShop 25 18 2 square_9_9/2100 SeedShop 25 4 1 caroline_sleep",
+				"summer_Sun": "800 SeedShop 22 5 2/1040 SeedShop 21 5 3 \"Strings\\schedules\\Caroline:Sun.000\"/1330 SeedShop 15 23 0/1440 Town 48 33 2/1830 SeedShop 27 7 1/2100 SeedShop 25 4 1 caroline_sleep",
+				"spring_Fri": "700 SeedShop 37 9 3/800 SeedShop 18 29 3/1700 SeedShop 25 18 2 square_9_9/2100 SeedShop 25 4 1 caroline_sleep",
+				"spring_Sat": "700 SeedShop 37 9 3/800 SeedShop 18 29 3/1700 SeedShop 25 18 2 square_9_9/2100 SeedShop 25 4 1 caroline_sleep",
+				"spring_Sun": "700 SeedShop 37 9 3/800 SeedShop 18 29 3/1700 Town 48 33 2/1930 SeedShop 27 7 1/2100 SeedShop 25 4 1 caroline_sleep",
+				"rain2": "800 SeedShop 37 6 3/1200 SeedShop 15 23 0/1330 SeedShop 21 5 2 caroline_read/1600 SeedShop 25 18 2 square_9_9/2100 SeedShop 25 4 1 caroline_sleep",
+				"spring_Thu": "MAIL carolineShop/GOTO spring/800 SeedShop 37 6 3/1000 Sunroom 5 7 1/1200 ArchaeologyHouse 14 4 2 caroline_read \"Strings\\schedules\\Caroline:Fri.000\"/1700 SeedShop 25 18 2 square_9_9/2100 SeedShop 25 4 1 caroline_sleep",
+				"Fri": "MAIL carolineShop/GOTO summer_Fri/GOTO spring_Fri",
+				"Sat": "MAIL carolineShop/GOTO summer_Sat/GOTO spring_Sat",
+				"Sun": "MAIL carolineShop/GOTO summer_Sun/GOTO spring_Sun"
+			}
+		}
+	]
+}

@@ -1,0 +1,195 @@
+{
+  "Changes": [
+    {
+      "Action": "Load",
+      "Target": "Characters/Wumbus",
+      "FromFile": "assets/tempActors/sprites/Wumbus.png"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Characters/LilWumbus",
+      "FromFile": "assets/tempActors/sprites/LilWumbus.png"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Portraits/Wumbus",
+      "FromFile": "assets/tempActors/portraits/Wumbus.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/LGhost0",
+      "FromFile": "assets/tempActors/sprites/LGhost0.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/LGhost1",
+      "FromFile": "assets/tempActors/sprites/LGhost1.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/LGhost2",
+      "FromFile": "assets/tempActors/sprites/LGhost2.png"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Characters/LGhost3",
+      "FromFile": "assets/tempActors/sprites/LGhost3.png"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Characters/LGhost4",
+      "FromFile": "assets/tempActors/sprites/LGhost4.png"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Characters/LGhost5",
+      "FromFile": "assets/tempActors/sprites/LGhost5.png"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Characters/LGhost6",
+      "FromFile": "assets/tempActors/sprites/LGhost6.png"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Characters/LGhost7",
+      "FromFile": "assets/tempActors/sprites/LGhost7.png"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Characters/LGhost8",
+      "FromFile": "assets/tempActors/sprites/LGhost8.png"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Characters/GhostFlame1",
+      "FromFile": "assets/tempActors/sprites/GhostFlame1.png"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Characters/GhostFlame2",
+      "FromFile": "assets/tempActors/sprites/GhostFlame2.png"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Characters/GhostFlame3",
+      "FromFile": "assets/tempActors/sprites/GhostFlame3.png"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Characters/GhostFlame4",
+      "FromFile": "assets/tempActors/sprites/GhostFlame4.png"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Characters/LJunimoDance1",
+      "FromFile": "assets/tempActors/sprites/LJunimoDance1.png"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Characters/LJunimoDance2",
+      "FromFile": "assets/tempActors/sprites/LJunimoDance2.png"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Characters/Revenant",
+      "FromFile": "assets/tempActors/sprites/Revenant.png"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Portraits/Revenant",
+      "FromFile": "assets/tempActors/portraits/Revenant.png"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Characters/CarryLavril",
+      "FromFile": "assets/tempActors/sprites/CarryLavril.png"
+    },
+
+    // ARV Collab
+    {
+      "Action": "Load",
+      "Target": "Characters/MaxWalk",
+      "FromFile": "assets/tempActors/sprites/MaxWalk.png"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Characters/MaxRun",
+      "FromFile": "assets/tempActors/sprites/MaxRun.png"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Characters/MaxStick",
+      "FromFile": "assets/tempActors/sprites/MaxStick.png"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Characters/LaySterling",
+      "FromFile": "assets/tempActors/sprites/LaySterling.png"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Characters/LayLavril",
+      "FromFile": "assets/tempActors/sprites/LayLavril.png"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Characters/VoidAlpha",
+      "FromFile": "assets/tempActors/sprites/VoidAlpha.png"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Characters/VoidBeta",
+      "FromFile": "assets/tempActors/sprites/VoidBeta.png"
+    },
+
+    ///Objects
+    {
+      "Action": "Load",
+      "Target": "Characters/LFlashlight",
+      "FromFile": "assets/tempActors/sprites/LFlashlight.png"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Characters/LStick",
+      "FromFile": "assets/tempActors/sprites/LStick.png"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Characters/LBlueberry",
+      "FromFile": "assets/tempActors/sprites/LBlueberry.png"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Characters/LRedVelvet",
+      "FromFile": "assets/tempActors/sprites/LRedVelvet.png"
+    }
+
+  ]
+}

@@ -1,0 +1,12 @@
+{
+    "Name": "[CP] Wooden Shelves",
+    "Author": "aedenthorn",
+    "Version": "0.1.1",
+    "Description": "CP Wooden Shelves",
+    "UniqueID": "aedenthorn.WoodenShelvesCP",
+    "MinimumApiVersion": "3.13.0",
+    "UpdateKeys": [ "Nexus:10862" ],
+    "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+    }
+ }

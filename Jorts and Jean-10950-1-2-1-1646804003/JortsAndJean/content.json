@@ -1,0 +1,200 @@
+{
+//I LIKE Jorts
+//there, now it's official merch
+
+    "Format": "1.24.0",
+
+         "ConfigSchema":
+			{
+			"LinusEventTweak":
+				{
+					"AllowValues": "true, false",
+					"Default": "true",
+					"AllowBlank": false,
+					"Description": "Tweaks Linus's garbage event to include Jorts."
+				},
+			"PierreEventTweak":
+				{
+					"AllowValues": "true, false",
+					"Default": "true",
+					"AllowBlank": false,
+					"Description": "Tweaks Pierre's secret stash event."
+				},
+			},
+
+    "Changes":
+    [
+		// NPC Disposition      
+        {
+            "LogName": "Jorts and Jean exist!",
+            "Action": "EditData",
+            "Target": "Data/NPCDispositions",
+			"When": {  "Query: {{DaysPlayed}} >= 5": true },
+            "Entries": 
+            {
+                "JortsCat": "adult/neutral/outgoing/positive/male/non-datable/null/Town/summer 15/JeanCat 'Jean'/AdventureGuild 9 12/Jorts",
+				"JeanCat": "adult/polite/neutral/neutral/female/non-datable/null/Town/fall 9/JortsCat 'Jorts'/AdventureGuild 10 12/Jean"
+            }
+        },
+   
+
+        //Animations
+        {
+            "LogName": "Jorts and Jean Animations",
+            "Action": "EditData",
+            "Target": "Data/animationdescriptions",
+            "Entries":
+            {
+                "JortsCat_catnap": "36/36 36 37 37 37 32 32 32 33 33 33 34 34 34 35 35 35 37 37 37/36",
+				"JortsCat_trashcan": "16/17 18 19 20 21 22 23/16",
+				"JortsCat_cuphead": "40/40 40 40 40 40 40 41 41 41 42 43 43 43 42 41 41 41 42 43 43 43/40",
+				"JeanCat_catnap": "24/24 24 25 25 25 20 20 20 21 21 21 22 22 22 23 23 23 25 25 25/24",
+				"JeanCat_pawwash": "16/17 17 18 18 19 19 18 18 17 17/16",
+				"JeanCat_fishing": "28/28 28 28 28 28 28 28 28 28 28 29 30 31 32 33 34/28",
+				"JortsCat_cleaning": "44/44 44 45 45 45 46 46 46 47 47 47 47 47 47 44/44",
+				"JeanCat_cleaning": "36/36 36 37 37 37 38 38 38 39 39 39 39 39 39 36/36",
+				"JeanCat_beach_fish": "28/28 28 28 28 28 28 28 28 28 28 29 30 31 32 33 34/28",
+            }
+        },
+		//Exclusions:
+		//Jorts and Jean cannot buy things from Pierre, pay for item delivery, or give Winter Star gifts, as they are cats.
+		//They may visit the island or go to movies in the future.
+		{
+			"LogName": "Jorts and Jean NPC exclusions",
+			"Action": "EditData",
+			"Target": "Data/CustomNPCExclusions",
+			"Entries": {
+                "JortsCat": "ShopDialog WinterStar ItemDelivery IslandVisit MovieInvite",
+                "JeanCat": "ShopDialog WinterStar ItemDelivery IslandVisit MovieInvite",
+			},
+		},
+		
+		
+
+        //Portraits
+        {
+            "LogName": "Jorts Base Portraits",
+            "Action": "Load",
+            "Target": "Portraits/JortsCat",
+            "FromFile": "assets/images/jortscat.png",
+        },
+        {
+            "LogName": "Jean Base Portraits",
+            "Action": "Load",
+            "Target": "Portraits/JeanCat",
+            "FromFile": "assets/images/jeancat.png",
+        },
+
+        //Sprites
+        {
+            "LogName": "Jorts Base Sprites",
+            "Action": "Load",
+            "Target": "Characters/JortsCat",
+            "FromFile": "assets/images/jortssprites.png",
+        },
+        {
+            "LogName": "Jean Base Sprites",
+            "Action": "Load",
+            "Target": "Characters/JeanCat",
+            "FromFile": "assets/images/jeansprites.png",
+        },
+		
+		//Blank JSON load for dialogue/portraits
+		{
+			"LogName": "Blank JSON load",
+            "Action": "Load",
+            "Target": "Characters/Dialogue/JortsCat, Characters/Dialogue/JeanCat, Characters/schedules/JortsCat, Characters/schedules/JeanCat, Strings/schedules/JortsCat, Strings/schedules/JeanCat",
+            "FromFile": "assets/data/blank.json",
+        },
+
+		//Schedule dialogue 
+		{
+            "Action": "EditData",
+		  	"Target": "Strings/Schedules/JortsCat",
+            "Entries": 
+            {
+                "Trash.000": "{{Random: Jean...Jean, help....$s && I am SWIMMING in scrungy smells!$h && Um... I might be stuck.$s && Jean! Jean, I found a fish!$h |inputSeparator=&&}}",
+				"ColaShop.000": "{{Random: I AM CUPCAT, MASTER OF PELICAN TOWN!$3 && I've got a hat! Thanks Vincent! I think it needs eyeholes though.$3 && Huh, it's kinda dark out today, isn't it?$3 && Look, I'm recycling!$3 && This doesn't count as a trashcan mishap, right?$3 |inputSeparator=&&}}",
+            },
+    	},
+		{
+            "Action": "EditData",
+		  	"Target": "Strings/Schedules/JeanCat",
+            "Entries": 
+            {
+                "Trash2.000": "{{Random: Well... setting the 'days since a trash can mishap' count back to zero...$3 && Classic Jorts...$3 && Well Jorts, you may be IN trash, but at least you AREN'T trash.$3 && Jorts, absolutely do not eat that. |inputSeparator=&&}}",
+				"Ginger.000": "{{Random: So then Jorts got locked in the closet...$6 && Look, just try talking to her. Kids pay attention, you know. $6 && A redbanded perch is NOT a replacement for a sea bass, end of story.$6 && That Pierre... I'm telling you, we need to slip in one night and pee on everything he loves.$6 && When that dog get loose one day, don't come crying to me.$6 && She named you WHAT, now?$6 && So, what's Shane done lately that's entertaining? Spill the catnip. |inputSeparator=&&}}",
+				"ColaShop2.000": "{{Random: Vincent, I appreciate the thought, but that's not a hat.$3 && Classic Jorts...$3 && Sam, uh, a little help here?$3 && At least it's not a Joja cup, I suppose.$3 |inputSeparator=&&}}",
+            },
+    	},
+		
+        // Events include
+		{
+			"LogName": "Events Include",
+			"Action": "Include",
+			"FromFile": "assets/data/Events.json"
+		},
+		
+        // Cross-mod compatibility patches 
+		{
+			"LogName": "Compat Include",
+			"Action": "Include",
+			"FromFile": "assets/data/Compat.json"
+		},
+		
+		//Festival include 
+		{
+			"LogName": "Festival Include",
+			"Action": "Include",
+			"FromFile": "assets/data/Festivals.json"
+		},
+		
+		//Gift Taste Data
+		{
+			"LogName": "Gift Tastes Include",
+			"Action": "Include",
+			"FromFile": "assets/data/GiftTastes.json"
+		},
+		
+		// Schedules and Dialogue includes
+        {
+			"LogName": "Schedule/Dialogue Includes",
+			"Action": "Include",
+			"FromFile": "assets/data/jeanschedule.json, assets/data/jortsschedule.json, assets/data/jeandialogue.json, assets/data/jortsdialogue.json"
+		},
+		//Conversation Topics from vanilla/other custom NPCs
+		{
+			"LogName": "Conversation Topics",
+			"Action": "Include",
+			"FromFile": "assets/data/ConvoTopics.json"
+		},
+		
+        // Resort include (with GIMA
+		{
+			"LogName": "Resort Include",
+			"Action": "Include",
+			"When": { "HasMod: |contains=atravita.GingerIslandMainlandAdjustments": true},
+			"FromFile": "assets/data/Resort.json"
+		},
+		
+		//Bridge fix for pathing - thank you Lemurkat!
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Mountain",
+			"FromFile": "assets/data/Mountain_BridgeFix.tmx",
+			"ToArea": {
+				"X": 46,
+				"Y": 7,
+				"Width": 4,
+				"Height": 1
+			},
+		},		
+		
+
+   
+
+   
+   
+
+  ]
+}

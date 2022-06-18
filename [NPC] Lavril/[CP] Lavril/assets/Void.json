@@ -1,0 +1,52 @@
+{
+  "Changes": [
+
+    {
+      "LogName": "NPC Sprite",
+      "Action": "Load",
+      "Target": "Characters/Void",
+      "FromFile": "assets/img/VoidSprites.png"
+    },
+    {
+      "LogName": "NPC Portrait",
+      "Action": "Load",
+      "Target": "Portraits/Void",
+      "FromFile": "assets/img/VoidPortrait.png",
+      "When": {
+        "AlternatePortraits": "false"
+      }
+    },
+
+    {
+      "LogName": "NPC Portrait",
+      "Action": "Load",
+      "Target": "Portraits/Void",
+      "FromFile": "assets/img2/VoidPortrait.png",
+      "When": {
+        "AlternatePortraits": "true"
+      }
+    },
+
+    {
+      "LogName": "Animation Descriptions",
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "entries": {
+        "void_read": "21/21 21 21/21"
+      }
+    },
+
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Void",
+      "FromFile": "assets/schedules/VoidSchedule.json"
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Void",
+      "FromFile": "assets/dialogue/VoidDialogue.json"
+    }
+  ]
+}

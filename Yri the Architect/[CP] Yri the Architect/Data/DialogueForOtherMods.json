@@ -1,0 +1,175 @@
+{
+"Changes": [
+//Text for other mods
+
+
+//East Scarp
+{
+    "LogName": "EastScarpDialogue",
+    "Action": "EditData",
+    "Target": "Data/Dialogue/YriDialogue",
+    "Entries": {
+		
+				"Mon4": "{{Random: Have you been to the lighthouse lately? #$b# I had a hard time working on the design, in the end I decided to stay with a traditional design. ++ The Door for the Scrap Inn was made by a friend of mine, his specialty is stained glass so it was an obvious choice when I worked out the sunset theme for the doors. ++ Before I moved to East scarp I crashed at Robins place. We got really lucky to get a house here.$h ++ East Scarp has a beautiful view on the sea, I like taking strolls by the beach when I hit a creative low. ++ If you ever feel like it you can visit me and my {{SO}} in East Scarp. We love to have you there.$h |inputSeparator=++}}",
+    		   },
+
+     "When":
+		{ "HasMod":"LemurKat.EastScarpe.CP"}
+},
+    
+
+//ARV
+
+{
+    "LogName": "ARVDialogue",
+    "Action": "EditData",
+    "Target": "Data/Dialogue/YriDialogue",
+    "Entries": {
+		
+				"Tue": "{{Random: Hi ++  Hey ++ Hello ++ |inputSeparator=++}}",
+    		   },
+
+     "When":
+		{ "HasMod":"Himetarts.ARV.CP"}
+},
+
+
+//Tristan
+
+{
+    "LogName": "TristanDialogue",
+    "Action": "EditData",
+    "Target": "Data/Dialogue/YriDialogue",
+    "Entries": {
+		
+				"Wed": "I don't know Tristan well, but he seems like he went through a lot.$u",
+    		   },
+
+     "When":
+		{ "HasMod":"Lemurkat.Tristan.CP"}
+},
+
+
+//Ridgeside Village
+{
+    "LogName": "ARVDialogue",
+    "Action": "EditData",
+    "Target": "Data/Dialogue/YriDialogue",
+    "Entries": {
+		
+				"Thu": "{{Random: There is a small town on top of the cliff to the north, I worked together with Lenlianne to rework the buildings not to long ago.$h#$b# Did you know that Lenny and Lewis are siblings? Some call her immature. $h#$b# But how can she be called that when she is still more responsible in paying for work than a certain mayor! $a ++ I spend quite a long time pondering over the design of the log cabin hotel, I think out of all buildings this one took me the longest. ++ Have you been to the Amethyne Mansion? #$b# I usually don't work with stones but white marble was the only material I deemed fitting for this building. ++ Faye's Residence gave me quite a lot of trouble, small buildings always pose a challenge. #$b# I tried my best to utilize all the space I could. ++ Pika's house is lovely I had a lot of fun working on it and his son is just super cute. ++ Did you know that the blooming hill farm was used for storage by the by the Governor himself? #$b# And now it's a cozy little farm, pretty amazing huh? $l ++ Daniels Residence is quite the big house for only two people but it gave me the opportunity to play a bit with design ideas. #$b# Ezekiel gave me free reign over it so I went a bit wild. $h ++ The Ridgeside Clinic is one of my favorite pieces, I think I managed to keep the perfect balance between comfort and practicability ++ I simply love the Nightingale Orchard, it's one of my masterpieces. $h#$b# I use it as an example to show my clients. $l ++ The Heaps Store is towering over Ridgeside, I never really worked on buildings this high, so I'm glad I got some extra help by a structural engineer for this. ++ Water Research Facility is an impressive building. #$b# You can't even imagine how many sketches I made before I settled on the final design.$u |inputSeparator=++}}",
+    		   },
+
+     "When":
+		{ "HasMod":"Rafseazz.RSVCP"}
+},
+
+//Aspen
+
+{
+    "LogName": "AspenDialogue",
+    "Action": "EditData",
+    "Target": "Data/Dialogue/YriDialogue",
+    "Entries": {
+		
+				"Sat": "Aspen is such a nice young lady, I loved working with her on her house.$h#$b# I actually made a few different versions so she could choose which one she liked best.$l",
+    		   },
+
+     "When":
+		{ "HasMod":"invatorzen.AspenCP"}
+},
+
+
+//Boarding House
+{
+    "LogName": "BoardingHouseDialogue",
+    "Action": "EditData",
+    "Target": "Data/Dialogue/YriDialogue",
+    "Entries": {
+		
+				"Sun": "The Boarding House was one of my earlier projects, back then I used to make it less playful and keep it simple #$b# My style changed and I'm more comfortable with it so maybe I talk with Joe about a rework.",
+    		   },
+
+     "When":
+		{ "HasMod":"CPBoardingHouse"}
+},
+
+
+//Cecilia
+
+{
+    "LogName": "CeciliaDialogue",
+    "Action": "EditData",
+    "Target": "Data/Dialogue/YriDialogue",
+    "Entries": {
+		
+				"Mon2": "Have you seen this broken down house? People say a ghost is living there, no matter how often Robin and I tried to repair it it always breaks down again so we gave up on it...$s",
+    		   },
+
+     "When":
+		{ "HasMod":"balverines.cecilia"}
+},
+
+
+//Lyell
+
+{
+    "LogName": "LyellDialogue",
+    "Action": "EditData",
+    "Target": "Data/Dialogue/YriDialogue",
+    "Entries": {
+		
+				"Mon4": "Lyell went through a lot, I hope the house we build for him can help him a bit to feel more safe.",
+    		   },
+
+     "When":
+		{ "HasMod":"Fellowclown.Lyell"}
+},
+
+
+//Eugene
+{
+    "LogName": "TristanDialogue",
+    "Action": "EditData",
+    "Target": "Data/Dialogue/YriDialogue",
+    "Entries": {
+		
+				"Mon6": "Have you seen Eugene's house? It's so lovely how he decorated the place, don't you think?",
+    		   },
+
+     "When":
+		{ "HasMod":"SapieEugeneEnglish"}
+},
+
+
+
+//Zoro
+{
+    "LogName": "ZoroDialogue",
+    "Action": "EditData",
+    "Target": "Data/Dialogue/YriDialogue",
+    "Entries": {
+		
+				"Mon8": "I gave Zoro's boat a little makeover, boats aren't my specialty but I think it turned out well. $h",
+    		   },
+
+     "When":
+		{ "HasMod":"EmpressKimi.Zoro"}
+},
+
+//SVE
+{
+    "LogName": "TristanDialogue",
+    "Action": "EditData",
+    "Target": "Data/Dialogue/YriDialogue",
+    "Entries": {
+		
+				"Tue2": "{{Random: I knew Sophia's parents... We met a few times, mostly to talk about some details for their renovation, it was a huge shock for everyone in town after they died. ++ Olivia has an expensive taste, remodeling her house was a challenge, it was also the most expensive one in town. But we did a good job and she was satisfied with it. ++ We rebuild Andy's house for the town overhaul project but he couldn't pay for the up-keeping so only a few years later it ended up in the same state as before... Such a shame. ++ Susan's house was quite unusual, I made sure to make it as soundproof as possible so she can at least sleep at night.|inputSeparator=++}}",
+    		   },
+
+     "When":
+		{ "HasMod":"FlashShifter.StardewValleyExpandedCP"}
+},
+
+]
+}

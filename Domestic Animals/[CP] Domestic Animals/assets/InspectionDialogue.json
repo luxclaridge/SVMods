@@ -1,0 +1,449 @@
+{
+//	"Format": "1.23.0",
+
+	"Changes": [
+	{
+		"LogName": "Random inspection dialogue for Clover the Bunny (1)",
+		"Action": "EditData",
+		"Target": "{{PeacefulEnd.CustomCompanions/Companions:SmolHooman.DomesticAnimalsCC.CloverTheBunny}}",
+		"Entries": {
+			"Companion": {
+				"InspectionDialogue": "{{i18n:CloverTheBunny.Inspection.{{Random: 2, 3, 4, 5, 6, 7, 8 |key={{Time}} }}}}",
+			}
+		},
+		"When": {
+			"Hearts:Leah": "{{Range: 0, 5}}",
+			},
+		"Update": "OnLocationChange"
+	},
+	{
+		"LogName": "Random inspection dialogue for Clover the Bunny (2)",
+		"Action": "EditData",
+		"Target": "{{PeacefulEnd.CustomCompanions/Companions:SmolHooman.DomesticAnimalsCC.CloverTheBunny}}",
+		"Entries": {
+			"Companion": {
+				"InspectionDialogue": "{{i18n:CloverTheBunny.Inspection.{{Random: 9, 10, 11, 12, 13, 14, 15 |key={{Time}} }}}}",
+			}
+		},
+		"When": {
+			"Hearts:Leah": "{{Range: 6, 11}}",
+			},
+		"Update": "OnLocationChange"
+	},
+	{
+		"LogName": "Random inspection dialogue for Clover the Bunny (3)",
+		"Action": "EditData",
+		"Target": "{{PeacefulEnd.CustomCompanions/Companions:SmolHooman.DomesticAnimalsCC.CloverTheBunny}}",
+		"Entries": {
+			"Companion": {
+				"InspectionDialogue": "{{i18n:CloverTheBunny.Inspection.{{Random: 16, 17, 18, 19, 20, 21, 22 |key={{Time}} }}}}",
+			}
+		},
+		"When": {
+			"Hearts:Leah": "{{Range: 12, 14}}",
+			},
+		"Update": "OnLocationChange"
+	},
+	{
+		"LogName": "Random inspection dialogue for Primrose the Bunny (1)",
+		"Action": "EditData",
+		"Target": "{{PeacefulEnd.CustomCompanions/Companions:SmolHooman.DomesticAnimalsCC.PrimroseTheBunny}}",
+		"Entries": {
+			"Companion": {
+				"InspectionDialogue": "{{i18n:PrimroseTheBunny.Inspection.{{Random: 2, 3, 4, 5, 6, 7, 8 |key={{Time}} }}}}",
+			}
+		},
+		"When": {
+			"Hearts:Leah": "{{Range: 0, 2}}",
+			},
+		"Update": "OnLocationChange"
+	},
+	{
+		"LogName": "Random inspection dialogue for Primrose the Bunny (2)",
+		"Action": "EditData",
+		"Target": "{{PeacefulEnd.CustomCompanions/Companions:SmolHooman.DomesticAnimalsCC.PrimroseTheBunny}}",
+		"Entries": {
+			"Companion": {
+				"InspectionDialogue": "{{i18n:PrimroseTheBunny.Inspection.{{Random: 9, 10, 11, 12, 13, 14, 15 |key={{Time}} }}}}",
+			}
+		},
+		"When": {
+			"Hearts:Leah": "{{Range: 3, 8}}",
+			},
+		"Update": "OnLocationChange"
+	},
+	{
+		"LogName": "Random inspection dialogue for Primrose the Bunny (3)",
+		"Action": "EditData",
+		"Target": "{{PeacefulEnd.CustomCompanions/Companions:SmolHooman.DomesticAnimalsCC.PrimroseTheBunny}}",
+		"Entries": {
+			"Companion": {
+				"InspectionDialogue": "{{i18n:PrimroseTheBunny.Inspection.{{Random: 16, 17, 18, 19, 20, 21, 22 |key={{Time}} }}}}",
+			}
+		},
+		"When": {
+			"Hearts:Leah": "{{Range: 9, 14}}",
+			},
+		"Update": "OnLocationChange"
+	},
+
+	{
+		"LogName": "Random inspection dialogue for David the Guineapig (1)",
+		"Action": "EditData",
+		"Target": "{{PeacefulEnd.CustomCompanions/Companions:SmolHooman.DomesticAnimalsCC.DavidTheGuineapig}}",
+		"Entries": {
+			"Companion": {
+				"InspectionDialogue": "{{i18n:DavidTheGuineapig.Inspection.{{Random: 2, 3, 4, 5, 6, 7, 8 |key={{Time}} }}}}",
+			}
+		},
+		"When": {
+			"Hearts:Abigail": "{{Range: 0, 4}}",
+			},
+		"Update": "OnLocationChange"
+	},
+	{
+		"LogName": "Random inspection dialogue for David the Guineapig (2)",
+		"Action": "EditData",
+		"Target": "{{PeacefulEnd.CustomCompanions/Companions:SmolHooman.DomesticAnimalsCC.DavidTheGuineapig}}",
+		"Entries": {
+			"Companion": {
+				"InspectionDialogue": "{{i18n:DavidTheGuineapig.Inspection.{{Random: 9, 10, 11, 12, 13, 14, 15 |key={{Time}} }}}}",
+			}
+		},
+		"When": {
+			"Hearts:Abigail": "{{Range: 5, 10}}",
+			},
+		"Update": "OnLocationChange"
+	},
+	{
+		"LogName": "Random inspection dialogue for David the Guineapig (3)",
+		"Action": "EditData",
+		"Target": "{{PeacefulEnd.CustomCompanions/Companions:SmolHooman.DomesticAnimalsCC.DavidTheGuineapig}}",
+		"Entries": {
+			"Companion": {
+				"InspectionDialogue": "{{i18n:DavidTheGuineapig.Inspection.{{Random: 16, 17, 18, 19, 20, 21, 22 |key={{Time}} }}}}",
+			}
+		},
+		"When": {
+			"Hearts:Abigail": "{{Range: 11, 14}}",
+			},
+		"Update": "OnLocationChange"
+	},
+
+	{
+		"LogName": "Random inspection dialogue for Charlie (1)",
+		"Action": "EditData",
+		"Target": "{{PeacefulEnd.CustomCompanions/Companions:SmolHooman.DomesticAnimalsCC.CharlieTheChicken}}",
+		"Entries": {
+			"Companion": {
+				"InspectionDialogue": "{{i18n:CharlieTheChicken.Inspection.{{Random: 2, 3, 4, 5, 6, 7, 8 |key={{Time}} }}}}",
+			}
+		},
+		"When": {
+			"Hearts:Shane": "{{Range: 0, 3}}",
+			},
+		"Update": "OnLocationChange"
+	},
+	{
+		"LogName": "Random inspection dialogue for Charlie (2)",
+		"Action": "EditData",
+		"Target": "{{PeacefulEnd.CustomCompanions/Companions:SmolHooman.DomesticAnimalsCC.CharlieTheChicken}}",
+		"Entries": {
+			"Companion": {
+				"InspectionDialogue": "{{i18n:CharlieTheChicken.Inspection.{{Random: 9, 10, 11, 12, 13, 14, 15 |key={{Time}} }}}}",
+			}
+		},
+		"When": {
+			"Hearts:Shane": "{{Range: 4, 7}}",
+			},
+		"Update": "OnLocationChange"
+	},
+	{
+		"LogName": "Random inspection dialogue for Charlie (3)",
+		"Action": "EditData",
+		"Target": "{{PeacefulEnd.CustomCompanions/Companions:SmolHooman.DomesticAnimalsCC.CharlieTheChicken}}",
+		"Entries": {
+			"Companion": {
+				"InspectionDialogue": "{{i18n:CharlieTheChicken.Inspection.{{Random: 16, 17, 18, 19, 20, 21, 22 |key={{Time}} }}}}",
+			}
+		},
+		"When": {
+			"Hearts:Shane": "{{Range: 8, 14}}",
+			},
+		"Update": "OnLocationChange"
+	},
+
+	{
+		"LogName": "Random inspection dialogue for Dusty (1)",
+		"Action": "EditData",
+		"Target": "{{PeacefulEnd.CustomCompanions/Companions:SmolHooman.DomesticAnimalsCC.DustyTheDog}}",
+		"Entries": {
+			"Companion": {
+				"InspectionDialogue": "{{i18n:DustyTheDog.Inspection.{{Random: 2, 3, 4, 5, 6, 7, 8 |key={{Time}} }}}}",
+			}
+		},
+		"When": {
+			"Hearts:Alex": "{{Range: 0, 4}}",
+			},
+		"Update": "OnLocationChange"
+	},
+	{
+		"LogName": "Random inspection dialogue for Dusty (2)",
+		"Action": "EditData",
+		"Target": "{{PeacefulEnd.CustomCompanions/Companions:SmolHooman.DomesticAnimalsCC.DustyTheDog}}",
+		"Entries": {
+			"Companion": {
+				"InspectionDialogue": "{{i18n:DustyTheDog.Inspection.{{Random: 9, 10, 11, 12, 13, 14, 15 |key={{Time}} }}}}",
+			}
+		},
+		"When": {
+			"Hearts:Alex": "{{Range: 5, 10}}",
+			},
+		"Update": "OnLocationChange"
+	},
+	{
+		"LogName": "Random inspection dialogue for Dusty (3)",
+		"Action": "EditData",
+		"Target": "{{PeacefulEnd.CustomCompanions/Companions:SmolHooman.DomesticAnimalsCC.DustyTheDog}}",
+		"Entries": {
+			"Companion": {
+				"InspectionDialogue": "{{i18n:DustyTheDog.Inspection.{{Random: 16, 17, 18, 19, 20, 21, 22 |key={{Time}} }}}}",
+			}
+		},
+		"When": {
+			"Hearts:Alex": "{{Range: 11, 14}}",
+			},
+		"Update": "OnLocationChange"
+	},
+
+	{
+		"LogName": "Random inspection dialogue for Emily's Parrot (1)",
+		"Action": "EditData",
+		"Target": "{{PeacefulEnd.CustomCompanions/Companions:SmolHooman.DomesticAnimalsCC.EmilysParrot}}",
+		"Entries": {
+			"Companion": {
+				"InspectionDialogue": "{{i18n:EmilysParrot.Inspection.{{Random: 2, 3, 4, 5, 6, 7, 8 |key={{Time}} }}}}",
+			}
+		},
+		"When": {
+			"Hearts:Emily": "{{Range: 0, 5}}",
+			},
+		"Update": "OnLocationChange"
+	},
+	{
+		"LogName": "Random inspection dialogue for Emily's Parrot (2)",
+		"Action": "EditData",
+		"Target": "{{PeacefulEnd.CustomCompanions/Companions:SmolHooman.DomesticAnimalsCC.EmilysParrot}}",
+		"Entries": {
+			"Companion": {
+				"InspectionDialogue": "{{i18n:EmilysParrot.Inspection.{{Random: 9, 10, 11, 12, 13, 14, 15 |key={{Time}} }}}}",
+			}
+		},
+		"When": {
+			"Hearts:Emily": "{{Range: 6, 11}}",
+			},
+		"Update": "OnLocationChange"
+	},
+	{
+		"LogName": "Random inspection dialogue for Emily's Parrot (3)",
+		"Action": "EditData",
+		"Target": "{{PeacefulEnd.CustomCompanions/Companions:SmolHooman.DomesticAnimalsCC.EmilysParrot}}",
+		"Entries": {
+			"Companion": {
+				"InspectionDialogue": "{{i18n:EmilysParrot.Inspection.{{Random: 16, 17, 18, 19, 20, 21, 22 |key={{Time}} }}}}",
+			}
+		},
+		"When": {
+			"Hearts:Emily": "{{Range: 12, 14}}",
+			},
+		"Update": "OnLocationChange"
+	},
+
+	{
+		"LogName": "Random inspection dialogue for Gill (1)",
+		"Action": "EditData",
+		"Target": "{{PeacefulEnd.CustomCompanions/Companions:SmolHooman.DomesticAnimalsCC.GillTheCat}}",
+		"Entries": {
+			"Companion": {
+				"InspectionDialogue": "{{i18n:GillTheCat.Inspection.{{Random: 2, 3, 4, 5, 6, 7, 8, 9, 10 |key={{Time}} }}}}",
+			}
+		},
+		"When": {
+			"Hearts:Willy": "{{Range: 0, 3}}",
+			},
+		"Update": "OnLocationChange"
+	},
+	{
+		"LogName": "Random inspection dialogue for Gill (2)",
+		"Action": "EditData",
+		"Target": "{{PeacefulEnd.CustomCompanions/Companions:SmolHooman.DomesticAnimalsCC.GillTheCat}}",
+		"Entries": {
+			"Companion": {
+				"InspectionDialogue": "{{i18n:GillTheCat.Inspection.{{Random: 11, 12, 13, 14, 15, 16, 17, 18, 19, 20 |key={{Time}} }}}}",
+			}
+		},
+		"When": {
+			"Hearts:Willy": "{{Range: 4, 14}}",
+			},
+		"Update": "OnLocationChange"
+	},
+
+	{
+		"LogName": "Random inspection dialogue for Kaida (1)",
+		"Action": "EditData",
+		"Target": "{{PeacefulEnd.CustomCompanions/Companions:SmolHooman.DomesticAnimalsCC.KaidaTheDragon}}",
+		"Entries": {
+			"Companion": {
+				"InspectionDialogue": "{{i18n:KaidaTheDragon.Inspection.{{Random: 2, 3, 4, 5, 6, 7, 8, 9, 10 |key={{Time}} }}}}",
+			}
+		},
+		"When": {
+			"Hearts:Wizard": "{{Range: 0, 3}}",
+			},
+		"Update": "OnLocationChange"
+	},
+	{
+		"LogName": "Random inspection dialogue for Kaida (2)",
+		"Action": "EditData",
+		"Target": "{{PeacefulEnd.CustomCompanions/Companions:SmolHooman.DomesticAnimalsCC.KaidaTheDragon}}",
+		"Entries": {
+			"Companion": {
+				"InspectionDialogue": "{{i18n:KaidaTheDragon.Inspection.{{Random: 11, 12, 13, 14, 15, 16, 17, 18, 19, 20 |key={{Time}} }}}}",
+			}
+		},
+		"When": {
+			"Hearts:Wizard": "{{Range: 4, 14}}",
+			},
+		"Update": "OnLocationChange"
+	},
+
+	{
+		"LogName": "Random inspection dialogue for the stray cat (1)",
+		"Action": "EditData",
+		"Target": "{{PeacefulEnd.CustomCompanions/Companions:SmolHooman.DomesticAnimalsCC.OreoTheStrayCat}}",
+		"Entries": {
+			"Companion": {
+				"InspectionDialogue": "{{i18n:OreoTheStrayCat.Inspection.{{Random: 2, 3, 4, 5, 6, 7, 8 |key={{Time}} }}}}",
+			}
+		},
+		"When": {
+			"Hearts:Abigail": "{{Range: 0, 5}}",
+			},
+		"Update": "OnLocationChange"
+	},
+	{
+		"LogName": "Random inspection dialogue for the stray cat (2)",
+		"Action": "EditData",
+		"Target": "{{PeacefulEnd.CustomCompanions/Companions:SmolHooman.DomesticAnimalsCC.OreoTheStrayCat}}",
+		"Entries": {
+			"Companion": {
+				"InspectionDialogue": "{{i18n:OreoTheStrayCat.Inspection.{{Random: 9, 10, 11, 12, 13, 14, 15 |key={{Time}} }}}}",
+			}
+		},
+		"When": {
+			"Hearts:Abigail": "{{Range: 6, 11}}",
+			},
+		"Update": "OnLocationChange"
+	},
+	{
+		"LogName": "Random inspection dialogue for the stray cat (3)",
+		"Action": "EditData",
+		"Target": "{{PeacefulEnd.CustomCompanions/Companions:SmolHooman.DomesticAnimalsCC.OreoTheStrayCat}}",
+		"Entries": {
+			"Companion": {
+				"InspectionDialogue": "{{i18n:OreoTheStrayCat.Inspection.{{Random: 16, 17, 18, 19, 20, 21, 22 |key={{Time}} }}}}",
+			}
+		},
+		"When": {
+			"Hearts:Abigail": "{{Range: 12, 14}}",
+			},
+		"Update": "OnLocationChange"
+	},
+
+	{
+		"LogName": "Random inspection dialogue for the shadow pups (1)",
+		"Action": "EditData",
+		"Target": "{{PeacefulEnd.CustomCompanions/Companions:SmolHooman.DomesticAnimalsCC.ShadowPup}}",
+		"Entries": {
+			"Companion": {
+				"InspectionDialogue": "{{i18n:ShadowPup.Inspection.{{Random: 2, 3, 4, 5, 6, 7, 8, 9, 10 |key={{Time}} }}}}",
+			}
+		},
+		"When": {
+			"Hearts:Krobus": "{{Range: 0, 5}}",
+			},
+		"Update": "OnLocationChange"
+	},
+	{
+		"LogName": "Random inspection dialogue for the shadow pups (2)",
+		"Action": "EditData",
+		"Target": "{{PeacefulEnd.CustomCompanions/Companions:SmolHooman.DomesticAnimalsCC.ShadowPup}}",
+		"Entries": {
+			"Companion": {
+				"InspectionDialogue": "{{i18n:ShadowPup.Inspection.{{Random: 11, 12, 13, 14, 15, 16, 17, 18, 19, 20 |key={{Time}} }}}}",
+			}
+		},
+		"When": {
+			"Hearts:Krobus": "{{Range: 6, 14}}",
+			},
+		"Update": "OnLocationChange"
+	},
+
+	{
+		"LogName": "Random inspection dialogue for the stray dogs (1)",
+		"Action": "EditData",
+		"Target": "{{PeacefulEnd.CustomCompanions/Companions:SmolHooman.DomesticAnimalsCC.StrayDog1}}",
+		"Entries": {
+			"Companion": {
+				"InspectionDialogue": "{{i18n:StrayDog.Inspection.{{Random: 2, 3, 4, 5, 6, 7, 8, 9, 10 |key={{Time}} }}}}",
+			}
+		},
+		"Update": "OnLocationChange"
+	},
+	{
+		"LogName": "Random inspection dialogue for the stray dogs (2)",
+		"Action": "EditData",
+		"Target": "{{PeacefulEnd.CustomCompanions/Companions:SmolHooman.DomesticAnimalsCC.StrayDog2}}",
+		"Entries": {
+			"Companion": {
+				"InspectionDialogue": "{{i18n:StrayDog.Inspection.{{Random: 2, 3, 4, 5, 6, 7, 8, 9, 10 |key={{Time}} }}}}",
+			}
+		},
+		"Update": "OnLocationChange"
+	},
+	{
+		"LogName": "Random inspection dialogue for the stray dogs (3)",
+		"Action": "EditData",
+		"Target": "{{PeacefulEnd.CustomCompanions/Companions:SmolHooman.DomesticAnimalsCC.StrayDog3}}",
+		"Entries": {
+			"Companion": {
+				"InspectionDialogue": "{{i18n:StrayDog.Inspection.{{Random: 2, 3, 4, 5, 6, 7, 8, 9, 10 |key={{Time}} }}}}",
+			}
+		},
+		"Update": "OnLocationChange"
+	},
+	{
+		"LogName": "Random inspection dialogue for the stray dogs (4)",
+		"Action": "EditData",
+		"Target": "{{PeacefulEnd.CustomCompanions/Companions:SmolHooman.DomesticAnimalsCC.StrayDog4}}",
+		"Entries": {
+			"Companion": {
+				"InspectionDialogue": "{{i18n:StrayDog.Inspection.{{Random: 2, 3, 4, 5, 6, 7, 8, 9, 10 |key={{Time}} }}}}",
+			}
+		},
+		"Update": "OnLocationChange"
+	},
+
+	{
+		"LogName": "Random inspection dialogue for the slime cat",
+		"Action": "EditData",
+		"Target": "{{PeacefulEnd.CustomCompanions/Companions:SmolHooman.DomesticAnimalsCC.WitchsSlimeCat}}",
+		"Entries": {
+			"Companion": {
+				"InspectionDialogue": "{{i18n:WitchsSlimeCat.Inspection.{{Random: 2, 3, 4, 5, 6, 7, 8, 9, 10 |key={{Time}} }}}}",
+			}
+		},
+		"Update": "OnLocationChange"
+	}
+	]
+}

@@ -1,0 +1,12 @@
+{
+  "RepeatCableCarCutscene": "true",
+  "EnableOtherNPCsInCableCar": "true",
+  "EnableRidgesideMusic": "true",
+  "RSVNPCSAttendFestivals": "true",
+  "EasyIntroduction": "false",
+  "FullFestivals": "true",
+  "EnableBetterBusStop": "false",
+  "AutoWeddingReception": "false",
+  "PoleAtBackwoods": "true",
+  "SeasonalRSVMap": "true"
+}

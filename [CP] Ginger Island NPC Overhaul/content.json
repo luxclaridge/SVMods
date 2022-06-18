@@ -1,0 +1,137 @@
+{
+  "Format": "1.23",
+  "ConfigSchema": {
+    "Birdie Portrait": {
+      "AllowValues": "off, modded",
+      "Default": "modded"
+    },
+    "Full NPC Snail": {
+      "AllowValues": "on, off with portraits, off without portraits",
+      "Default": "on"
+    },
+    "Snail Portrait": {
+      "AllowValues": "vanilla, modded",
+      "Default": "modded"
+    },
+    "Snail Gender": {
+      "AllowValues": "male, female",
+      "Default": "male"
+    },
+    "Leo Portrait": {
+      "AllowValues": "off, modded vanilla, Malaysian, Melanesian",
+      "Default": "Malaysian"
+    },
+    "The Gourmand": {
+      "AllowValues": "vanilla, modded",
+      "Default": "modded"
+    }
+  },
+  "DynamicTokens": [
+    {
+      "Name": "BlankFile",
+      "Value": "assets/Data/blank.json"
+    },
+    {
+      "Name": "snailgender",
+      "Value": "male",
+      "When": {
+        "Snail Gender": "male"
+      }
+    },
+    {
+      "Name": "snailgender",
+      "Value": "female",
+      "When": {
+        "Snail Gender": "female"
+      }
+    },
+    {
+      "Name": "snailvariant",
+      "Value": "vanilla",
+      "When": {
+        "Snail Portrait": "vanilla"
+      }
+    },
+    {
+      "Name": "snailvariant",
+      "Value": "modded",
+      "When": {
+        "Snail Portrait": "modded"
+      }
+    },
+    {
+      "Name": "leovariant",
+      "Value": "vanilla",
+      "When": {
+        "Leo Portrait": "modded vanilla"
+      }
+    },
+    {
+      "Name": "leovariant",
+      "Value": "malaysian",
+      "When": {
+        "Leo Portrait": "Malaysian"
+      }
+    },
+    {
+      "Name": "leovariant",
+      "Value": "melanesian",
+      "When": {
+        "Leo Portrait": "Melanesian"
+      }
+    },
+
+  ],
+  "Changes": [
+    {
+      "LogName": "The Gourmand",
+      "Action": "EditData",
+      "Target": "Strings/Locations",
+      "When": {
+        "The Gourmand": "modded"
+      },
+      "Entries": {
+        "Gourmand_Intro": "Kribbibbit... Whooo? Are you the farmer who tends the land outside my house?",
+        "Gourmand_RequestIntro": "Gurrp... The land once teemed with fresh, fresh food... *sigh*... I wish to see it teeming once more.",
+        "Gourmand_RequestQuestion": "Are you growing the thing outside now, hmmm?",
+        "Gourmand_RequestFailed": "Kriibbitt... You do not grow the thing I wish to see... Grow this thing and return to me...",
+        "Gourmand_Request_0": "Grow for me... the pink thing... the juicy thing...",
+        "Gourmand_Request_0_Success": "Gurrrp... Yes. So pink... So juicy...|...It brings me back to the good old days... sunny days when things were sweeter...|*slurp*...I want to take a big juicy bite...|...But, I won't.",
+        "Gourmand_Request_1": "I wish to see the long yellow tickling thing... the thing that waves in the wind...",
+        "Gourmand_Request_1_Success": "Gurrrp... Good. Very long and when you run through it... very tickly.|Heh... reminds me of an old girlfriend... *gurp*...|Heh... Now I want to tickle you...|...But, I won't.",
+        "Gourmand_Request_2": "I wish to eat the zesty ground-fruit, that makes breath stink...",
+        "Gourmand_Request_2_Success": "Gurrrp... Yes... I ate this thing once. It made my breath smell awful...|...Like Papa's when I was just a tadpole...|Heh... I want to take a big smelly bite...|...But, I won't.",
+        "Gourmand_Reward": "Kriibbitt... Yes... Thank you. This brings me back... To the good times, long, long ago...|Here... This is for you.",
+        "Gourmand_LastReward": "Kriibbitt... Yes... I remember everything now!|Thank you for reminding me so much.|Here is one last reward for you, friend.",
+        "Gourmand_Finished": "Kriibbitt... Good to see you again, friend.|I hope you are growing the biggest and tastiest fruit!",
+        "Gourmand_InProgress": "Ah... I see what you are growing. But it's still so small. Come back when it's big..."
+      }
+    },
+    {
+      "LogName": "Birdie Content",
+      "Action": "Include",
+      "FromFile": "assets/Data/Birdie.json"
+    },
+    {
+      "LogName": "Professor Snail Content",
+      "Action": "Include",
+      "FromFile": "assets/Data/Snail.json"
+    },
+    {
+      "LogName": "Snail Blank Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/ProfSnail",
+      "FromFile": "{{BlankFile}}"
+    },
+    {
+      "LogName": "Snail Dialogue",
+      "Action": "Include",
+      "FromFile": "assets/Dialogue/ProfessorSnail.json"
+    },
+    {
+      "LogName": "Leo Content",
+      "Action": "Include",
+      "FromFile": "assets/Data/Leo.json"
+    }
+  ]
+}

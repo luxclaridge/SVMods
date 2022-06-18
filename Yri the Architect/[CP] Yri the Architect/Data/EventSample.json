@@ -1,0 +1,12 @@
+//Busstop
+        {
+            "LogName": "Charles Final Preperations",
+            "Action": "EditData",
+            "Target": "Data/Events/BusStop",
+            "Entries":
+            {
+                //(0 = up, 1 = right, 2 = down, 3 = left)
+
+                "106270030/n CharlesIsReady/t 1800 2200": "playful/-1000 -1000/Charles 1 22 1 farmer 14 20 0/viewport 6 21/skippable/pause 1000/pause 1000/speak Charles \"Thank you for coming.\"globalFade/viewport -999 -999/end"
+            },
+        },

@@ -1,0 +1,18 @@
+{
+  "Name": "Alpaca Wool",
+  "Description": "Soft, fluffy alpaca wool. More durable and valuable than sheep wool.",
+  "Category": "AnimalGoods",
+  "Edibility": -300,
+  "Price": 500,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+	"Like": ["Emily"],
+        "Neutral": ["Marnie", "Gus", "Clint", "George", "Sebastian", "Abigail", "Alex", "Caroline", "Demetrius", "Dwarf", "Elliott", "Haley", "Harvey", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Maru", "Pierre", "Robin", "Sam", "Sandy", "Willy", "Wizard", "Pam", "Shane", "Penny", "Vincent", "Jas"],
+  },
+  "ContextTags": 
+        [
+        "color_white"
+        ],
+
+}

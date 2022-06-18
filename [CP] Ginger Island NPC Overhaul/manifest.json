@@ -1,0 +1,32 @@
+{
+   "Name": "Ginger Island NPC Overhaul",
+   "Author": "ZoeDoll",
+   "Version": "1.2.1",
+   "Description": "Changes to the Ginger Island NPCs",
+   "UniqueID": "ZoeDoll.GingerIslandNPCTweaks",
+   "MinimumApiVersion": "2.0",
+   "Dependencies": [
+     {
+       "UniqueID": "SuperAardvark.AntiSocial"
+     },
+     {
+       "UniqueID": "Esca.CustomNPCExclusions"
+     },
+     {
+       "UniqueID": "gizzymo.canonfriendlyexpansion",
+       "IsRequired": false
+     },
+     {
+       "UniqueID": "Poltergeister.CuteSprites",
+       "IsRequired": false
+     },
+     {
+       "UniqueID": "Poltergeister.SeasonalCuteCharacters",
+       "IsRequired": false
+     }
+   ],
+   "UpdateKeys": ["Nexus:9242"],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+   }
+}

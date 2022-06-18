@@ -1,0 +1,36 @@
+{
+	"Format": "1.0",
+	"Categories": [
+		{
+			"Action": "Create",
+			"Category": "Rooster",
+			"Types": [
+				{
+					"Type": "Rooster",
+					"DeluxeProduceLuck": 0.01,
+					"Data": "1/3/182/Rooster Egg/rooster/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/4/10/null/641/800/Rooster/Coop",
+					"Sprites": {
+						"Adult": "assets/rooster.png",
+						"Baby": "assets/babyrooster.png"
+					}
+				}
+			],
+			"Buildings": [
+				"Big Coop", "Deluxe Coop",
+			],
+			"AnimalShop": {
+				"Name": "Rooster",
+				"Description": "Happy Roosters encourage your Chickens to lay more eggs!",
+				"Price": 300,
+				"Icon": "assets\\animal_shop_rooster.png",
+				"Exclude": [
+					"Void Chicken"
+				]
+			},
+			"ForceRemoveFromShop": false,
+			"ForceOverrideTypes": true,
+			"ForceOverrideBuildings": true,
+			"ForceOverrideExclude": true
+		}
+	]
+}

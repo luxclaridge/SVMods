@@ -1,0 +1,12 @@
+{
+  "Name": "Void Chick",
+  "Author": "SoftFragile",
+  "Version": "1.0.1",
+  "Description": "replaces void chicken with a cuter version",
+  "UniqueID": "SoftFragile.VoidChick",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

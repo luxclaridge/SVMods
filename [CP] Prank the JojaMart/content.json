@@ -1,0 +1,163 @@
+﻿{
+"Format": "1.23",
+"Changes": [
+
+
+//Event one
+  {
+  "Action": "EditData",
+        "Target": "Data/Events/Saloon",
+        "Entries": {
+        "908901/f Abigail 500/t 1200 1800/w rainy": "Saloon1/30 16/farmer 1 20 0 Abigail 35 18 0 Gus 16 18 2 Sam 37 18 0 Shane 24 17 2/skippable/animate Gus false true 400 18 19 20 19/animate Shane false true 250 20 21 22 23 24 24 23 22 21 20 20 20 20 20 20/pause 400/faceDirection Abigail 1/pause 100/speak Abigail \"{{i18n:event1.dialogue1}}\"/pause 400/faceDirection Sam 3/speak Sam 400\"{{i18n:event1.dialogue2}}\"/pause 400/speak Abigail \"{{i18n:event1.dialogue3}}\"/pause 300/emote Sam 16/pause 300/speak Abigail \"{{i18n:event1.dialogue4}}\"/pause 400/speak Sam \"{{i18n:event1.dialogue5}}\"/pause 400/emote Abigail 40/pause 400/speak Abigail \"{{i18n:event1.dialogue6}}\"/move Abigail 0 1 2/move Abigail -11 0 3 continue true/faceDirection Sam 0/textAboveHead Sam \"{{i18n:event1.dialogue7}}\"/move Abigail 0 -1 0/speak Abigail \"{{i18n:event1.dialogue8}}\"/pause 200/stopAnimation Shane/speak Shane \"{{i18n:event1.dialogue9}}\"/pause 400/speak Abigail \"{{i18n:event1.dialogue10}}\"/pause 400/speak Shane \"{{i18n:event1.dialogue11}}\"/pause 400/speak Abigail \"{{i18n:event1.dialogue12}}\"/pause 400/speak Shane \"{{i18n:event1.dialogue13}}\"/pause 200/emote Abigail 12/move Abigail 0 1 2/animate Shane false true 350 20 21 22 23 22 21/move Abigail 11 0 1/move Abigail 0 -1 1/emote Abigail 12/pause 100/speak Abigail \"{{i18n:event1.dialogue14}}\"/pause 400/faceDirection Sam 3/speak Sam \"{{i18n:event1.dialogue15}}\"/pause 400/speak Abigail \"{{i18n:event1.dialogue16}}\"/pause 400/speak Sam \"{{i18n:event1.dialogue17}}\"/emote Abigail 32/addConversationTopic PTJ01/pause 600/end",
+      },
+      "When": {
+        "HasSeenEvent |contains=191393": false
+      }
+  },
+
+  {
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Shane",
+    "Entries": {
+      "PTJ01": "{{i18n:conversationtopics.Shane.01}}"
+    }
+  },
+
+  {
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Sam",
+    "Entries": {
+      "PTJ01": "{{i18n:conversationtopics.Sam.01}}"
+    }
+  },
+
+//Event two
+  {
+    "Action": "EditData",
+    "Target": "Data/Events/SeedShop",
+    "Entries": {
+      "908902/e 908901/f Juliet 500/p Juliet/d Mon Tue Wed Thu Fri Sat": "springtown/30 19/farmer 2 17 0 Abigail 28 21 1 Caroline 21 15 1 Jodi 22 15 3 Juliet 32 21 3/skippable/move Juliet -2 0 3/pause 200/speak Abigail \"{{i18n:event2.dialogue1}}\"/pause 400/speak Juliet \"{{i18n:event2.dialogue2}}\"/pause 400/speak Abigail \"{{i18n:event2.dialogue3}}\"/pause 400/speak Juliet \"{{i18n:event2.dialogue4}}\"/move Abigail 1 0 1/speak Abigail \"{{i18n:event2.dialogue5}}\"/pause 400/speak Juliet \"{{i18n:event2.dialogue6}}\"/pause 400/speak Abigail \"{{i18n:event2.dialogue7}}\"/pause 400/speak Juliet \"{{i18n:event2.dialogue8}}\"/pause 400/speak Abigail \"{{i18n:event2.dialogue9}}\"/pause 400/speak Juliet \"{{i18n:event2.dialogue10}}\"/pause 200/emote Abigail 40/pause 200/speak Abigail \"{{i18n:event2.dialogue11}}\"/addConversationTopic PTJ02/pause 600/end",
+    },
+      "When": {
+        "HasSeenEvent |contains=191393": false
+      }
+    },
+
+{
+  "Action": "EditData",
+  "Target": "Characters/Dialogue/Elliott",
+  "Entries": {
+    "PTJ02": "{{i18n:conversationtopics.Elliott.01}}"
+  }
+},
+
+{
+  "Action": "EditData",
+  "Target": "Characters/Dialogue/Juliet",
+  "Entries": {
+    "PTJ02": "{{i18n:conversationtopics.Juliet.01}}"
+  }
+},
+
+//Event three
+
+
+  {
+    "Action": "Load",
+    "Target": "Characters/Crab1",
+    "FromFile": "assets/img/crab.png"
+  },
+
+  {
+    "Action": "Load",
+    "Target": "Characters/Crab2",
+    "FromFile": "assets/img/crab.png"
+  },
+
+  {
+    "Action": "Load",
+    "Target": "Characters/Crab3",
+    "FromFile": "assets/img/crab.png"
+  },
+
+  {
+    "Action": "Load",
+    "Target": "Characters/Crab4",
+    "FromFile": "assets/img/crab.png"
+  },
+
+  {
+    "Action": "Load",
+    "Target": "Characters/Crab5",
+    "FromFile": "assets/img/crab.png"
+  },
+
+  {
+    "Action": "EditData",
+    "Target": "Data/Events/JojaMart",
+    "When": {
+      "HasSeenEvent |contains=191393": false,
+      "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+    },
+    "Entries": {
+      "908903/e 908902/p Juliet/d Mon Wed": "ragtime/12 24/farmer 14 27 0 Juliet 9 25 1 Morris 18 23 0 Shane 10 19 2/skippable/changeSprite Shane JojaMart/addTemporaryActor Crab1 18 32 14 22 2 false/addTemporaryActor Crab2 18 32 17 23 2 false/addTemporaryActor Crab3 18 32 12 21 2 false/addTemporaryActor Crab4 18 32 13 24 2 false/addTemporaryActor Crab5 18 32 16 25 2 false/animate Crab1 false true 250 4 5 4 3/animate Crab2 false true 200 0 1 2 1/animate Crab3 false true 200 5 4 3 4/animate Crab4 false true 220 2 1 0 1/animate Crab5 false true 200 3 4 5 4/showFrame Juliet 16/showFrame Morris 19/move farmer 0 -2 0/pause 300/emote farmer 16/pause 300/speak Juliet \"{{i18n:event3.dialogue1}}\"/pause 700/speak Morris \"{{i18n:event3.dialogue2}}\"/pause 400/speak Shane \"{{i18n:event3.dialogue3}}\"/showFrame Morris 23/pause 400/speak Morris \"{{i18n:event3.dialogue4}}\"/pause 400/speak Shane \"{{i18n:event3.dialogue5}}\"/showFrame Morris 13/pause 600/speak Morris \"{{i18n:event3.dialogue6}}\"/pause 400/emote farmer 28/addConversationTopic PTJ03/pause 1000/end"
+    }
+  },
+
+  {
+    "Action": "EditData",
+    "Target": "Data/Events/JojaMart",
+    "When": {
+      "HasSeenEvent |contains=191393": false,
+      "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+    },
+    "Entries": {
+      "908903/e 908902/p Juliet/d Mon Wed": "ragtime/12 24/farmer 14 27 0 Juliet 9 25 1 Morris -100 -100 0 Shane 10 19 2/skippable/changeSprite Shane JojaMart/addTemporaryActor Crab1 18 32 14 22 2 false/addTemporaryActor Crab2 18 32 17 23 2 false/addTemporaryActor Crab3 18 32 12 21 2 false/addTemporaryActor Crab4 18 32 13 24 2 false/addTemporaryActor Crab5 18 32 16 25 2 false/animate Crab1 false true 250 4 5 4 3/animate Crab2 false true 200 0 1 2 1/animate Crab3 false true 200 5 4 3 4/animate Crab4 false true 220 2 1 0 1/animate Crab5 false true 200 3 4 5 4/showFrame Juliet 16/move farmer 0 -2 0/pause 300/emote farmer 16/pause 300/speak Juliet \"{{i18n:event3.dialogue1}}\"/pause 700/speak Morris \"{{i18n:event3.dialogue2}}\"/pause 400/speak Shane \"{{i18n:event3.dialogue3}}\"/pause 400/speak Morris \"{{i18n:event3.dialogue4}}\"/pause 400/speak Shane \"{{i18n:event3.dialogue5}}\"/pause 600/speak Morris \"{{i18n:event3.dialogue6}}\"/pause 400/emote farmer 28/addConversationTopic PTJ03/pause 1000/end"
+    }
+  },
+
+  {
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Shane",
+    "Entries": {
+      "PTJ03": "{{i18n:conversationtopics.Shane.02}}"
+    }
+  },
+
+  {
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Abigail",
+    "Entries": {
+      "PTJ03": "{{i18n:conversationtopics.Abigail.01}}"
+    }
+  },
+
+  {
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Sam",
+    "Entries": {
+      "PTJ03": "{{i18n:conversationtopics.Sam.02}}"
+    }
+  },
+
+
+//Event four
+
+  {
+    "Action": "EditData",
+    "Target": "Data/Events/Town",
+    "Entries": {
+      "908904/e 908903/t 2000 2400/w sunny": "nightTime/53 20/farmer -100 -100 0 Abigail 53 20 2 Juliet 52 20 2/skippable/addLantern 735 53 20 1/addLantern 735 52 20 1/removeTemporarySprites/showFrame Abigail 23/showFrame Juliet 1/positionOffset Abigail 0 14/pause 400/speak Abigail \"{{i18n:event4.dialogue1}}\"/pause 400/speak Juliet \"{{i18n:event4.dialogue2}}\"/pause 500/speak Abigail \"{{i18n:event4.dialogue3}}\"/pause 800/emote Juliet 40/pause 800/speak Juliet \"{{i18n:event4.dialogue4}}\"/pause 400/speak Abigail \"{{i18n:event4.dialogue5}}\"/pause 400/speak Juliet \"{{i18n:event4.dialogue6}}\"/pause 400/speak Abigail \"{{i18n:event4.dialogue7}}\"/pause 400/speak Juliet \"{{i18n:event4.dialogue8}}\"/pause 500/speak Abigail \"{{i18n:event4.dialogue9}}\"/pause 500/speak Juliet \"{{i18n:event4.dialogue10}}\"/pause 500/speak Abigail \"{{i18n:event4.dialogue11}}\"/pause 600/addConversationTopic PTJ04/fade true/end"
+    }
+  },
+
+  {
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Abigail",
+    "Entries": {
+      "PTJ04": "{{i18n:conversationtopics.Abigail.02}}"
+    }
+  },
+
+]
+}

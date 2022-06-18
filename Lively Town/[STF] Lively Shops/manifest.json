@@ -1,0 +1,16 @@
+{
+	"Name": "Lively Town Shops",
+	"Author": "Gui Smith",
+	"Version": "0.1.1",
+	"Description": "Shops section of the Lively Town mod.",
+	"UniqueID": "GuiSmith.LivelyShops",
+	"UpdateKeys": ["Nexus:???"],
+	"ContentPackFor": {
+		"UniqueID": "Cherry.ShopTileFramework"
+	},
+	"Dependencies": [
+		{
+			"UniqueID": "GuiSmith.LivelyMail"
+		}
+	]
+}

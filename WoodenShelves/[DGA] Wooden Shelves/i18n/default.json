@@ -1,0 +1,8 @@
+{
+  "furniture.WoodenShelfOne.name": "Wooden Shelf",
+  "furniture.WoodenShelfOne.description": "A single wooden shelf, 3 by 1 tiles.",
+  "furniture.WoodenShelfTwo.name": "Double Wooden Shelf",
+  "furniture.WoodenShelfTwo.description": "A double wooden shelf, 3 by 2 tiles.",
+  "furniture.WoodenShelfThree.name": "Triple Wooden Shelf",
+  "furniture.WoodenShelfThree.description": "A triple wooden shelf, 3 by 3 tiles."
+}

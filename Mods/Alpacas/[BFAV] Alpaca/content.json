@@ -1,0 +1,37 @@
+{
+	"Format": "1.0",
+	"Categories": [
+		{
+			"Action": "Create",
+			"Category": "Alpaca",
+			"Types": [
+				{
+					"Type": "Alpaca",
+					"DeluxeProduceLuck": 0.02,
+					"Data": "2/4/Alpaca Wool/-1/sheep/24/64/84/64/24/64/84/64/1/true/Barn/32/32/32/32/15/5/Shears/644/8000/Alpaca/Barn",
+					"Sprites": {
+						"Adult": "assets/alpaca.png",
+						"Baby": "assets/babyalpaca.png",
+						"ReadyForHarvest": "assets/shearedalpaca.png",
+					}
+				}
+			],
+			"Buildings": [
+				"Deluxe Barn",
+			],
+			"AnimalShop": {
+				"Name": "Alpaca",
+				"Description": "These alpaca's provide soft and durable wool.",
+				"Price": 8000,
+				"Icon": "assets\\animal_shop_alpaca.png",
+				"Exclude": [
+					"Void Chicken"
+				]
+			},
+			"ForceRemoveFromShop": false,
+			"ForceOverrideTypes": true,
+			"ForceOverrideBuildings": true,
+			"ForceOverrideExclude": true
+		}
+	]
+}
