@@ -1,0 +1,10 @@
+{
+  "Name": "[JA] Oxen Products",
+  "Author": "cantabileChaos",
+  "Version": "1.0.0",
+  "Description": "Adds ox tail.",
+  "UniqueID": "cantabilechaos.OxProducts",
+  "ContentPackFor": {
+    "UniqueID": "spacechase0.JsonAssets"
+  }
+}

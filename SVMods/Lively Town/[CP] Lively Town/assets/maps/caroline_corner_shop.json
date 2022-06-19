@@ -1,0 +1,13 @@
+{
+    "Changes": [
+		{
+			"Action": "EditMap",
+            "Target": "Maps/SeedShop",
+            "FromFile": "assets/maps/caroline_corner_shop.tmx",
+			"ToArea": { "X": 12, "Y": 17, "Width": 11, "Height": 15},
+			"When": {
+				"HasFlag": "LivelyMail.carolineShop"
+			}
+		}
+	]
+}

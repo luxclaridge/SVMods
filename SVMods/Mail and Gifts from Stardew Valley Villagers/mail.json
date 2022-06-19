@@ -1,0 +1,285 @@
+[
+	{
+		"Id": "MBMail.CarolineWelcome",
+		"Title": "Welcome to the Valley!",
+		"Text": "Hi @, I hope you have a nice time in the valley, I recommend you swinging by Pierre's General Store to buy some seeds.^^	-Caroline",
+		"Repeatable": false,
+		"Date": "2 spring Y1",
+	},
+	{
+		"Id": "MBMail.LewisFriendship1",
+		"Title": "Lewis' Sprinkler",
+		"Text": "Look at what I found! I though you may want this, I don't really need it.^^	-Lewis",
+		"Repeatable": false,
+		"FriendshipConditions": [
+			{
+				"NpcName": "Lewis",
+				"FriendshipLevel": 1
+			}
+		],
+		"Attachments": [
+			{
+			"Index": 599,
+		 	 }
+		],
+
+	},
+	{
+		"Id": "MBMail.SauceQueen7SpY1",
+		"Title": "Queen of Sauce",
+		"Text": "Hello farmer @, you should watch Queen of Sauce every Sunday, you can learn a lot of things!^^	-Jodi",
+		"Repeatable": false,
+		"Date": "7 spring Y1",
+	},
+	{
+		"Id": "MBMail.RandomMailMatias8SpY1",
+		"Title": "Buenos dias!",
+		"Text": "Buenos dias!^Hola Matias, soy tu amigo Jose! Ayer hice una Anguila Frita estupenda, crei que te deberia dar un poco!^^^ (Looks like this mail isn't yours, but you can't do much about it)",
+		"Repeatable": false,
+		"Date": "8 spring Y1",
+		"Attachments": [
+			{
+			"Index": 225,
+		 	 }
+		],
+	},
+	{
+		"Id": "MBMail.GusFriendshipLevel1",
+		"Title": "Stardrop Meals",
+		"Text": "Hello @,^We have new food every day, you should come here and see what's the special of the day!^^ -Gus",
+		"Repeatable": false,
+		"FriendshipConditions": [
+			{
+				"NpcName": "Gus",
+				"FriendshipLevel": 1
+			}
+		],
+	},
+	{
+		"Id": "MBMail.CarolineFavorFall1Pumpkin",
+		"Title": "Pumpkins for Abby",
+		"Text": "Dear farmer.^Abby loves pumpkins, and you have a lot of space in your farm, that's why I gave you some pumpkin seeds, if you want to make her happy, you could gift it to her.^^ -Caroline",
+		"Repeatable": false,
+		"Date": "1 fall Y1",
+		"Attachments": [
+			{
+			"Index": 490,
+		 	 }
+		],
+		
+	},
+	{
+		"Id": "MBMail.CarolinePierreSellsStrawberrySeedsEggHuntY1",
+		"Title": "Strawberries",
+		"Text": "Hey @. Do you like strawberries?^Egg Festival will happen the 13 of Spring, remember that my husband Pierre will be selling strawberry seeds only during the festival, you may want to save up some money.^^ -Caroline",
+		"Repeatable": false,
+		"Date": "8 spring Y1",
+	},
+	{
+		"Id": "MBMail.RobinTellsMaruLovesCauliflowers",
+		"Title": "Cauliflowers for Maru.",
+		"Text": "My daughter Maru loves cauliflowers, if you want to get along with her, you could gift her one.^^ -Robin",
+		"Repeatable": false,
+		"Date": "10 spring Y1",
+	},
+	{
+		"Id": "MBMail.RobinGivesYouSomeWood",
+		"Title": "Wood from Robin",
+		"Text": "Hi @, A friend of mine gave me a lot of wood, I though you may want some.^^ -Robin",
+		"Repeatable": false,
+		"Attachments": [
+			{
+			"Index": 388,
+			"Stack": 300,
+		 	 }
+		],
+		"FriendshipConditions": [
+			{
+				"NpcName": "Robin",
+				"FriendshipLevel": 5
+			}
+		],
+	},
+	{
+		"Id": "MBMail.WizardTellsYouAboutSecretWoods",
+		"Title": "Wizard and the Secret Woods",
+		"Text": "Hello @.^To the North of my tower, there is a secret forest full of slimes, you can find lots of hardwood and even catch some special fishes there, you could use an Iron Axe to access there.^^ -Wizard",
+		"Repeatable": false,
+		"FriendshipConditions": [
+			{
+				"NpcName": "Wizard",
+				"FriendshipLevel": 1
+			}
+		],
+	},
+	{
+		"Id": "MBMail.HaleyGivesYouIceCream",
+		"Title": "Haley's Ice cream",
+		"Text": "Do you like ice cream? Of course! Everyone likes ice cream! Well not my sister Emily but she is weird LOL^^ -Haley",
+		"Repeatable": false,
+		"Attachments": [
+			{
+			"Index": 233,
+		 	 }
+		],
+		"FriendshipConditions": [
+			{
+				"NpcName": "Haley",
+				"FriendshipLevel": 7
+			}
+		],
+	},
+	{
+		"Id": "MBMail.WeirdMessage14SpringY1",
+		"Title": "Mr. Qi",
+		"Text": "Hello Mr. Qi.^I know they can be helpful but I don't think you should do that to them without even knowing if they are worthy. You should at least watch them before taking a step in the wrong way.^^ -Maxis",
+		"Repeatable": false,
+		"Date": "14 spring Y1",
+	},
+	{
+		"Id": "MBMail.WizardTellsYouAboutGiantCrops",
+		"Title": "Giant Crops",
+		"Text": "Hello farmer.^You may have realised by now. If you plant nine crops of the same type in a 3x3 formation, they may grow a giant crop, which will give you more resources, only a handful of seeds can reach that size.^^ -Wizard",
+		"Repeatable": false,
+		"FriendshipConditions": [
+			{
+				"NpcName": "Wizard",
+				"FriendshipLevel": 2
+			}
+		],
+	},
+	{
+		"Id": "MBMail.RandomPizzaY1",
+		"Title": "Random Pizza",
+		"Text": "Take this buddy^^ (You don't owe me anything, it's a gift)",
+		"Repeatable": false,
+		"Date": "27 summer Y1",
+		"Attachments": [
+			{
+			"Index": 206,
+		 	 }
+		],
+	},
+	{
+		"Id": "MBMail.LeahGivesYouSalad",
+		"Title": "Leah's Salad",
+		"Text": "Today I foraged lots of things! I thought you may want to taste some of the things I foraged.^^ -Leah",
+		"Repeatable": false,
+		"Attachments": [
+			{
+			"Index": 196,
+		 	 }
+		],
+		"FriendshipConditions": [
+			{
+				"NpcName": "Leah",
+				"FriendshipLevel": 5
+			}
+		],
+	},
+	{
+		"Id": "MBMail.HaleyGivesYouBoots",
+		"Title": "Haley's Boots",
+		"Text": "Hi @, I was making room in my closet and found these boots, I thought you would like to have them.^^ -Haley",
+		"Repeatable": false,
+		"Attachments": [
+			{
+				"Type": "Boots",
+				"Name": "Crystal Shoes",
+				"Index": 878,
+		 	 }
+		],
+		"FriendshipConditions": [
+			{
+				"NpcName": "Haley",
+				"FriendshipLevel": 8
+			}
+		],
+	},
+	{
+		"Id": "MBMail.SpamtomNotJojaSendsYouAMessageBomb",
+		"Title": "SPAMTOM G. SPAMTOM",
+		"Text": "HEY FARMER,^IT'S ME, SPAMTON G. SPAMTON. I JUST SENT [[YOU]] A MESSAGE BOMB. I HOPE YOU ENJOY THE [[GIFT]] THAT [NOT JOJA] SENT YOU. IN CASE YOU ARE STILL [ALIVE] REMEMBER THAT YOU CAN BUY SEEDS AND A LOT OF PRODUCTS IN JOJA(C). ^^I USED TO BE [NOTHING] BUT THE E_MAIL GUY, LOOK AT ME NOW, I'M THE MAIL GUY. I'M GROWING POWERFUL",
+		"Repeatable": false,
+		"Attachments": [
+			{
+			"Index": 288,
+		 	 }
+		],
+		"FriendshipConditions": [
+			{
+				"NpcName": "Linus",
+				"FriendshipLevel": 2
+			}
+		],
+	},
+	{
+		"Id": "MBMail.SebastianGivesYouFrozenTear",
+		"Title": "Sebastian's Frozen Tear",
+		"Text": "Hi @. ^I love frozen tears, I thought that you may also like them...^^ -Sebastian",
+		"Repeatable": false,
+		"Attachments": [
+			{
+			"Index": 84,
+		 	 }
+		],
+		"FriendshipConditions": [
+			{
+				"NpcName": "Sebastian",
+				"FriendshipLevel": 3
+			}
+		],
+	},
+	{
+		"Id": "MBMail.MarnieGivesYouMilk",
+		"Title": "Marnie's Milk",
+		"Text": "Hi @. ^Remember that dairy products are good for you sometimes.^^ -Marnie",
+		"Repeatable": false,
+		"Attachments": [
+			{
+			"Index": 184,
+		 	 }
+		],
+		"FriendshipConditions": [
+			{
+				"NpcName": "Marnie",
+				"FriendshipLevel": 3
+			}
+		],
+	},
+	{
+		"Id": "MBMail.HarveyGivesYouEnergyTonic",
+		"Title": "Harvey's Medicine",
+		"Text": "Hi @. ^Farming is exhausting, but this can help you, you can also buy more in my clinic.^^ -Harvey",
+		"Repeatable": false,
+		"Attachments": [
+			{
+			"Index": 349,
+		 	 }
+		],
+		"FriendshipConditions": [
+			{
+				"NpcName": "Harvey",
+				"FriendshipLevel": 1
+			}
+		],
+	},
+	{
+		"Id": "MBMail.MaruGivesYouBatteryPack",
+		"Title": "Maru's Battery Pack",
+		"Text": "Hi @! ^You helped me a lot, it's only fair if I help you too.^^ -Maru",
+		"Repeatable": false,
+		"Attachments": [
+			{
+			"Index": 787,
+		 	 }
+		],
+		"FriendshipConditions": [
+			{
+				"NpcName": "Maru",
+				"FriendshipLevel": 4
+			}
+		],
+	},
+	
+]

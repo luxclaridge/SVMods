@@ -1,0 +1,512 @@
+{
+//	"Format": "1.23.0",
+
+	"Changes": [
+	{
+		"LogName": "Adds Clover the bunny in Leah's house",
+		"Action": "EditMap",
+		"Target": "Maps/LeahHouse",
+		"MapTiles": [
+            {
+               "Position": { "X": 10, "Y": 7 },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 SmolHooman.DomesticAnimalsCC.CloverTheBunny"
+               },
+            },
+         ],
+		"When": {
+			"Allow Domestic Animals": "true",
+			"Give Leah pet rabbits": "true",
+			"Relationship:Leah": "Unmet, Friendly, Dating, Engaged, Divorced",
+			},
+		"Update": "OnLocationChange"
+	},
+	{
+		"LogName": "Adds Primrose the bunny in Leah's house",
+		"Action": "EditMap",
+		"Target": "Maps/LeahHouse",
+		"MapTiles": [
+            {
+               "Position": { "X": 12, "Y": 8 },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 SmolHooman.DomesticAnimalsCC.PrimroseTheBunny"
+               },
+            },
+         ],
+		"When": {
+			"Allow Domestic Animals": "true",
+			"Give Leah pet rabbits": "true",
+			"Relationship:Leah": "Unmet, Friendly, Dating, Engaged, Divorced",
+			},
+		"Update": "OnLocationChange"
+	},
+	{
+		"LogName": "Adds David in Abigail's room",
+		"Action": "EditMap",
+		"Target": "Maps/SeedShop",
+		"MapTiles": [
+            {
+               "Position": { "X": 6, "Y": 6 },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 SmolHooman.DomesticAnimalsCC.DavidTheGuineapig"
+               },
+            },
+         ],
+		"When": {
+			"Allow Domestic Animals": "true",
+			"Load Abigail's pet guinea changes": "true",
+			"Time": "{{Range: 0600, 1800}}",
+			"Relationship:Abigail": "Unmet, Friendly, Dating, Engaged, Divorced",
+			},
+		"Update": "OnLocationChange"
+	},
+
+	{
+		"LogName": "Adds Alex's dog in town",
+		"Action": "EditMap",
+		"Target": "Maps/Town",
+		"MapTiles": [
+            {
+               "Position": { "X": 62, "Y": 66 },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 SmolHooman.DomesticAnimalsCC.DustyTheDog"
+               },
+            },
+         ],
+		"When": {
+			"Allow Domestic Animals": "true",
+			"Allow Dusty to free-roam": "true",
+			"Season": "Spring, Summer, Fall",
+			"Time": "{{Range: 0600, 1500}}",
+			"Weather": "Sun, Wind",
+			"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+			"HasMod |contains=skuldomg.freeDusty": false,
+			},
+		"Update": "OnLocationChange"
+	},
+	{
+		"LogName": "Adds Alex's dog in his home 1",
+		"Action": "EditMap",
+		"Target": "Maps/JoshHouse",
+		"MapTiles": [
+            {
+               "Position": { "X": 18, "Y": 18 },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 SmolHooman.DomesticAnimalsCC.DustyTheDog"
+               },
+            },
+         ],
+		"When": {
+			"Allow Domestic Animals": "true",
+			"Allow Dusty to free-roam": "true",
+			"Season": "Spring, Summer, Fall",
+			"Weather": "Rain, Storm",
+			"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+			"HasMod |contains=skuldomg.freeDusty": false,
+			},
+		"Update": "OnLocationChange"
+	},
+	{
+		"LogName": "Adds Alex's dog in his home 2",
+		"Action": "EditMap",
+		"Target": "Maps/JoshHouse",
+		"MapTiles": [
+            {
+               "Position": { "X": 18, "Y": 18 },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 SmolHooman.DomesticAnimalsCC.DustyTheDog"
+               },
+            },
+         ],
+		"When": {
+			"Allow Domestic Animals": "true",
+			"Allow Dusty to free-roam": "true",
+			"Season": "Winter",
+			"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+			"HasMod |contains=skuldomg.freeDusty": false,
+			},
+		"Update": "OnLocationChange"
+	},
+
+	{
+		"LogName": "Adds some stray dogs in the town",
+		"Action": "EditMap",
+		"Target": "Maps/Town",
+		"MapTiles": [
+            {
+               "Position": {
+					"X": "{{Random: 60, 65, 29 |key=tile coordinate}}",
+					"Y": "{{Random: 69, 72, 66 |key=tile coordinate}}"
+            },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn {{Random: 0, 1}} SmolHooman.DomesticAnimalsCC.{{Random: StrayDog1, StrayDog2, StrayDog3, StrayDog4}}"
+               },
+            },
+         ],
+		"When": {
+			"Allow Domestic Animals": "true",
+			"Load stray dogs": "true",
+			"Time": "{{Range: 0600, 1800}}",
+			"Weather": "Sun, Wind",
+			},
+		"Update": "OnLocationChange"
+	},
+
+	{
+		"LogName": "Adds Charlie the chicken in Marnie's shop",
+		"Action": "EditMap",
+		"Target": "Maps/AnimalShop",
+		"MapTiles": [
+            {
+               "Position": { "X": 29, "Y": 16 },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn {{Random: 0, 1}} SmolHooman.DomesticAnimalsCC.CharlieTheChicken"
+               },
+            },
+         ],
+		"When": {
+			"Allow Domestic Animals": "true",
+			"Load Charlie the Chicken": "true",
+			"Time": "{{Range: 0600, 1800}}",
+			},
+		"Update": "OnLocationChange"
+	},
+
+	{
+		"LogName": "Adds Emily's parrot friend in her house",
+		"Action": "EditMap",
+		"Target": "Maps/HaleyHouse",
+		"MapTiles": [
+            {
+               "Position": { "X": 13, "Y": 5 },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 SmolHooman.DomesticAnimalsCC.EmilysParrot"
+               },
+            },
+         ],
+		"When": {
+			"Allow Domestic Animals": "true",
+			"Load Emily's parrot changes": "true",
+			"HasSeenEvent": "463391",
+			"Time": "{{Range: 0600, 1800}}",
+			"Relationship:Emily": "Unmet, Friendly, Dating, Engaged, Divorced",
+			},
+		"Update": "OnLocationChange"
+	},
+
+	{
+		"LogName": "Adds a rooster in Marnie's barn",
+		"Action": "EditMap",
+		"Target": "Maps/Forest",
+		"MapTiles": [
+            {
+               "Position": { "X": 101, "Y": 18 },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 SmolHooman.DomesticAnimalsCC.MarniesRooster"
+               },
+            },
+         ],
+		"When": {
+			"Allow Domestic Animals": "true",	
+			"Give Marnie a rooster": "true",
+			"Time": "{{Range: 0600, 1800}}",
+			"Weather": "Sun, Wind",
+			},
+		"Update": "OnLocationChange"
+	},
+	{
+		"LogName": "Adds Marnie's animals in her barn",
+		"Action": "EditMap",
+		"Target": "Maps/Forest",
+		"MapTiles": [
+            {
+               "Position": { "X": 107, "Y": 18 },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn {{Random: 1, 2, 3}} SmolHooman.DomesticAnimalsCC.MarniesChicken"
+               },
+            },
+            {
+               "Position": { "X": 101, "Y": 17 },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn {{Random: 1, 2}} SmolHooman.DomesticAnimalsCC.MarniesBabyGoat"
+               },
+            },
+            {
+               "Position": { "X": 100, "Y": 19 },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 SmolHooman.DomesticAnimalsCC.MarniesBabySheep"
+               },
+            },
+            {
+               "Position": { "X": 107, "Y": 17 },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn {{Random: 0, 1}} SmolHooman.DomesticAnimalsCC.MarniesBabyPig"
+               },
+            },
+            {
+               "Position": { "X": 99, "Y": 19 },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn {{Random: 0, 1, 2}} SmolHooman.DomesticAnimalsCC.MarniesDuck"
+               },
+            },
+         ],
+		"When": {
+			"Allow Domestic Animals": "true",	
+			"Load more animals in Marnie's barn": "true",
+			"Time": "{{Range: 0600, 1800}}",
+			"Weather": "Sun, Wind",
+			},
+		"Update": "OnLocationChange"
+	},
+
+	{
+		"LogName": "Adds shadow pups in the sewers",
+		"Action": "EditMap",
+		"Target": "Maps/Sewer",
+		"MapTiles": [
+            {
+               "Position": {
+					"X": "{{Random: 16, 19, 13 |key=tile coordinate}}",
+					"Y": "{{Random: 16, 21, 12 |key=tile coordinate}}"
+            },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn {{Random: 0, 1, 2, 3}} SmolHooman.DomesticAnimalsCC.ShadowPup"
+               },
+            },
+         ],
+		"When": {
+			"Allow Domestic Animals": "true",
+			"Load shadow pups": "true",
+			},
+		"Update": "OnLocationChange"
+	},
+
+	{
+		"LogName": "Adds Shane's blue chicken in Marnie's barn",
+		"Action": "EditMap",
+		"Target": "Maps/Forest",
+		"MapTiles": [
+            {
+               "Position": { "X": 100, "Y": 18 },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn {{Random: 0, 1}} SmolHooman.DomesticAnimalsCC.ShanesBlueChicken"
+               },
+            },
+         ],
+		"When": {
+			"Allow Domestic Animals": "true",
+			"Load more animals in Marnie's barn": "true",
+			"HasSeenEvent": "3900074",
+			"Time": "{{Range: 0600, 1800}}",
+			"Weather": "Sun, Wind",
+			},
+		"Update": "OnLocationChange"
+	},
+
+	{
+		"LogName": "Adds a tuxedo cat in the town",
+		"Action": "EditMap",
+		"Target": "Maps/Town",
+		"MapTiles": [
+            {
+               "Position": {
+					"X": "{{Random: 26, 49, 35 |key=tile coordinate}}",
+					"Y": "{{Random: 56, 72 |key=tile coordinate}}"
+            },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn {{Random: 0, 1}} SmolHooman.DomesticAnimalsCC.OreoTheStrayCat"
+               },
+            },
+         ],
+		"When": {
+			"Allow Domestic Animals": "true",
+			"Load a cat in the town": "true",
+			"Weather": "Sun, Wind",
+			},
+		"Update": "OnLocationChange"
+	},
+
+	{
+		"LogName": "Adds Willy's cat in his shop (1)",
+		"Action": "EditMap",
+		"Target": "Maps/FishShop",
+		"MapTiles": [
+            {
+               "Position": { "X": 9, "Y": 6 },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 SmolHooman.DomesticAnimalsCC.GillTheCat"
+               },
+            },
+         ],
+		"When": {
+			"Allow Domestic Animals": "true",
+			"Give Willy a pet cat": "true",
+			"Time": "{{Range: 1200, 2600}}",
+			"Weather": "Sun, Wind",
+			},
+		"Update": "OnLocationChange"
+	},
+	{
+		"LogName": "Adds Willy's cat in his shop (2)",
+		"Action": "EditMap",
+		"Target": "Maps/FishShop",
+		"MapTiles": [
+            {
+               "Position": { "X": 9, "Y": 6 },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 SmolHooman.DomesticAnimalsCC.GillTheCat"
+               },
+            },
+         ],
+		"When": {
+			"Allow Domestic Animals": "true",
+			"Give Willy a pet cat": "true",
+			"Weather": "Snow, Storm, Rain",
+			},
+		"Update": "OnLocationChange"
+	},
+	{
+		"LogName": "Adds Willy's cat on the beach",
+		"Action": "EditMap",
+		"Target": "Maps/Beach",
+		"MapTiles": [
+            {
+               "Position": { "X": 26, "Y": 23 },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 SmolHooman.DomesticAnimalsCC.GillTheCat"
+               },
+            },
+         ],
+		"When": {
+			"Allow Domestic Animals": "true",
+			"Give Willy a pet cat": "true",
+			"Time": "{{Range: 0600, 1200}}",
+			"Weather": "Sun, Wind",
+			},
+		"Update": "OnLocationChange"
+	},
+
+	{
+		"LogName": "Adds cat slimes in the witch's swamp",
+		"Action": "EditMap",
+		"Target": "Maps/WitchSwamp",
+		"MapTiles": [
+            {
+               "Position": { "X": 22, "Y": 22 },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn {{Random: 0, 1, 2}} SmolHooman.DomesticAnimalsCC.WitchsSlimeCat"
+               },
+            },
+         ],
+		"When": {
+			"Allow Domestic Animals": "true",
+			"Give the witch cat slimes": "true",
+			},
+		"Update": "OnLocationChange"
+	},
+	{
+		"LogName": "Adds cat slimes in the witch's hut",
+		"Action": "EditMap",
+		"Target": "Maps/WitchHut",
+		"MapTiles": [
+            {
+               "Position": { "X": 9, "Y": 9 },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn {{Random: 0, 1, 2, 3}} SmolHooman.DomesticAnimalsCC.WitchsSlimeCat"
+               },
+            },
+         ],
+		"When": {
+			"Allow Domestic Animals": "true",
+			"Give the witch cat slimes": "true",
+			},
+		"Update": "OnLocationChange"
+	},
+
+	{
+		"LogName": "Adds Kaida the dragon in the wizard's tower (1)",
+		"Action": "EditMap",
+		"Target": "Maps/WizardHouse",
+		"MapTiles": [
+            {
+               "Position": { "X": 6, "Y": 17 },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn {{Random: 0, 1}} SmolHooman.DomesticAnimalsCC.KaidaTheDragon"
+               },
+            },
+         ],
+		"When": {
+			"Allow Domestic Animals": "true",
+			"Give the wizard a companion": "true",
+			"Weather": "Sun, Snow, Storm",
+			},
+		"Update": "OnLocationChange"
+	},
+	{
+		"LogName": "Adds Kaida the dragon in the wizard's tower (2)",
+		"Action": "EditMap",
+		"Target": "Maps/WizardHouse",
+		"MapTiles": [
+            {
+               "Position": { "X": 6, "Y": 17 },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 SmolHooman.DomesticAnimalsCC.KaidaTheDragon"
+               },
+            },
+         ],
+		"When": {
+			"Allow Domestic Animals": "true",
+			"Give the wizard a companion": "true",
+			"Time": "{{Range: 1500, 2600}}",
+			"Weather": "Wind, Rain",
+			},
+		"Update": "OnLocationChange"
+	},
+	{
+		"LogName": "Adds Kaida the dragon in the forest",
+		"Action": "EditMap",
+		"Target": "Maps/Forest",
+		"MapTiles": [
+            {
+               "Position": { "X": 6, "Y": 36 },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 SmolHooman.DomesticAnimalsCC.KaidaTheDragon"
+               },
+            },
+         ],
+		"When": {
+			"Allow Domestic Animals": "true",
+			"Give the wizard a companion": "true",
+			"Time": "{{Range: 0600, 1500}}",
+			"Weather": "Wind, Rain",
+			},
+		"Update": "OnLocationChange"
+	}
+	]
+}

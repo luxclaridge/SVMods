@@ -1,0 +1,21 @@
+{
+  "Name": "NPC The Farmer's Children Art",
+  "Author": "xiddav",
+  "Description": "A Child To NPC mod. The Art Part! Was NPC Child for SVE.",
+  "Version": "1.0.0",
+  "UniqueID": "xiddav.NPCChildrenART",
+  "UpdateKeys": [ "Nexus:5436@ChildrensArt" ],
+  "ContentPackFor": {    "UniqueID": "Pathoschild.ContentPatcher" },
+  "Dependencies": [
+{"UniqueID": "Loe2run.ChildToNPC",
+	  "IsRequired": true, },
+{"UniqueID": "xiddav.NPCChildren",
+   "IsRequired": false,},
+{"UniqueID": "FlashShifter.StardewValleyExpandedCP",
+   "IsRequired": false,},
+{"UniqueID": "Bouhm.NPCMapLocations",
+      "IsRequired": false,   },   
+{"UniqueID": "Tanpoponoko.SeasonalOutfits",
+      "IsRequired": false,   }
+
+]}

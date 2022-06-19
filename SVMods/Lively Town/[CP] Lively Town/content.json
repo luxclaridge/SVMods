@@ -1,0 +1,52 @@
+{
+    "Format": "1.25.0",
+	"ConfigSchema": {
+		"EnableCarolineCorner": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Description": "Allows Caroline to open her corner store with out of season seeds, flowers, and decoratives."
+		},
+		"EnableShanesEggs": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Description": "A little change to Pierre's that adds a fridge and he sells eggs if you've gotten Shane's 8 heart event."
+		}
+	},
+    "Changes": [
+		{
+			"Action": "Include",
+			"FromFile": "assets/events/caroline_corner_event.json",
+			"When": {
+				"EnableCarolineCorner": true
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "assets/maps/caroline_corner_shop.json",
+			"When": {
+				"EnableCarolineCorner": true
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "assets/schedules/caroline_schedule.json",
+			"When": {
+				"EnableCarolineCorner": true
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "assets/maps/shanes_eggs.json",
+			"When": {
+				"EnableShanesEggs": true
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "assets/events/shanesEggs.json",
+			"When": {
+				"EnableShanesEggs": true
+			}
+		}
+    ]
+}

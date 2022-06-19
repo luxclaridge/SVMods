@@ -1,0 +1,13 @@
+{
+  "Name": "Multi Player Greenhouse",
+  "Author": "ActionJackson",
+  "Version": "1.0.2",
+  "Description": "A Greenhouse designed for up to 4 players to have their own space with a shared tree area",
+  "UniqueID": "ActionJackson.MultiPlayerGreenhouse",
+  "UpdateKeys": [ "Nexus:7406" ],
+  "MinimumApiVersion": "3.7.5",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+    "MinimumVersion": "1.18.4"
+  }
+}

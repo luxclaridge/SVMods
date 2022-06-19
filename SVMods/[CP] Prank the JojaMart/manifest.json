@@ -1,0 +1,18 @@
+{
+   "Name": "Prank The JojaMart!",
+   "Author": "ZoeDoll",
+   "Version": "1.1.1",
+   "Description": "Abigail wants to sabotage the JojaMart",
+   "UniqueID": "ZoeDoll.PrankJoja",
+   "Dependencies": [
+     {"UniqueID": "LemurKat.JulietHouse.NPC"},
+     {"UniqueID": "FlashShifter.StardewValleyExpandedCP",
+       "IsRequired": false
+     },
+   ],
+   "MinimumApiVersion": "2.0",
+   "UpdateKeys": ["Nexus:9089"],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+   }
+}

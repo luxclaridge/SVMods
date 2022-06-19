@@ -1,0 +1,104 @@
+{
+"Changes": [
+
+
+//Birdie Portraits
+
+{
+  "Action": "EditImage",
+  "Target": "Portraits/Birdie",
+  "When": {
+    "Birdie Portrait": "modded"
+    },
+  "FromFile": "assets/Portraits/BirdieZ.png"
+},
+
+{
+  "Action": "EditImage",
+  "Target": "Characters/Birdie",
+  "When": {
+    "Birdie Portrait": "modded"
+    },
+  "FromFile": "assets/Characters/BirdieZ.png"
+},
+
+
+//Birdie's Quest
+
+{
+  "Action": "EditData",
+  "Target": "Strings/Locations",
+  "Entries": {
+                "IslandSecret_Event_BirdieIntro": "tropical_island_day_ambient/-1000 -1000/farmer 20 58 3/skippable/addTemporaryActor Birdie 32 32 17 58 3 true ???/animate Birdie false true 1000 8 9/pause 1000/viewport 18 58 clamp true/pause 1000/emote Birdie 8/pause 1000/speak Birdie \"Oh... a visitor?#$b#Come closer, child.\"/pause 400/move farmer -1 0 3/pause 300/emote Birdie 40/speak Birdie \"Hmm... you don't look like a pirate...\"/pause 500/emote farmer 60/pause 500/speak Birdie \"You're a farmer? Heheh, now I've seen it all! It takes all sorts, doesn't it?$h#$b#Well, I suppose now that you're here, I may as well ask you for a favor.\"/pause 500/textAboveHead Birdie \"Come...\"/pause 500/playFramesAhead 3/stopAnimation Birdie/extendSourceRect Birdie reset/warp Birdie 18 58/viewport move 1 0 2000/move Birdie 0 -1 2/move Birdie 2 0 1/move farmer 1 0 1/pause 500/speak Birdie \"Have you seen that wrecked ship on the south shore?#$b#I was the captain. Terrors of the archipelago, we were! *cackle*#$b#My husband was my First Mate. Loyal to the end. A captain should go down with her ship, but he saved my life, the poor fool...$s\"/emote Birdie 28/speak Birdie \"*sigh*...$s#$b#I've been here ever since, dear.$s#$b#...Guarding his bones...\"/faceDirection farmer 2 true/playSound batScreech/animate farmer false true 100 94/jump farmer/pause 1500/stopAnimation farmer/faceDirection farmer 0/faceDirection Birdie 2/speak Birdie \"My child... If I could only find a keepsake of his, it would bring me such peace.$s\"/pause 400/textAboveHead Birdie \"Wait here...\"/move Birdie -1 0 0/move Birdie 0 -1 3/warp Birdie -100 -100/playSound doorClose/faceDirection farmer 0/faceDirection Birdie 2/pause 1000/playSound Ship/pause 1000/playSound Ship/playSound crafting/pause 1000/playSound doorClose/warp Birdie 20 56/move Birdie 0 1 2/speak Birdie \"Here, take this. It's an old photograph that washed up on shore.#$b#It's all I have to offer... but somehow, I think it will help you find what I seek, and more besides.\"/pause 500/unskippable/playSound coin/awardFestivalPrize memento true/pause 10/addQuest 130/pause 1700/end",
+  }
+},
+
+{
+  "Action": "EditData",
+  "Target": "Strings/Locations",
+  "Entries": {
+            "IslandSecret_Event_BirdieFinished": "tropical_island_day_ambient/-1000 -1000/farmer 20 58 3/removeQuest 130/skippable/addTemporaryActor Birdie 32 32 17 58 3 true ???/animate Birdie false true 1000 8 9/pause 1000/viewport 18 58 clamp true/pause 2300/playMusic none/animate farmer true true 100 35/addObject 19 58 870/playSound sandyStep/pause 800/stopAnimation farmer/playFramesAhead 3/stopAnimation Birdie/extendSourceRect Birdie reset/warp Birdie 18 58/move Birdie 0 -1 2/move Birdie 1 0 2/pause 500/jump Birdie/pause 500/playMusic desolate/speak Birdie \"It's his...$s\"/emote Birdie 20/pause 1200/playSound coin/removeObject 19 58/showFrame Birdie 20/pause 2500/speak Birdie \"Heh... It still has his smell, after all these years...#$b#...that familiar, putrid funk...$h\"/pause 300/faceDirection farmer 2 true/playSound croak/animate farmer false false 350 104 105 104 105 104 105/pause 1000/faceDirection farmer 3/speak Birdie \"You know... It's been a difficult life out here. But I don't regret it at all.\"/pause 500/stopAnimation Birdie/move Birdie 0 1 3/playMusic tropical_island_day_ambient/faceDirection Birdie 1/quickQuestion #You shouldn't feel guilty.#He's gone. You should live your life.(break)speak Birdie \"You have great wisdom, child.#$b#And you've brought me great peace... this locket will comfort me for the rest of my days.$h\"(break)emote Birdie 28\\speak Birdie \"I AM living my life, my dear!#$b#This is my home now. I like it here! It's relaxing and beautiful. And I have an endless supply of fresh fish, oysters, and monkey meat. Hehehe.$h#$b#...I'm kidding about the monkey meat.\"/pause 1000/speak Birdie \"Now... how can I repay you for this?\"/jump Birdie/pause 500/speak Birdie \"Oh... How about I teach you a special recipe... Something I discovered in the many years I've spent here.\"/pause 1000/playSound reward/addCraftingRecipe Fairy Dust/message \"Learned to craft 'Fairy Dust'.\"/pause 1000/fork gotBirdieReward Strings\\\\Locations:alreadyGotNuts true/speak Birdie \"You can take these, too...\"/awardFestivalPrize birdieReward true/pause 1000/speak Birdie \"Though you're a stranger, you went out of your way to help an old lady.#$b#Bless your heart!$h\"/emote Birdie 20/emote farmer 32/pause 1000/end",
+            "alreadyGotNuts": "pause 50/pause 50/pause 1000/speak Birdie \"Though you're a stranger, you went out of your way to help an old lady.#$b#Bless your heart!$h\"/emote Birdie 20/emote farmer 32/pause 1000/end",
+  }
+},
+
+{
+  "Action": "EditData",
+  "Target": "Data/Quests",
+  "Entries": {
+    "130": "Basic/The Pirate Widow/An old lady living on Ginger Island is asking you to find a keepsake of her husband's. She gave you an old photograph of a soldier that washed up on shore, hoping it would help in some way./Find a keepsake that belonged to Birdie's husband./-1/-1/0/-1/false"
+  }
+},
+
+
+//Birdie's Dialogue
+
+{
+  "Action": "EditData",
+  "Target": "Data/ExtraDialogue",
+  "Entries": {
+      "Birdie0": "Ahh, another new face on our little island... it's almost getting crowded, hehe!",
+      "Birdie1": "There was once a great civilisation of dwarves on this island. You can see the ruins of their strange machines in the volcano. But be careful!",
+      "Birdie2": "If you're ever feeling queasy in the stomach, a bite of ginger does wonders!",
+      "Birdie3": "Have you been to the secret shrine in the jungle? The flowers there smell lovely... It's one of my favorite spots on the island.$h",
+      "Birdie4": "Every morning for breakfast, I have a bowl of poi and a glass of freshly squeezed mango juice. It keeps me young!",
+      "Birdie5": "I walk the beach every day to see if anything new has washed ashore. There's a lot floating around out there and it shouldn't go to waste!",
+      "Birdie6": "My hut may be small, but it's more than enough for what I need. And best of all, I built it myself!",
+      "Birdie8": "The Joja cargo ships sometimes pass nearby. They're rich targets for pirates, hehehe...",
+      "Birdie12": "Leo's a sweet boy. Confused, but sweet. I keep telling him, a growing boy can't live on walnuts alone!",
+      "Birdie15": "Fruit, fish, and foraged food... It's a good diet! I feel as healthy as ever.",
+      "Birdie17": "The weather here is warm and lovely year round... perfect for these old bones...",
+      "Birdie19": "Have you seen the little banana altar in the jungle? If I had a banana I'd set it there and see what happens... heh heh...$h",
+      "Birdie22": "Hello, dear... you look healthy and in good spirits today!$h",
+      "Birdie23": "I was born only a few islands over from here, you know. I'd stand at the shore, watching this same big blue sea... That was a long time ago.",
+      "Birdie26": "Leo's the closest thing I have to family now. He's half wild, but there's worse things to be!",
+      "Birdie28": "It's a full moon tonight... Whether your fortune be good or bad, be on the alert, my dear - the spirits are restless!",
+      "Birdie_NoGift": "Oh, no no no... I don't need any gifts, my dear. You keep it.",
+  }
+},
+
+//New Event
+
+{
+  "Action": "Load",
+  "Target": "Characters/Pirate1",
+  "FromFile": "assets/Characters/pirate1.png"
+},
+
+{
+  "Action": "Load",
+  "Target": "Characters/Pirate2",
+  "FromFile": "assets/Characters/pirate2.png"
+},
+
+{
+  "Action": "EditData",
+  "Target": "Data/Events/IslandWest",
+  "Entries": {
+    "924202/w sunny/u 2 4 6 8 10 12 14 16 18 20 22 24 26 28/n Island_Resort/t 900 2000": "tropical_island_day_ambient/20 57/farmer -100 -100 0 Birdie -100 -100 0/addTemporaryActor Pirate1 16 32 22 59 3 true/addTemporaryActor Pirate2 16 32 23 59 3 true/showFrame Pirate1 1/showFrame Pirate2 1/pause 2000/message \"PIRATE: Captain Birdie?\"/pause 1000/warp Birdie 19 56/faceDirection Birdie 2/playSound doorClose/pause 500/speak Birdie \"How many times do I have to tell you? Don't call me that.$s#$b#I ain't a Captain, not without a ship.$s\"/pause 500/emote Pirate1 28/textAboveHead Pirate2 \"Sorry Captain!\"/pause 1000/textAboveHead Pirate2 \"I mean ma'am.\"/pause 1000/textAboveHead Pirate2 \"I mean - \"/pause 500/emote Birdie 12/pause 500/speak Birdie \"Get on with it, then.\"/pause 500/message \"PIRATE: We brought you some mead, ma'am!\"/pause 500/message \"OTHER PIRATE: And some new shawls!\"/pause 500/showFrame Pirate1 2/pause 500/addObject 21 59 166/pause 500/showFrame Pirate1 0/pause 500/move Birdie 0 2 2/move Birdie 2 0 2/move Birdie 0 1 2/pause 500/showFrame Birdie 20/textAboveHead Birdie \"Hmmm...\"/addObject 21 60 459/speak Birdie \"Ooh, lovely!\"/pause 500/addObject 20 59 428/speak Birdie \"Very nice. This'll keep the sun off!$h\"/pause 500/addObject 20 58 428/speak Birdie \"Hmm... A bit thin... But it'll be perfect for straining my poi...\"/pause 1000/emote Birdie 40/pause 1000/showFrame Birdie 0/faceDirection Birdie 1/speak Birdie \"You're good boys. Your mama would be proud, Yoba rest her soul.\"/pause 1000/emote Pirate1 32 true/emote Pirate2 32 true/pause 2000/end"
+  }
+}
+
+
+    ]
+}

@@ -1,0 +1,9 @@
+{
+  "Name": "Rooster Products",
+  "Author": "Stardreem",
+  "Version": "1.0.1",
+  "Description": "Add Rooster products.",
+  "UniqueID": "roosterproduct.bb",
+  "MinimumApiVersion": "2.10",
+  "ContentPackFor": { "UniqueID": "spacechase0.JsonAssets" }
+  }

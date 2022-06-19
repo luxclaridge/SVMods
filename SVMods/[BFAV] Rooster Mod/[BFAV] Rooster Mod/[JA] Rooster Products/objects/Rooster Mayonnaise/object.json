@@ -1,0 +1,19 @@
+{
+  "Name": "Rooster Mayonnaise",
+  "Description": "A thin, watery mayonnaise, it smells faintly of brimstone.",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 500,
+  "IsColored": false,
+  "GiftTastes": {
+	"Love": ["Wizard"],
+        "Like": ["Krobus"],
+	"Dislike": ["Jodi", "Kent", "Leah", "Shane", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Leah", "Willy", "Lewis", "Linus", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Abigail"],
+	},
+	"ContextTags": 
+        [
+        "color_white"
+        ],
+}

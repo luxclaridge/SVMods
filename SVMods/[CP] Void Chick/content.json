@@ -1,0 +1,36 @@
+{
+  "Format": "1.7",
+  
+  "Changes": [
+	    // Void Chicken
+       {
+          "Action": "Load",
+          "Target": "Animals/Void Chicken",
+          "FromFile": "assets/recolor_void.png"
+       },
+	   
+	    // Baby Void Chicken
+       {
+          "Action": "Load",
+          "Target": "Animals/BabyVoid Chicken",
+          "FromFile": "assets/baby_void.png"
+       },
+	   
+		//Void Egg
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/recolor_egg.png",
+			"ToArea": { "X": 272, "Y": 192, "Width": 16, "Height": 16 }
+		},
+	   
+		//Void Mayo
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/recolor_mayo.png",
+			"ToArea": { "X": 320, "Y": 192, "Width": 16, "Height": 16 }
+		},
+
+    ]
+}

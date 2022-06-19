@@ -1,0 +1,13 @@
+{
+    "Name": "Mails and Gifts from Stardew Valley Villagers",
+    "Author": "MortaliB",
+    "Version": "0.4",
+    "Description": "Add new mail to the game.",
+    "UniqueID": "MortaliB.VillagersGifts",
+    "UpdateKeys": ["Nexus:10730"],
+    "MinimumApiVersion": "3.8.0",
+    "ContentPackFor": {
+    	"UniqueID": "DIGUS.MailFrameworkMod",
+	"MinimumVersion": "1.10.1"
+	}
+}

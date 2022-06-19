@@ -1,0 +1,15 @@
+[
+	{
+		"Id": "LivelyMail.carolineShop",
+		"GroupId": "LivelyMail.livelyGroup",
+		"Title": "Presenting Caroline's Corner!",
+		"Text": "Dear @^On Fridays, Saturdays, and Sundays, Caroline will now be running a shop with more gardening and floral supplies, including out of season stock, at the front corner of the store. Please stop by and see what's on offer!^^From,^Your local shopkeeps at Pierre's",
+		"WhichBG": 0,
+		"Repeatable": false,
+		"AutoOpen":  false,
+		// deliver after... on... if you've seen...
+		"Date": "1 spring Y2",
+		"Days": [4,11,18,25],
+		"EventsSeen": [113191001]
+	}
+]

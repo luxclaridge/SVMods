@@ -1,0 +1,22 @@
+{
+   "Name": "Sophia Saami Wedding Outfit",
+   "Author": "Elaho",
+   "Version": "1.1.2",
+   "Description": "Changes Sophia's wedding sprite to incoporate traditional Saami wedding regalia .",
+   "UniqueID": "Elaho.SophiaSaamiWeddingOutfit",
+   "MinimumApiVersion": "2.8",
+   "UpdateKeys": [ "Nexus:10954" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   },
+   "Dependencies":[
+   {
+	"UniqueID":"FlashShifter.StardewValleyExpandedCP",
+	"IsRequired": true,
+   },
+   {
+	"UniqueID":"Poltergeister.SeasonalOutfitsSVE",
+	"IsRequired": false,
+   },
+  ]
+}

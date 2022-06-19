@@ -1,0 +1,12 @@
+{
+   "Name": "[BFAV] Alpaca",
+   "Author": "birdb, mwillemsenart",
+   "Version": "1.0",
+   "Description": "Adds Alpacas as a new barn animal.",
+   "UniqueID": "Alpaca.BFAV",
+   "UpdateKeys": [ "Nexus:8515" ],
+   "MinimumApiVersion": "2.5",
+   "ContentPackFor": {
+	  "UniqueID": "Paritee.BetterFarmAnimalVariety",
+	} 
+}

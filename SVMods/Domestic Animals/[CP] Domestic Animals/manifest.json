@@ -1,0 +1,22 @@
+{
+	"Name": "SmolHooman's Domestic Animals",
+	"Author": "SmolHooman",
+	"Version": "1.0.8",
+	"Description": "Spawns domestic animals in your game.",
+	"UniqueID": "SmolHooman.DomesticAnimals",	
+	"UpdateKeys": [ "Nexus:10134" ],
+	"MinimumApiVersion": "3.6.0",
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher"
+	},
+   "Dependencies": [
+	   {
+		"UniqueID": "PeacefulEnd.CustomCompanions",
+		"IsRequired": true,
+	   },
+	   {
+		"UniqueID": "spacechase0.GenericModConfigMenu",
+		"IsRequired": false,
+	   },
+   ]
+}

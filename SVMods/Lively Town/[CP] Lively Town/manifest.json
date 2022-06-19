@@ -1,0 +1,19 @@
+{
+	"Name": "Lively Town",
+	"Author": "Gui Smith",
+	"Version": "0.1.4",
+	"Description": "A more lively, evolving Pelican Town with both chronologically and player triggered changes to the maps, shops, and NPCs.",
+	"UniqueID": "GuiSmith.LivelyTown",
+	"UpdateKeys": ["Nexus:11319"],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher"
+	},
+	"Dependencies": [
+		{
+			"UniqueID": "GuiSmith.LivelyShops"
+		},
+		{
+			"UniqueID": "GuiSmith.LivelyMail"
+		}
+	]
+}

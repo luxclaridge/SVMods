@@ -1,0 +1,225 @@
+{
+	"Shops": [
+		{
+			"ShopName": "CarolineCorner",
+			"StoreCurrency": "Money",
+			"CategoriesToSellHere": [ // sell everything they normally can at Pierre's
+				-17
+			],
+			//"PortraitPath": "assets/CarolineShopPortrait.png",
+			"Quote": "Welcome to Caroline's Corner!",
+			"When": [ // working 9 to 5 Friday to Sunday
+				"t 900 1700/d Mon Tue Wed Thu"
+			],
+			"ClosedMessage": "The Corner Store is open Friday to Sunday from 9AM to 5PM.",
+			"ItemStocks": [
+				{
+					"ItemType": "Object",
+					"StockPrice": 10,
+					"ItemIDs": [
+						771
+					]
+				},
+				{
+					"ItemType": "Object",
+					"StockPrice": 2400,
+					"ItemIDs": [
+						629
+					]
+				},
+				{
+					"ItemType": "Object",
+					"StockPrice": 3400,
+					"ItemIDs": [
+						628
+					]
+				},
+				{
+					"ItemType": "Object",
+					"StockPrice": 4000,
+					"ItemIDs": [
+						630,
+						633
+					]
+				},
+				{
+					"ItemType": "Object",
+					"StockPrice": 6000,
+					"ItemIDs": [
+						631,
+						632
+					]
+				},
+				{
+					"ItemType": "Object",
+					"StockPrice": 25,
+					"ItemIDs": [
+						427
+					]
+				},
+				{
+					"ItemType": "Object",
+					"StockPrice": 45,
+					"ItemIDs": [
+						591
+					]
+				},
+				{
+					"ItemType": "Object",
+					"StockPrice": 40,
+					"ItemIDs": [
+						429
+					]
+				},
+				{
+					"ItemType": "Object",
+					"StockPrice": 75,
+					"ItemIDs": [
+						597
+					]
+				},
+				{
+					"ItemType": "Object",
+					"StockPrice": 125,
+					"ItemIDs": [
+						453
+					]
+				},
+				{
+					"ItemType": "Object",
+					"StockPrice": 200,
+					"ItemIDs": [
+						376
+					]
+				},
+				{
+					"ItemType": "Object",
+					"StockPrice": 65,
+					"ItemIDs": [
+						455
+					]
+				},
+				{
+					"ItemType": "Object",
+					"StockPrice": 200,
+					"ItemIDs": [
+						431
+					]
+				},
+				{
+					"ItemType": "Object",
+					"StockPrice": 120,
+					"ItemIDs": [
+						421
+					]
+				},
+				{
+					"ItemType": "Object",
+					"StockPrice": 250,
+					"ItemIDs": [
+						425
+					]
+				},
+				{
+					"ItemType": "Object", // bouquet
+					"StockPrice": 200,
+					"ItemIDs": [
+						458
+					],
+					"When": [
+						"f Abigail 2000",
+						"f Emily 2000",
+						"f Haley 2000",
+						"f Leah 2000",
+						"f Maru 2000",
+						"f Penny 2000",
+						"f Alex 2000",
+						"f Elliot 2000",
+						"f Harvey 2000",
+						"f Sam 2000",
+						"f Sebastian 2000",
+						"f Shane 2000",
+						"f Clint 2000",
+						"f Gus 2000",
+						"f Lewis 2000",
+						"f Marnie 2000",
+						"f Pam 2000",
+						"f Sandy 2000",
+						"f Willy 2000",
+						"f Wizard 2000"
+					]
+				},
+				{
+					"ItemType": "Object", // Green Tea
+					"StockPrice": 125,
+					"ItemIDs": [
+						614
+					],
+					"When": [
+						"f Caroline 1000"
+					],
+					"Stock": 10
+				},
+				{
+					"ItemType": "Object", // Tea Leaves
+					"StockPrice": 75,
+					"ItemIDs": [
+						815
+					],
+					"Stock": 20
+				},
+				{
+					"ItemType": "BigCraftable", // Garden Pots
+					"StockPrice": 1500,
+					"ItemIDs": [
+						62
+					],
+					"Stock": 10
+				},
+				{
+					"ItemType": "BigCraftable", // House Plants, a selection of 3 (year 3+)
+					"StockPrice": 60,
+					"ItemIDs": [
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						48,
+						184,
+						188,
+						192,
+						196,
+						200,
+						204
+					],
+					"Stock": 1,
+					"MaxNumItemsSoldInItemStock": 3,
+					"When": [
+						"y 3"
+					]
+				}
+			]
+		},
+		{
+			"ShopName": "PierreShop",
+			"ItemStocks": [
+				{
+					"ItemType": "Object",
+					"StockPrice": 80,
+					"ItemIDs": [
+						176,
+						180
+					],
+					"Stock": 3,
+					"When": [
+						"e 3900074"
+					]
+				}
+			]
+		}
+	]
+}

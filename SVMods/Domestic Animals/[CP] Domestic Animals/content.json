@@ -1,0 +1,285 @@
+{
+	"Format": "1.24.0",
+
+	"ConfigSchema": {
+        "Allow Domestic Animals": {
+            "AllowValues": "true, false",
+            "Default": "true"
+		},
+        "Allow Dusty to free-roam": {
+            "AllowValues": "true, false",
+            "Default": "true",
+			"Description": "Dusty will no longer be contained in his dog pen all day long if this setting is enabled."
+		},
+        "Edit Dusty's dog house": {
+            "AllowValues": "true, false",
+            "Default": "true",
+			"Description": "Edits Dusty's box house into a proper dog house if this setting is enabled."
+		},
+        "Give Leah pet rabbits": {
+            "AllowValues": "true, false",
+            "Default": "true"
+		},
+        "Give Marnie a rooster": {
+            "AllowValues": "true, false",
+            "Default": "true"
+		},
+        "Give Willy a pet cat": {
+            "AllowValues": "true, false",
+            "Default": "true"
+		},
+        "Give the witch cat slimes": {
+            "AllowValues": "true, false",
+            "Default": "true"
+		},
+        "Give the wizard a companion": {
+            "AllowValues": "true, false",
+            "Default": "true"
+		},
+        "Load a cat in the town": {
+            "AllowValues": "true, false",
+            "Default": "true"
+		},
+        "Load Abigail's pet guinea changes": {
+            "AllowValues": "true, false",
+            "Default": "true",
+			"Description": "Abigai's guineapig will show up in his cage in certain times of the day if this setting is enabled."
+		},
+        "Load Charlie the Chicken": {
+            "AllowValues": "true, false",
+            "Default": "true"
+		},
+        "Load Emily's parrot changes": {
+            "AllowValues": "true, false",
+            "Default": "true",
+			"Description": "Emily's parrot will transfer from their perch and onto the floor in certain times of the day if this setting is enabled.",
+		},
+        "Load more animals in Marnie's barn": {
+            "AllowValues": "true, false",
+            "Default": "true"
+		},
+        "Load shadow pups": {
+            "AllowValues": "true, false",
+            "Default": "true"
+		},
+        "Load stray dogs": {
+            "AllowValues": "true, false",
+            "Default": "true"
+		},
+	},
+
+	"Changes": [
+	{
+		"Action": "Include",
+		"FromFile": "assets/AnimalMapPatch.json"
+	},
+	{
+		"Action": "Include",
+		"FromFile": "assets/InspectionDialogue.json"
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Maps/townInterior",
+		"FromFile": "assets/David'sCage_Empty.png",
+		"FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 16 },
+		"ToArea": { "X": 17, "Y": 272, "Width": 64, "Height": 16 },
+		"Update": "OnLocationChange",
+		"When": {
+			"Allow Domestic Animals": "true",
+			"Load Abigail's pet guinea changes": "true",
+			"Time": "{{Range: 0600, 1800}}",
+			"LocationName": "SeedShop",
+			"Relationship:Abigail": "Unmet, Friendly, Dating, Engaged, Divorced",
+		}
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Maps/townInterior",
+		"FromFile": "assets/David'sCage_Empty.png",
+		"FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 16 },
+		"ToArea": { "X": 17, "Y": 272, "Width": 64, "Height": 16 },
+		"Update": "OnLocationChange",
+		"When": {
+			"Allow Domestic Animals": "true",
+			"Load Abigail's pet guinea changes": "true",
+			"LocationName": "SeedShop",
+			"Relationship:Abigail": "Married",
+		}
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Maps/townInterior",
+		"FromFile": "assets/David'sCage.png",
+		"FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 16 },
+		"ToArea": { "X": 17, "Y": 272, "Width": 64, "Height": 16 },
+		"Update": "OnLocationChange",
+		"When": {
+			"Allow Domestic Animals": "true",
+			"Load Abigail's pet guinea changes": "true",
+			"Time": "{{Range: 1800, 2600}}",
+			"LocationName": "SeedShop",
+			"Relationship:Abigail": "Unmet, Friendly, Dating, Engaged, Divorced",
+		}
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Maps/townInterior",
+		"FromFile": "assets/David'sCage.png",
+		"FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 16 },
+		"ToArea": { "X": 17, "Y": 272, "Width": 64, "Height": 16 },
+		"Update": "OnLocationChange",
+		"When": {
+			"Allow Domestic Animals": "true",
+			"Load Abigail's pet guinea changes": "true",
+			"LocationName": "FarmHouse",
+		}
+	},
+
+	{
+		"Action": "EditImage",
+		"Target": "Maps/fall_town, Maps/spring_town, Maps/summer_town",
+		"FromFile": "assets/DogHouseEmpty.png",
+		"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		"ToArea": { "X": 208, "Y": 0, "Width": 16, "Height": 32 },
+		"Update": "OnLocationChange",
+		"When": {
+			"Allow Dusty to free-roam": "true",
+			"Edit Dusty's dog house": "true",
+			"Season": "Spring, Summer, Fall",
+			"Time": "{{Range: 0600, 1500}}",
+			"Weather": "Sun, Wind",
+			"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+			"HasMod |contains=skuldomg.freeDusty": false,
+		}
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Maps/fall_town, Maps/spring_town, Maps/summer_town",
+		"FromFile": "assets/DogHouseEmpty_2.png",
+		"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+		"ToArea": { "X": 192, "Y": 0, "Width": 16, "Height": 16 },
+		"Update": "OnLocationChange",
+		"When": {
+			"Allow Dusty to free-roam": "true",
+			"Edit Dusty's dog house": "true",
+			"Season": "Spring, Summer, Fall",
+			"Time": "{{Range: 0600, 1500}}",
+			"Weather": "Sun, Wind",
+			"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+			"HasMod |contains=skuldomg.freeDusty": false,
+		}
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Maps/fall_town, Maps/spring_town, Maps/summer_town",
+		"FromFile": "assets/DogHouse.png",
+		"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		"ToArea": { "X": 208, "Y": 0, "Width": 16, "Height": 32 },
+		"Update": "OnLocationChange",
+		"When": {
+			"Allow Dusty to free-roam": "true",
+			"Edit Dusty's dog house": "true",
+			"Season": "Spring, Summer, Fall",
+			"Time": "{{Range: 1510, 2600}}",
+			"Weather": "Sun, Wind",
+			"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+			"HasMod |contains=skuldomg.freeDusty": false,
+		}
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Maps/fall_town, Maps/spring_town, Maps/summer_town",
+		"FromFile": "assets/DogHouse_2.png",
+		"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+		"ToArea": { "X": 192, "Y": 0, "Width": 16, "Height": 16 },
+		"Update": "OnLocationChange",
+		"When": {
+			"Allow Dusty to free-roam": "true",
+			"Edit Dusty's dog house": "true",
+			"Season": "Spring, Summer, Fall",
+			"Time": "{{Range: 1510, 2600}}",
+			"Weather": "Sun, Wind",
+			"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+			"HasMod |contains=skuldomg.freeDusty": false,
+		}
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Maps/fall_town, Maps/spring_town, Maps/summer_town",
+		"FromFile": "assets/DogHouseEmpty.png",
+		"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		"ToArea": { "X": 208, "Y": 0, "Width": 16, "Height": 32 },
+		"Update": "OnLocationChange",
+		"When": {
+			"Allow Dusty to free-roam": "true",
+			"Edit Dusty's dog house": "true",
+			"Season": "Spring, Summer, Fall",
+			"Weather": "Rain, Storm",
+			"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+			"HasMod |contains=skuldomg.freeDusty": false,
+		}
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Maps/fall_town, Maps/spring_town, Maps/summer_town",
+		"FromFile": "assets/DogHouseEmpty_2.png",
+		"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+		"ToArea": { "X": 192, "Y": 0, "Width": 16, "Height": 16 },
+		"Update": "OnLocationChange",
+		"When": {
+			"Allow Dusty to free-roam": "true",
+			"Edit Dusty's dog house": "true",
+			"Season": "Spring, Summer, Fall",
+			"Weather": "Rain, Storm",
+			"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+			"HasMod |contains=skuldomg.freeDusty": false,
+		}
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Maps/winter_town",
+		"FromFile": "assets/DogHouseWinter.png",
+		"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+		"ToArea": { "X": 208, "Y": 0, "Width": 16, "Height": 32 },
+		"Update": "OnLocationChange",
+		"When": {
+			"Allow Dusty to free-roam": "true",
+			"Edit Dusty's dog house": "true",
+			"Season": "Winter",
+			"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+			"HasMod |contains=skuldomg.freeDusty": false,
+		}
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Maps/winter_town",
+		"FromFile": "assets/DogHouseWinter_2.png",
+		"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+		"ToArea": { "X": 192, "Y": 0, "Width": 16, "Height": 16 },
+		"Update": "OnLocationChange",
+		"When": {
+			"Allow Dusty to free-roam": "true",
+			"Edit Dusty's dog house": "true",
+			"Season": "Winter",
+			"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+			"HasMod |contains=skuldomg.freeDusty": false,
+		}
+	},
+
+	{
+		"Logname": "Pet Parrot",
+		"Action": "EditImage",
+		"Target": "LooseSprites/Cursors",
+		"FromFile": "assets/ParrotPerch_Empty.png",
+		"FromArea": { "X": 51, "Y": 7, "Width": 113, "Height": 17 }, 
+		"ToArea": { "X": 51, "Y": 148, "Width": 113, "Height": 17 },
+		"When": {
+			"Allow Domestic Animals": "true",
+			"Load Emily's parrot changes": "true",
+			"HasSeenEvent": "463391",
+			"Time": "{{Range: 0600, 1800}}",
+			"Relationship:Emily": "Unmet, Friendly, Dating, Engaged, Divorced",
+		},
+	}
+	]
+}

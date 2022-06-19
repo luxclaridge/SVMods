@@ -1,0 +1,11 @@
+{
+    "Changes": [
+		{
+			"Action": "EditData",
+            "Target": "Data/Events/SeedShop",
+			"Entries": {
+				"113191001/f Caroline 1000/e 719926/p Caroline/p Pierre/y 2/d Mon Thu Fri Sat Sun": "none/9 22/farmer 6 28 0 Pierre 11 20 1 Caroline 14 20 3/playSound doorCreak/move farmer 0 -5 0 continue/speak Caroline \"I just think it would be nice to sell tea in the shop.$0#$b#While I'm at it, we could also try to sell the excess festival stock in the basement.$s\"/speak Pierre \"We do have limited space in the storeroom...$s\"/speak Caroline \"It's our basement and it doesn't feel like 'ours' because of all of your seasonal stock.$u#$b#I'd like just a corner of it.$s\"/move farmer 5 0 0 true/message \"They don't seem to have noticed me.#Probably better not to disturb them.\"/emote Pierre 40/move Caroline -1 0 3 true/speak Caroline \"*sigh* Pierre, I just want to participate.$0#$b#I have a lot more free time now that our daughter's all grown up, and want to do something with the green thumb I've grown.$h\"/speak Pierre \"Your... thumb is green?$0\"/speak Caroline \"...$s\"/pause 500/speak Pierre \"Oh!$h\"/emote Caroline 40/pause 1500/playSound reward/emote Caroline 16/speak Caroline \"You know, I could take more than just a corner of the basement.$h\"/playSound dustMeep/jump Pierre/emote Pierre 16/end dialogue Pierre \"I think my wife has an idea for the shop...$0#$b#But I just know I'm going to be the one moving all the heavy shelves.$s#$e#Anyway, what do you need?$0\""
+			}
+		}
+	]
+}

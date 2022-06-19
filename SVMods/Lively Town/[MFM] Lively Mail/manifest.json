@@ -1,0 +1,11 @@
+{
+	"Name": "Lively Town Mail",
+	"Author": "Gui Smith",
+	"Version": "0.1.1",
+	"Description": "Mail section of the Lively Town mod.",
+	"UniqueID": "GuiSmith.LivelyMail",
+	"UpdateKeys": ["Nexus:???"],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.MailFrameworkMod"
+	}
+}

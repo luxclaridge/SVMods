@@ -1,0 +1,68 @@
+{
+	"Format": "1.0",
+	"Categories": [
+		{
+			"Action": "Create",
+			"Category": "Ox",
+			"Types": [
+				{
+					"Type": "Red Ox",
+					"DeluxeProduceLuck": 0.02,
+					"Data": "1/4/709/Ox Tail/cow/24/64/84/64/24/64/84/64/0/false/Barn/32/32/32/32/15/5/null/4500/14000/Brown Ox/Barn",
+					"Sprites": {
+						"Adult": "assets/Red Ox.png",
+						"Baby": "assets/Baby Red Ox.png",
+				}
+				},
+				{
+					"Type": "Spotted Ox",
+					"DeluxeProduceLuck": 0.02,
+					"Data": "1/4/709/Ox Tail/cow/24/64/84/64/24/64/84/64/0/false/Barn/32/32/32/32/15/5/null/4500/14000/Brown Ox/Barn",
+					"Sprites": {
+						"Adult": "assets/Spotted Ox.png",
+						"Baby": "assets/Baby Spotted Ox.png",
+				}
+				},
+				{
+					"Type": "Black Ox",
+					"DeluxeProduceLuck": 0.02,
+					"Data": "1/4/709/Ox Tail/cow/24/64/84/64/24/64/84/64/0/false/Barn/32/32/32/32/15/5/null/4500/14000/Black Ox/Barn",
+					"Sprites": {
+						"Adult": "assets/Black Ox.png",
+						"Baby": "assets/Baby Black Ox.png",
+				}
+				},
+				{
+					"Type": "Brown Ox",
+					"DeluxeProduceLuck": 0.02,
+					"Data": "1/4/709/Ox Tail/cow/24/64/84/64/24/64/84/64/0/false/Barn/32/32/32/32/15/5/null/4500/14000/Brown Ox/Barn",
+					"Sprites": {
+						"Adult": "assets/Brown Ox.png",
+						"Baby": "assets/Baby Brown Ox.png",
+				}
+				},
+
+
+
+
+
+			],
+			"Buildings": [
+				"Big Barn", "Deluxe Barn"
+			],
+			"AnimalShop": {
+				"Name": "Oxen",
+				"Description": "Male cattle trained to haul large objects.",
+				"Price": 6000,
+				"Icon": "assets\\animal_shop_ox.png",
+				"Exclude": [
+					"Void Chicken"
+				]
+			},
+			"ForceRemoveFromShop": false,
+			"ForceOverrideTypes": true,
+			"ForceOverrideBuildings": true,
+			"ForceOverrideExclude": true
+		}
+	]
+}

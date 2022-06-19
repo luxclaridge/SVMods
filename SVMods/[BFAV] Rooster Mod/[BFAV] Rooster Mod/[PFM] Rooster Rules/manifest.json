@@ -1,0 +1,12 @@
+﻿{
+	"Name": "Rooster Rules",
+	"Author": "Stardreem",
+	"Version": "1.0.1",
+	"Description": "Adds rules for Rooster Products.",
+	"UniqueID": "bb.roosterrules",
+	"MinimumApiVersion": "3.0.0",
+	"Dependencies": [],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.ProducerFrameworkMod"
+	}
+}

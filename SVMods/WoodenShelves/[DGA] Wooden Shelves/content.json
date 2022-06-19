@@ -1,0 +1,77 @@
+[
+	{
+		"$ItemType": "Furniture",
+		"ID": "WoodenShelfOne",
+		"Type": "Painting",
+		"Configurations": [
+			{
+				"Texture": "assets/WoodenShelfOne.png",
+				"DisplaySize": {
+					"X": 3,
+					"Y": 1
+				},
+				"CollisionHeight": 1
+			}
+		]
+	},	
+	{
+		"$ItemType": "Furniture",
+		"ID": "WoodenShelfTwo",
+		"Type": "Painting",
+		"Configurations": [
+			{
+				"Texture": "assets/WoodenShelfTwo.png",
+				"DisplaySize": {
+					"X": 3,
+					"Y": 2
+				},
+				"CollisionHeight": 2
+			}
+		]
+	},	
+	{
+		"$ItemType": "Furniture",
+		"ID": "WoodenShelfThree",
+		"Type": "Painting",
+		"Configurations": [
+			{
+				"Texture": "assets/WoodenShelfThree.png",
+				"DisplaySize": {
+					"X": 3,
+					"Y": 3
+				},
+				"CollisionHeight": 3
+			}
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"MaxSold": 10,
+		"Cost": 1000,
+		"Item": {
+			"Type": "DGAItem",
+			"Value": "aedenthorn.WoodenShelvesDGA/WoodenShelfOne"
+		}
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"MaxSold": 10,
+		"Cost": 2000,
+		"Item": {
+			"Type": "DGAItem",
+			"Value": "aedenthorn.WoodenShelvesDGA/WoodenShelfTwo"
+		}
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"MaxSold": 10,
+		"Cost": 3000,
+		"Item": {
+			"Type": "DGAItem",
+			"Value": "aedenthorn.WoodenShelvesDGA/WoodenShelfThree"
+		}
+	}
+]

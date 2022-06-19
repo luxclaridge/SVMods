@@ -1,0 +1,12 @@
+{
+   "Name": "[BFAV] Oxen",
+   "Author": "cantabileChaos",
+   "Version": "1.0.0",
+   "Description": "Two ox variations and an ox tail.",
+   "UniqueID": "cantabilechaos.BFAVOx",
+   "MinimumApiVersion": "3.0",
+   "ContentPackFor": {
+	"UniqueID": "Paritee.BetterFarmAnimalVariety",
+	"MinimumVersion": "3.0.0-unofficial"
+  	}
+}

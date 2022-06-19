@@ -1,0 +1,26 @@
+{
+   "Name": "Victor Japanese-Korean Wedding Outfit",
+   "Author": "Elaho",
+   "Version": "1.1.2",
+   "Description": "Changes Victor's wedding sprite to incorporate both traditional Japanese and Korean wedding attire.",
+   "UniqueID": "Elaho.VictorJapaneseKoreanWeddingOutfit",
+   "MinimumApiVersion": "2.8",
+   "UpdateKeys": [ "Nexus:10955" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   },
+   "Dependencies":[
+   {
+	"UniqueID":"FlashShifter.StardewValleyExpandedCP",
+	"IsRequired": true,
+   },
+   {
+	"UniqueID":"Poltergeister.SeasonalOutfitsSVE",
+	"IsRequired": false,
+   },
+   {
+	"UniqueID":"Poltergeister.SeasonalCuteSpritesSVE",
+	"IsRequired": false,
+   },
+  ]
+}

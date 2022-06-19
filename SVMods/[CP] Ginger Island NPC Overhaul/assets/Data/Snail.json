@@ -1,0 +1,200 @@
+{
+  "Changes": [
+    {
+      "LogName": "Snail NPC Disposition While At Desk",
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "When": {
+        "HasSeenEvent |contains=924201": false,
+        "Full NPC Snail": "on"
+      },
+      "Entries": {
+        "ProfSnail": "adult/polite/outgoing/positive/{{snailgender}}/not-datable/null/other///IslandFieldOffice -100 -100/Prof. Snail"
+      }
+    },
+    {
+      "LogName": "Snail NPC Disposition Post-Unshackling",
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "When": {
+        "HasSeenEvent |contains=924201": true,
+        "Full NPC Snail": "on"
+      },
+      "Entries": {
+        "ProfSnail": "adult/polite/outgoing/positive/{{snailgender}}/not-datable/null/other///IslandFieldOffice 4 5/Prof. Snail"
+      }
+    },
+    {
+      "LogName": "Snail's Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "When": {
+        "Full NPC Snail": "on"
+      },
+      "Entries": {
+        "ProfSnail": "How remarkable! This is a wonderful gift./107 218 604 614 732/Fantastic! Exactly what I needed./-2 116 -12 392 579 580 581 582 583 584 585 586 587 588 589 820 821 822 823 824 825 826 827 828/Oh... this is unfortunate./154/How awful!/205 257 281 404 420 422 /That's very decent of you./-4/"
+      }
+    },
+    {
+      "LogName": "Snail's Antisocial Flag",
+      "Action": "EditData",
+      "Target": "Data/AntiSocialNPCs",
+      "When": {
+        "HasSeenEvent |contains=924201": false,
+        "Full NPC Snail": "on"
+      },
+      "Entries": {
+        "ProfSnail": true
+      }
+    },
+    {
+      "LogName": "Snail NPC Exclusions",
+      "Action": "EditData",
+      "Target": "Data/CustomNPCExclusions",
+      "When": {
+        "Full NPC Snail": "on"
+      },
+      "Entries": {
+        "ProfSnail": "All"
+      }
+    },
+    {
+      "LogName": "Snail Sprites and Portraits",
+      "Action": "Load",
+      "Target": "Characters/ProfSnail, Portraits/ProfSnail",
+      "When": {
+        "Full NPC Snail": "on"
+      },
+      "FromFile": "assets/{{TargetPathOnly}}/ProfessorSnail_{{snailgender}}_{{snailvariant}}.png"
+    },
+    {
+      "LogName": "Replaces original Snail portraits and sprites",
+      "Action": "EditImage",
+      "Target": "Characters/SafariGuy, Portraits/SafariGuy",
+      "When": {
+        "HasSeenEvent |contains=924201": false,
+        "Full NPC Snail": "on"
+      },
+      "FromFile": "assets/{{TargetPathOnly}}/ProfessorSnail_{{snailgender}}_{{snailvariant}}.png"
+    },
+    {
+      "LogName": "Replaces original Snail portraits and sprites - non NPC",
+      "Action": "EditImage",
+      "Target": "Characters/SafariGuy, Portraits/SafariGuy",
+      "When": {
+        "Full NPC Snail": "off with portraits"
+      },
+      "FromFile": "assets/{{TargetPathOnly}}/ProfessorSnail_{{snailgender}}_{{snailvariant}}.png"
+    },
+    {
+      "LogName": "Disguises original Snail sprites as parrot",
+      "Action": "EditImage",
+      "Target": "Characters/SafariGuy",
+      "When": {
+        "HasSeenEvent |contains=924201": true,
+        "Full NPC Snail": "on"
+      },
+      "FromFile": "assets/Characters/pythagoras.png"
+    },
+    {
+      "LogName": "Blank Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/ProfSnail",
+      "When": {
+        "Full NPC Snail": "on"
+      },
+      "FromFile": "{{BlankFile}}"
+    },
+    {
+      "LogName": "Snail Schedule Before",
+      "Action": "EditData",
+      "Target": "Characters/schedules/ProfSnail",
+      "When": {
+        "HasSeenEvent |contains=924201": false,
+        "Full NPC Snail": "on"
+      },
+      "Entries": {
+        "spring": "610 IslandFieldOffice -100 -100 2/1900 IslandFieldOffice -100 -100 1",
+        "summer": "610 IslandFieldOffice -100 -100 2/1900 IslandFieldOffice -100 -100 1",
+        "fall": "610 IslandFieldOffice -100 -100 2/1900 IslandFieldOffice -100 -100 1",
+        "winter": "610 IslandFieldOffice -100 -100 2/1900 IslandFieldOffice -100 -100 1"
+      }
+    },
+    {
+      "LogName": "Snail Schedule After",
+      "Action": "EditData",
+      "Target": "Characters/schedules/ProfSnail",
+      "When": {
+        "HasSeenEvent |contains=924201": true,
+        "Full NPC Snail": "on"
+      },
+      "Entries": {
+        "spring": "610 IslandFieldOffice 4 5 2/800 IslandFieldOffice 2 4 3/1000 IslandNorth 40 29 square_8_8/1400 IslandNorth 63 17 0/1600 IslandFieldOffice 4 8 0/1900 IslandFieldOffice 4 5 2",
+        "summer": "610 IslandFieldOffice 4 5 2/800 IslandFieldOffice 2 4 3/1000 IslandNorth 40 29 square_8_8/1400 IslandNorth 63 17 0/1600 IslandFieldOffice 4 8 0/1900 IslandFieldOffice 4 5 2",
+        "fall": "610 IslandFieldOffice 4 5 2/800 IslandFieldOffice 2 4 3/1000 IslandNorth 40 29 square_8_8/1400 IslandNorth 63 17 0/1600 IslandFieldOffice 4 8 0/1900 IslandFieldOffice 4 5 2",
+        "winter": "610 IslandFieldOffice 4 5 2/800 IslandFieldOffice 2 4 3/1000 IslandNorth 40 29 square_8_8/1400 IslandNorth 63 17 0/1600 IslandFieldOffice 4 8 0/1900 IslandFieldOffice 4 5 2"
+      }
+    },
+    {
+      "LogName": "Changes to Original Snail Events",
+      "Action": "EditData",
+      "Target": "Strings/Locations",
+      "Entries": {
+        "IslandNorth_Event_SafariManAppear": "tropical_island_day_ambient/-1000 -100/farmer 20 48 1/skippable/pause 1000/viewport 21 47 true/pause 1000/playSound thudStep/addTemporaryActor SafariGuy 16 32 22 45 2 true ???/move SafariGuy 0 3 3/pause 1000/speak SafariGuy \"Thank you! I thought I was done for... $h#$b#I've been stuck in this cave for months!\"/pause 500/faceDirection SafariGuy 2/pause 300/showFrame SafariGuy 16/pause 600/emote SafariGuy 28/speak SafariGuy \"...One more cave mushroom salad and I would've gone off the deep end... *shudder* ...so rubbery...$s\"/pause 500/showFrame SafariGuy 0/pause 500/faceDirection SafariGuy 3/pause 500/changeName SafariGuy Professor_Snail/speak SafariGuy \"Anyway. I should introduce myself! I'm Professor Snail, paleontology professor at the University of Ember Island.#$b#I've been conducting a survey of this island's flora and fauna for the last year. Truly a remarkable little place!\"/pause 400/faceDirection SafariGuy 2/pause 250/faceDirection SafariGuy 3/speak SafariGuy \"Well, I think I'll go back to my tent and freshen up a little. I'm afraid I smell like mushrooms...$s#$b#You should stop by sometime! An adventurous individual like yourself could really help me with my research! Farewell.$h\"/pause 200/showFrame SafariGuy 17/pause 800/showFrame SafariGuy 12/pause 200/advancedMove SafariGuy true 1 0 0 4/pause 250/end position 20 48",
+        "IslandFieldOffice_Intro_Event": "fieldofficeTentMusic/-1000 -1000/farmer 4 10 0/skippable/addTemporaryActor SafariGuy 16 32 5 4 0 true Professor_Snail/viewport 4 6 true/move farmer 0 -2 0/pause 1000/faceDirection SafariGuy 1 true/pause 50/faceDirection SafariGuy 2 true/pause 500/speak SafariGuy \"Ah... Come in!\"/move farmer 2 0 0/move farmer 0 -4 3/faceDirection SafariGuy 1/pause 500/speak SafariGuy \"Welcome to my field office.\"/faceDirection SafariGuy 2/faceDirection farmer 2/showFrame SafariGuy 16/emote SafariGuy 28/pause 500/speak SafariGuy \"As you can see... it's quite empty.$s#$b#Getting stuck in that cave was a huge setback to my research.$s\"/pause 50/showFrame SafariGuy 0/pause 200/faceDirection SafariGuy 1/pause 100/speak SafariGuy \"But that's where you come in!$h\"/faceDirection farmer 3/emote farmer 8/speak SafariGuy \"Another pair of hands could get me back on track in no time at all!#$b#So if you encounter any animal bones, fossils, or mummified specimens on this island, bring them to my desk, okay? I'll make it worth your while!$h\"/pause 200/faceDirection SafariGuy 1/end",
+        "FieldOfficeDonated_3": "To think... generations have come and gone while this little bone lay hidden beneath the soil. Truly remarkable!",
+        "FieldOfficeFinale": "distantBanjo/-1000 -1000/farmer 4 8 0/addCraftingRecipe Ostrich Incubator/addMailReceived fieldOfficeFinale/skippable/addTemporaryActor SafariGuy 16 32 3 8 0 true Professor_Snail/pause 1000/viewport 4 6 true/pause 4000/speak SafariGuy \"Ahh...#$b#Look how far we've come!$h\"/faceDirection SafariGuy 1/speak SafariGuy \"Thanks to your work, @, my research has received additional funding!\"/emote farmer 32/speak SafariGuy \"Here, as a token of my appreciation, I'd like to teach you something.\"/faceDirection farmer 3/pause 700/playSound reward/message \"Learned how to craft 'Ostrich Incubator'\"/pause 400/speak SafariGuy \"It's a device for incubating ostrich eggs! Just place it in a barn, pop an ostrich egg inside, and wait...\"/faceDirection SafariGuy 0/speak SafariGuy \"Getting your hands on the egg itself is a different story, though... I'll leave that up to you!\"/pause 400/faceDirection farmer 0/pause 500/speak SafariGuy \"Heh... Well... now the real work begins.#$b#I'll be studying this data for years to come! Perhaps I can even nab a student or two as assistants...\"/faceDirection SafariGuy 1/faceDirection farmer 3/speak SafariGuy \"Thank you again, @!\"/pause 600/end"
+      }
+    },
+    {
+      "LogName": "Island Field Office Events",
+      "Action": "Load",
+      "Target": "Data/Events/IslandFieldOffice",
+      "FromFile": "{{BlankFile}}"
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Pythagoras",
+      "FromFile": "assets/Characters/pythagoras.png"
+    },
+    {
+      "LogName": "Island Field Office Events",
+      "Action": "EditData",
+      "Target": "Data/Events/IslandFieldOffice",
+      "When": {
+        "Full NPC Snail": "on"
+      },
+      "Entries": {
+        "924201/n fieldOfficeFinale": "continue/4 9/ProfSnail 4 5 2 farmer -100 -100 0 SafariGuy -100 -100 0/skippable/addTemporaryActor Pythagoras 16 32 8 6 2 false/pause 500/warp farmer 4 9/move farmer 0 -1 0/pause 500/pause 500/faceDirection farmer 3/pause 400/faceDirection farmer 1/jump farmer 3/move farmer 4 0 0/emote farmer 8/playSound parrot/pause 500/move ProfSnail 2 0 2/speak ProfSnail \"A handsome specimen, yes?\"/pause 500/move ProfSnail 0 2 2/faceDirection farmer 3/pause 500/speak ProfSnail \"Surprised to see me out from behind the desk?\"/move farmer -1 0 3/pause 500/emote farmer 56/pause 500/faceDirection ProfSnail 1/faceDirection farmer 0/speak ProfSnail \"I'd like to introduce you to Pythagoras.\"/playSound parrot/textAboveHead Pythagoras \"Hello!\"/pause 500/speak ProfSnail \"He's one of the local birds. As you can see, he's taken a liking to me! Or to my tent, at any rate. Fascinating creatures!#$b#They seem to have learned that people can get to the food they can't reach, and will help us in exchange for it.#$b#Whether they learned from the dwarves, from visitors from the neighbouring islands, or from the pirates, I cannot say...#$b#I'm sure my colleagues in the zoology department will want to look into it further.$1\"/textAboveHead Pythagoras \"Pieces of eight!\"/pause 500/speak ProfSnail \"This one appears to have spent a little too much time with the pirates.$1\"/pause 500/faceDirection ProfSnail 2/faceDirection farmer 3/speak ProfSnail \"Anyway, now that my research is back up to speed I can engage in a bit more fieldwork!$1#$b#Pythagoras here will be holding the fort.\"/playSound parrot/textAboveHead Pythagoras \"Shiver me timbers!\"/speak ProfSnail \"Err, yes, shiver me timbers, indeed!$1\"/emote farmer 32/pause 1000/end"
+      }
+    },
+    {
+      "LogName": "Island Field Office Events",
+      "Action": "EditData",
+      "Target": "Strings/Locations",
+      "When": {
+        "HasSeenEvent |contains=924201": false
+      },
+      "Entries": {
+        "IslandFieldOffice_Welcome_0": "Greetings",
+        "IslandFieldOffice_Welcome_1": "Hello there!",
+        "IslandFieldOffice_Welcome_2": "Good day to you!",
+        "IslandFieldOffice_Welcome_3": "Hmm... oh, hello!"
+      }
+    },
+    {
+      "LogName": "Island Field Office Events",
+      "Action": "EditData",
+      "Target": "Strings/Locations",
+      "When": {
+        "HasSeenEvent |contains=924201": true
+      },
+      "Entries": {
+        "IslandFieldOffice_Welcome_0": "Pieces of eight! Awk! Awk!",
+        "IslandFieldOffice_Welcome_1": "Awk! Ahoy, me hearties!",
+        "IslandFieldOffice_Welcome_2": "Weigh anchor and hoist the mizzen! SQUAWK!",
+        "IslandFieldOffice_Welcome_3": "Awk! Shiver me timbers! Awk!"
+      }
+    }
+  ]
+}

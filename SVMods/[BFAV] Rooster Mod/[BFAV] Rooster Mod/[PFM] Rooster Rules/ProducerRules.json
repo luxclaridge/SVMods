@@ -1,0 +1,24 @@
+﻿[
+
+	// Mayonnaise Machine
+	{
+		"ProducerName": "Mayonnaise Machine", 
+		"InputIdentifier": "Rooster Egg", 
+		"InputStack": 1, 
+		"FuelIdentifier": null, 
+		"FuelStack": 1, 
+		"MinutesUntilReady": 170, 
+		"OutputIdentifier": "Rooster Mayonnaise",  
+		"OutputName": null,  
+		"PreserveType": null, 
+		"InputPriceBased": false, 
+		"KeepInputQuanlity": false, 
+		"OutputQuality": 0, 
+		"OutputStack": 1, 
+		"Sounds": ["Ship"], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "White", 
+	},
+
+
+]

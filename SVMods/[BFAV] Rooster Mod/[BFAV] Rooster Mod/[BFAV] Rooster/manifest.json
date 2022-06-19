@@ -1,0 +1,12 @@
+{
+  "Name": "[BFAV] Roosters",
+  "Author": "StarDreem",
+  "Version": "1.0.2",
+  "Description": "Adds Roosters as a Coop Animal",
+  "UniqueID": "Roosters.BFAV",
+  "MinimumApiVersion": "2.5", 
+  "UpdateKeys": [ "Nexus:8672" ],
+  "ContentPackFor": {
+    "UniqueID": "Paritee.BetterFarmAnimalVariety",
+  }
+}

@@ -1,0 +1,12 @@
+{
+   "Name": "Penny 2-Heart Event Dialogue Edit for Content Patcher",
+   "Author": "JocelynCade",
+   "Version": "1.0.0",
+   "Description": "An edit to Penny's 2-Heart Event Dialogue, in which she is changed to be Less Ableist to George about moving his wheelchair without his consent.",
+   "UniqueID": "PLACEHOLDER",
+    "MinimumApiVersion": "3.0.0",
+"UpdateKeys": [ "PLACEHOLDER" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+   },
+}

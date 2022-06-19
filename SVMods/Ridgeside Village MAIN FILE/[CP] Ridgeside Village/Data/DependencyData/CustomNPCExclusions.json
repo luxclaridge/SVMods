@@ -1,0 +1,48 @@
+{
+	"Changes":
+	[
+		/*********
+		** Custom NPC Exclusions
+		*********/
+		{
+			"Action": "EditData",
+			"Target": "Data/CustomNPCExclusions",
+			"Entries":
+			{
+				"Kiwi": "TownEvent TownQuest OtherEvent",
+				"Undreya": "ALL",
+				"Helen": "ALL",
+				"Belinda": "ALL",
+				"Bliss": "ALL",
+				"Sari": "ALL",
+				"Pipo": "ALL",
+				"Acorn": "ALL",
+				"Naomi": "TownEvent TownQuest",
+				"Malaya": "TownEvent TownQuest",
+				"Kimpoi": "TownEvent TownQuest",
+				"Raeriyala": "ALL",
+				"Zayne": "ALL",
+				"Bryle": "ALL",
+				"Daia": "TownEvent TownQuest OtherEvent",
+				"Jio": "TownEvent TownQuest IslandEvent OtherEvent",
+				"TreehouseGirl": "ALL",
+				"RelicSpirit": "ALL",
+				"Anton": "ItemDelivery MovieInvite",
+				"Ariah": "ItemDelivery MovieInvite",
+				"Blair": "ItemDelivery MovieInvite",
+				"Carmen": "ItemDelivery MovieInvite",
+				"Faye": "ItemDelivery MovieInvite",
+				"Irene": "ItemDelivery MovieInvite",
+				"Kiarra": "ItemDelivery MovieInvite",
+				"Lorenzo": "ItemDelivery MovieInvite",
+				"Louie": "ItemDelivery MovieInvite",
+				"Maive": "ItemDelivery MovieInvite",
+				"Paula": "ItemDelivery MovieInvite",
+				"Sean": "ItemDelivery MovieInvite",
+				"Shanice": "ItemDelivery MovieInvite",
+				"Sonny": "ItemDelivery MovieInvite",
+				"Torts": "ItemDelivery WinterStar"
+			}
+		},
+	],
+}

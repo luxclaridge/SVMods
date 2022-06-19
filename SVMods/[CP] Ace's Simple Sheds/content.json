@@ -1,0 +1,106 @@
+{
+  "Format": "1.18.0",
+  "ConfigSchema": {
+    "IncreaseCost": {
+      "AllowValues": "true, false",
+      "Default": "false"
+    },
+    "ShedType": {
+      "AllowValues": "T1, T2, T3",
+      "Default": "T1"
+    }
+  },
+  "Changes": [
+    /*Load Sheds*/
+    {
+      "Action": "Load",
+      "Target": "Maps/Shed",
+      "FromFile": "assets/Shed_{{ShedType}}.tbin"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/Shed2",
+      "FromFile": "assets/Shed2_{{ShedType}}.tbin"
+    }
+    /*Cost Edit Shed*/,
+    {
+      "Action": "EditData",
+      "Target": "Data/Blueprints",
+      "Fields": {
+        "Shed": {
+          "17": "30000"
+        }
+      },
+      "When": {
+        "IncreaseCost": "true",
+        "ShedType": "T1"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Blueprints",
+      "Fields": {
+        "Shed": {
+          "17": "35000"
+        }
+      },
+      "When": {
+        "IncreaseCost": "true",
+        "ShedType": "T2"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Blueprints",
+      "Fields": {
+        "Shed": {
+          "17": "45000"
+        }
+      },
+      "When": {
+        "IncreaseCost": "true",
+        "ShedType": "T3"
+      }
+    }
+    /*Cost Edit Shed2*/,
+    {
+      "Action": "EditData",
+      "Target": "Data/Blueprints",
+      "Fields": {
+        "Shed2": {
+          "17": "40000"
+        }
+      },
+      "When": {
+        "IncreaseCost": "true",
+        "ShedType": "T1"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Blueprints",
+      "Fields": {
+        "Shed2": {
+          "17": "45000"
+        }
+      },
+      "When": {
+        "IncreaseCost": "true",
+        "ShedType": "T2"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Blueprints",
+      "Fields": {
+        "Shed2": {
+          "17": "55000"
+        }
+      },
+      "When": {
+        "IncreaseCost": "true",
+        "ShedType": "T3"
+      }
+    }
+  ]
+}

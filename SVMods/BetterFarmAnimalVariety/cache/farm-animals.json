@@ -1,0 +1,401 @@
+{
+  "Categories": [
+    {
+      "Category": "Chicken",
+      "Types": [
+        {
+          "Data": null,
+          "DeluxeProduceLuck": 0.0,
+          "Localization": {},
+          "Sprites": {
+            "Adult": null,
+            "Baby": null,
+            "ReadyForHarvest": null
+          },
+          "Type": "White Chicken"
+        },
+        {
+          "Data": null,
+          "DeluxeProduceLuck": 0.0,
+          "Localization": {},
+          "Sprites": {
+            "Adult": null,
+            "Baby": null,
+            "ReadyForHarvest": null
+          },
+          "Type": "Brown Chicken"
+        },
+        {
+          "Data": null,
+          "DeluxeProduceLuck": 0.0,
+          "Localization": {},
+          "Sprites": {
+            "Adult": null,
+            "Baby": null,
+            "ReadyForHarvest": null
+          },
+          "Type": "Blue Chicken"
+        },
+        {
+          "Data": null,
+          "DeluxeProduceLuck": 0.0,
+          "Localization": {},
+          "Sprites": {
+            "Adult": null,
+            "Baby": null,
+            "ReadyForHarvest": null
+          },
+          "Type": "Void Chicken"
+        },
+        {
+          "Data": null,
+          "DeluxeProduceLuck": 0.0,
+          "Localization": {},
+          "Sprites": {
+            "Adult": null,
+            "Baby": null,
+            "ReadyForHarvest": null
+          },
+          "Type": "Golden Chicken"
+        }
+      ],
+      "Buildings": [
+        "Coop",
+        "Big Coop",
+        "Deluxe Coop"
+      ],
+      "AnimalShop": {
+        "Name": "Chicken",
+        "Description": "Well cared-for adult chickens lay eggs every day.",
+        "Icon": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\BetterFarmAnimalVariety\\assets\\AnimalShop\\Chicken.png",
+        "Exclude": [
+          "Void Chicken"
+        ]
+      }
+    },
+    {
+      "Category": "Dairy Cow",
+      "Types": [
+        {
+          "Data": null,
+          "DeluxeProduceLuck": 0.0,
+          "Localization": {},
+          "Sprites": {
+            "Adult": null,
+            "Baby": null,
+            "ReadyForHarvest": null
+          },
+          "Type": "White Cow"
+        },
+        {
+          "Data": null,
+          "DeluxeProduceLuck": 0.0,
+          "Localization": {},
+          "Sprites": {
+            "Adult": null,
+            "Baby": null,
+            "ReadyForHarvest": null
+          },
+          "Type": "Brown Cow"
+        }
+      ],
+      "Buildings": [
+        "Barn",
+        "Big Barn",
+        "Deluxe Barn"
+      ],
+      "AnimalShop": {
+        "Name": "Dairy Cow",
+        "Description": "Adults can be milked daily. A milk pail is required to harvest the milk.",
+        "Icon": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\BetterFarmAnimalVariety\\assets\\AnimalShop\\DairyCow.png",
+        "Exclude": []
+      }
+    },
+    {
+      "Category": "Goat",
+      "Types": [
+        {
+          "Data": null,
+          "DeluxeProduceLuck": 0.0,
+          "Localization": {},
+          "Sprites": {
+            "Adult": null,
+            "Baby": null,
+            "ReadyForHarvest": null
+          },
+          "Type": "Goat"
+        }
+      ],
+      "Buildings": [
+        "Big Barn",
+        "Deluxe Barn"
+      ],
+      "AnimalShop": {
+        "Name": "Goat",
+        "Description": "Happy adults provide goat milk every other day. A milk pail is required to harvest the milk.",
+        "Icon": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\BetterFarmAnimalVariety\\assets\\AnimalShop\\Goat.png",
+        "Exclude": []
+      }
+    },
+    {
+      "Category": "Duck",
+      "Types": [
+        {
+          "Data": null,
+          "DeluxeProduceLuck": 0.01,
+          "Localization": {},
+          "Sprites": {
+            "Adult": null,
+            "Baby": null,
+            "ReadyForHarvest": null
+          },
+          "Type": "Duck"
+        }
+      ],
+      "Buildings": [
+        "Big Coop",
+        "Deluxe Coop"
+      ],
+      "AnimalShop": {
+        "Name": "Duck",
+        "Description": "Happy adults lay duck eggs every other day.",
+        "Icon": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\BetterFarmAnimalVariety\\assets\\AnimalShop\\Duck.png",
+        "Exclude": []
+      }
+    },
+    {
+      "Category": "Sheep",
+      "Types": [
+        {
+          "Data": null,
+          "DeluxeProduceLuck": 0.0,
+          "Localization": {},
+          "Sprites": {
+            "Adult": null,
+            "Baby": null,
+            "ReadyForHarvest": null
+          },
+          "Type": "Sheep"
+        }
+      ],
+      "Buildings": [
+        "Deluxe Barn"
+      ],
+      "AnimalShop": {
+        "Name": "Sheep",
+        "Description": "Adults can be shorn for wool. Sheep who form a close bond with their owners can grow wool faster. A pair of shears is required to harvest the wool.",
+        "Icon": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\BetterFarmAnimalVariety\\assets\\AnimalShop\\Sheep.png",
+        "Exclude": []
+      }
+    },
+    {
+      "Category": "Rabbit",
+      "Types": [
+        {
+          "Data": null,
+          "DeluxeProduceLuck": 0.02,
+          "Localization": {},
+          "Sprites": {
+            "Adult": null,
+            "Baby": null,
+            "ReadyForHarvest": null
+          },
+          "Type": "Rabbit"
+        }
+      ],
+      "Buildings": [
+        "Deluxe Coop"
+      ],
+      "AnimalShop": {
+        "Name": "Rabbit",
+        "Description": "These are woolly rabbits! They shed precious wool every few days.",
+        "Icon": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\BetterFarmAnimalVariety\\assets\\AnimalShop\\Rabbit.png",
+        "Exclude": []
+      }
+    },
+    {
+      "Category": "Pig",
+      "Types": [
+        {
+          "Data": null,
+          "DeluxeProduceLuck": 0.0,
+          "Localization": {},
+          "Sprites": {
+            "Adult": null,
+            "Baby": null,
+            "ReadyForHarvest": null
+          },
+          "Type": "Pig"
+        }
+      ],
+      "Buildings": [
+        "Deluxe Barn"
+      ],
+      "AnimalShop": {
+        "Name": "Pig",
+        "Description": "These pigs are trained to find truffles!",
+        "Icon": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\BetterFarmAnimalVariety\\assets\\AnimalShop\\Pig.png",
+        "Exclude": []
+      }
+    },
+    {
+      "Category": "Dinosaur",
+      "Types": [
+        {
+          "Data": null,
+          "DeluxeProduceLuck": 0.0,
+          "Localization": {},
+          "Sprites": {
+            "Adult": null,
+            "Baby": null,
+            "ReadyForHarvest": null
+          },
+          "Type": "Dinosaur"
+        }
+      ],
+      "Buildings": [
+        "Big Coop",
+        "Deluxe Coop"
+      ],
+      "AnimalShop": null
+    },
+    {
+      "Category": "Ostrich",
+      "Types": [
+        {
+          "Data": null,
+          "DeluxeProduceLuck": 0.0,
+          "Localization": {},
+          "Sprites": {
+            "Adult": null,
+            "Baby": null,
+            "ReadyForHarvest": null
+          },
+          "Type": "Ostrich"
+        }
+      ],
+      "Buildings": [
+        "Barn",
+        "Big Barn",
+        "Deluxe Barn"
+      ],
+      "AnimalShop": null
+    },
+    {
+      "Category": "Alpaca",
+      "Types": [
+        {
+          "Data": "2/4/Alpaca Wool/-1/sheep/24/64/84/64/24/64/84/64/1/true/Barn/32/32/32/32/15/5/Shears/644/8000/Alpaca/Barn",
+          "DeluxeProduceLuck": 0.02,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Alpacas\\[BFAV] Alpaca\\assets/alpaca.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Alpacas\\[BFAV] Alpaca\\assets/babyalpaca.png",
+            "ReadyForHarvest": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Alpacas\\[BFAV] Alpaca\\assets/shearedalpaca.png"
+          },
+          "Type": "Alpaca"
+        }
+      ],
+      "Buildings": [
+        "Deluxe Barn"
+      ],
+      "AnimalShop": {
+        "Name": "Alpaca",
+        "Description": "These alpaca's provide soft and durable wool.",
+        "Icon": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Alpacas\\[BFAV] Alpaca\\assets/animal_shop_alpaca.png",
+        "Exclude": [
+          "Void Chicken"
+        ]
+      }
+    },
+    {
+      "Category": "Ox",
+      "Types": [
+        {
+          "Data": "1/4/709/Ox Tail/cow/24/64/84/64/24/64/84/64/0/false/Barn/32/32/32/32/15/5/null/4500/14000/Brown Ox/Barn",
+          "DeluxeProduceLuck": 0.02,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Oxen\\[BFAV] Oxen\\assets/Red Ox.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Oxen\\[BFAV] Oxen\\assets/Baby Red Ox.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Red Ox"
+        },
+        {
+          "Data": "1/4/709/Ox Tail/cow/24/64/84/64/24/64/84/64/0/false/Barn/32/32/32/32/15/5/null/4500/14000/Brown Ox/Barn",
+          "DeluxeProduceLuck": 0.02,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Oxen\\[BFAV] Oxen\\assets/Spotted Ox.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Oxen\\[BFAV] Oxen\\assets/Baby Spotted Ox.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Spotted Ox"
+        },
+        {
+          "Data": "1/4/709/Ox Tail/cow/24/64/84/64/24/64/84/64/0/false/Barn/32/32/32/32/15/5/null/4500/14000/Black Ox/Barn",
+          "DeluxeProduceLuck": 0.02,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Oxen\\[BFAV] Oxen\\assets/Black Ox.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Oxen\\[BFAV] Oxen\\assets/Baby Black Ox.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Black Ox"
+        },
+        {
+          "Data": "1/4/709/Ox Tail/cow/24/64/84/64/24/64/84/64/0/false/Barn/32/32/32/32/15/5/null/4500/14000/Brown Ox/Barn",
+          "DeluxeProduceLuck": 0.02,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Oxen\\[BFAV] Oxen\\assets/Brown Ox.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Oxen\\[BFAV] Oxen\\assets/Baby Brown Ox.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Brown Ox"
+        }
+      ],
+      "Buildings": [
+        "Big Barn",
+        "Deluxe Barn"
+      ],
+      "AnimalShop": {
+        "Name": "Oxen",
+        "Description": "Male cattle trained to haul large objects.",
+        "Icon": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Oxen\\[BFAV] Oxen\\assets/animal_shop_ox.png",
+        "Exclude": [
+          "Void Chicken"
+        ]
+      }
+    },
+    {
+      "Category": "Rooster",
+      "Types": [
+        {
+          "Data": "1/3/182/Rooster Egg/rooster/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/4/10/null/641/800/Rooster/Coop",
+          "DeluxeProduceLuck": 0.01,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Rooster Mod\\[BFAV] Rooster Mod\\[BFAV] Rooster\\assets/rooster.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Rooster Mod\\[BFAV] Rooster Mod\\[BFAV] Rooster\\assets/babyrooster.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Rooster"
+        }
+      ],
+      "Buildings": [
+        "Big Coop",
+        "Deluxe Coop"
+      ],
+      "AnimalShop": {
+        "Name": "Rooster",
+        "Description": "Happy Roosters encourage your Chickens to lay more eggs!",
+        "Icon": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Rooster Mod\\[BFAV] Rooster Mod\\[BFAV] Rooster\\assets/animal_shop_rooster.png",
+        "Exclude": [
+          "Void Chicken"
+        ]
+      }
+    }
+  ]
+}

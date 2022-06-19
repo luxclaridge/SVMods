@@ -1,0 +1,13 @@
+{
+    "Changes": [
+		{
+			"Action": "EditMap",
+            "Target": "Maps/SeedShop",
+            "FromFile": "assets/maps/SeedShop_withFridge.tmx",
+			"ToArea": { "X": 2, "Y": 20, "Width": 3, "Height": 7},
+			"When": {
+				"HasSeenEvent": "3900074"
+			}
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Name": "DGA Wooden Shelves",
+	"Author": "aedenthorn",
+	"Version": "0.1.1",
+	"Description": "WoodenShelvesDGA",
+	"UniqueID": "aedenthorn.WoodenShelvesDGA",
+	"MinimumApiVersion": "3.13.0",
+	"ContentPackFor": {
+		"UniqueID": "spacechase0.DynamicGameAssets"
+	},
+	"UpdateKeys": [ "Nexus:10862" ],
+	"DGA.FormatVersion": 2,
+	"DGA.ConditionsFormatVersion": "1.23.0"
+}
