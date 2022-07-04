@@ -1,7 +1,7 @@
 {
   "CustomChance": 10,
   "ScheduleRandom": false,
-  "CustomRoom": false,
+  "CustomRoom": true,
   "Childbedcolor": "1",
   "NPCDevan": false,
   "Allow_Children": true,

@@ -1,0 +1,14 @@
+{
+  "AgeBeeHouses": true,
+  "AgeMushroomBoxes": true,
+  "AgeSapTrees": true,
+  "AgeImproveQualityFactor": 1.0,
+  "DeterministicAgeQuality": true,
+  "BerryBushesRewardExp": true,
+  "MushroomBoxesRewardExp": true,
+  "TappersRewardExp": true,
+  "PreventFruitTreeGrowthInWinter": true,
+  "LargeProducsYieldQuantityOverQuality": true,
+  "ProfessionalForagingInGingerIsland": true,
+  "ExplosionTriggeredBombs": true
+}

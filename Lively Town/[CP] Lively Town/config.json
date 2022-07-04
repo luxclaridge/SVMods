@@ -1,4 +1,4 @@
 {
-	"EnableCarolineCorner": true,
-	"EnableShanesEggs": true
+  "EnableCarolineCorner": "true",
+  "EnableShanesEggs": "true"
 }
