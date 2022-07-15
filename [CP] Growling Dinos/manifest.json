@@ -1,7 +1,7 @@
 {
 	"Name": "Growling Dinos - Nexus",
 	"Author": "Milo49",
-	"Version": "1.0.0",
+	"Version": "1.0.1",
 	"Description": "Adds the Pepper Rex sounds to Dinos so that they are no longer silent.",
 	"UniqueID": "Milo49.GrowlingDinos",
 	"UpdateKeys": ["Nexus:9055"],
