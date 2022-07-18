@@ -1,0 +1,9 @@
+{
+    "Name": "Horse Hair",
+    "Description": "Shed horse hair can be made into stiff and sturdy fabric.",
+    "Category": "AnimalGoods",
+    "Edibility": -300,
+    "Price": 340,
+    "IsColored": false,
+    "Recipe": null
+}

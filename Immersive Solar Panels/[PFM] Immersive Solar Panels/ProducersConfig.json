@@ -1,0 +1,20 @@
+[
+    {
+    "ProducerName": "Iridium Solar Panel",
+		"NoInputStartMode": "Placement",
+		"DisableBouncingAnimationWhileWorking": true,
+		"NoInputStartMode": "Placement",
+		"WorkingTime": { "Begin": 600, "End": 1800},
+		"WorkingOutdoors": true,
+		"WorkingWeather":["Sunny", "Windy"]
+	  },
+    {
+    "ProducerName": "Radioactive Solar Panel",
+    "NoInputStartMode": "Placement",
+    "DisableBouncingAnimationWhileWorking": true,
+    "NoInputStartMode": "Placement",
+    "WorkingTime": { "Begin": 600, "End": 1800},
+    "WorkingOutdoors": true,
+    "WorkingWeather":["Sunny", "Windy"]
+  }
+]

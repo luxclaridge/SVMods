@@ -1,0 +1,8 @@
+{
+	"Format": "1.0",
+	"Changes": [{
+		"Action": "Load",
+		"Target": "Characters/Monsters/Tiger Slime",
+		"FromFile": "assets/tiger slime.png"
+	}]
+}

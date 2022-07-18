@@ -1,0 +1,11 @@
+{
+  "Name": "BFAV Chickens",
+  "Author": "stupiddullhans and lavapulse",
+  "Version": "1.0",
+  "Description": "Adds chickens as coop animals using BFAV.",
+  "UniqueID": "Stupiddullhans.silkiechickens",
+  "UpdateKeys": [ "Nexus:6175" ],
+  "ContentPackFor": {
+    "UniqueID": "Paritee.BetterFarmAnimalVariety"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "Name": "BFAV Chabos",
+  "Author": "stupiddullhans/balverines",
+  "Version": "1.0",
+  "Description": "Adds Chabo chickens with BFAV",
+  "UniqueID": "balverines.chabochickens",
+  "UpdateKeys": [ "Nexus:6175" ],
+  "ContentPackFor": {
+    "UniqueID": "Paritee.BetterFarmAnimalVariety"
+  }
+}

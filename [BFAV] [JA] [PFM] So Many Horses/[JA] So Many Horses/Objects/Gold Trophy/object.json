@@ -1,0 +1,9 @@
+{
+    "Name": "Gold Trophy",
+    "Description": "A golden trophy won by your horse for excellent performance.",
+    "Category": "AnimalGoods",
+    "Edibility": -300,
+    "Price": 2000,
+    "IsColored": false,
+    "Recipe": null
+}

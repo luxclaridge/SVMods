@@ -1,0 +1,11 @@
+{
+  "Name": "BFAV boars",
+  "Author": "stupiddullhans/balverines",
+  "Version": "1.0",
+  "Description": "Adds boars using BFAV.",
+  "UniqueID": "balverines.caboarsbfav",
+  "UpdateKeys": [ "Nexus:6175" ],
+  "ContentPackFor": {
+    "UniqueID": "Paritee.BetterFarmAnimalVariety"
+  }
+}

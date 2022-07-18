@@ -1,0 +1,67 @@
+{
+	"Format": "1.0",
+	"Categories": [
+	{
+		"Action": "Create",
+		"Category": "Peafowl",
+		"Types": [
+			{
+			"Type": "Blue Peacock",
+			"Data": "1/3/Blue Feather/Peafowl Egg/cluck/8/32/48/32/8/32/48/32/0/false/Coop/16/18/16/18/3/8/null/641/1000/Blue Peafowl/Coop",
+			"Sprites": {
+				"Adult": "assets/BluePeacock.png",
+				"Baby": "assets/Baby BluePeacock.png"
+			}
+			},
+			{
+			"Type": "White Peacock",
+			"Data": "1/3/White Feather/Peafowl Egg/cluck/8/32/48/32/8/32/48/32/0/false/Coop/16/18/16/18/3/8/null/641/1000/White Peafowl/Coop",
+			"Sprites": {
+				"Adult": "assets/WhitePeacock.png",
+				"Baby": "assets/Baby WhitePeacock.png"
+			}
+			},
+			{
+			"Type": "Purple Peacock",
+			"Data": "1/3/Purple Feather/Peafowl Egg/cluck/8/32/48/32/8/32/48/32/0/false/Coop/16/18/16/18/3/8/null/641/1000/Purple Peafowl/Coop",
+			"Sprites": {
+				"Adult": "assets/PurplePeacock.png",
+				"Baby": "assets/Baby PurplePeacock.png"
+			}
+			},
+			{
+			"Type": "Cameo Peacock",
+			"Data": "1/3/Cameo Feather/Peafowl Egg/cluck/8/32/48/32/8/32/48/32/0/false/Coop/16/18/16/18/3/8/null/641/1000/Cameo Peafowl/Coop",
+			"Sprites": {
+				"Adult": "assets/CameoPeacock.png",
+				"Baby": "assets/Baby CameoPeacock.png"
+			}
+                },
+			{
+			"Type": "Piebald Peacock",
+			"Data": "1/3/Pied Feather/Peafowl Egg/cluck/8/32/48/32/8/32/48/32/0/false/Coop/16/18/16/18/3/8/null/641/1000/Piebald Peafowl/Coop",
+			"Sprites": {
+				"Adult": "assets/PiedPeacock.png",
+				"Baby": "assets/Baby PiedPeacock.png"
+			}
+
+			},
+      	],
+	"Buildings": [
+        "Coop", "Big Coop", "Deluxe Coop"
+     ],
+	"AnimalShop": {
+		"Name": "Peafowl",
+		"Description": "A beautiful bird kept for its looks and stray feathers. Lays medium eggs.",
+		"Icon": "assets/animal_shop_peafowl.png",
+		"Exclude": [
+			"Void Chicken",
+		]
+	},
+			"ForceRemoveFromShop": false,
+			"ForceOverrideTypes": true,
+			"ForceOverrideBuildings": true,
+			"ForceOverrideExclude": true
+	}
+	]
+}

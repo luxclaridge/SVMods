@@ -1,0 +1,36 @@
+{
+	"Format": "1.0",
+	"Categories": [
+		{
+			"Action": "Create",
+			"Category": "Onadagori Chicken",
+			"Types": [
+				{
+					"Type": "Onadagori Chicken",
+					"DeluxeProduceLuck": 0.2,
+					"Data": "1/5/176/174/cluck/36/64/64/64/36/64/64/64/0/false/Coop/16/16/16/16/15/5/null/639/1000/Onadagori Chicken/Coop",
+					"Sprites": {
+						"Adult": "assets/Onadagori.png",
+						"Baby": "assets/bluechick.png"
+					}
+				},
+			],
+			"Buildings": [
+				"Deluxe Coop",
+			],
+			"AnimalShop": {
+				"Name": "Onadagori Chicken",
+				"Description": "A rare and valuable chicken.",
+				"Price": 2500,
+				"Icon": "assets\\animal_shop_ona.png",
+				"Exclude": [
+					"Void Chicken"
+				]
+			},
+			"ForceRemoveFromShop": false,
+			"ForceOverrideTypes": true,
+			"ForceOverrideBuildings": true,
+			"ForceOverrideExclude": true
+		}
+	]
+}

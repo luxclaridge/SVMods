@@ -1,0 +1,11 @@
+{
+    "Name": "Pixie the Puppy",
+    "Author": "Zoedoll",
+    "Description": "A dog for Jeric and Alex",
+    "Version": "1.0.0",
+    "UniqueID": "Zoedoll.RRHPixie",
+    "ContentPackFor": {
+        "UniqueID": "PeacefulEnd.CustomCompanions",
+        "MinimumVersion": "1.6.3"
+    }
+}

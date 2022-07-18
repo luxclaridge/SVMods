@@ -1,0 +1,22 @@
+{
+    "Name": "Peafowl Egg",
+    "Description": "A medium sized egg. It's a bit more round than a chicken's.",
+    "Category": "Egg",
+    "Edibility": 30,
+    "Price": 150,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes":
+    {
+        "Love": ["Gus", "Sebastian", "Shane"],
+		"Like": ["Alex", "Demetrius", "Harvey", "Kent", "Leah", "Linus", "Marnie", "Pierre", "Sam"],
+        "Dislike": ["Abigail", "Dwarf", "Haley", "Pam", "Vincent", "Wizard", "Jas"],
+		"Hate": ["Jodi"]
+    },
+      "ContextTags": [
+        "egg_item",
+		"large_egg_item",
+		"peafowl_egg_item",
+        "color_white",
+    ]
+}

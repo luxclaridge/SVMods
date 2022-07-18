@@ -1,0 +1,146 @@
+﻿{
+"Format": "1.23",
+
+//Configuration
+
+"ConfigSchema": {
+    "Version": {
+			"AllowValues": "unmarried, married",
+			"Default": "unmarried"
+        },
+      "Polyamory": {
+      "AllowValues": "true, false",
+      "Default": "false"
+        }
+    },
+
+"Changes": [
+
+  {
+    "LogName": "Dispositions - Mono",
+    "Action": "EditData",
+    "Target": "Data/NPCDispositions",
+    "When": {
+        "Version": "married",
+        "HasSeenEvent": "955807",
+        "Polyamory": "false",
+        },
+    "Entries": {
+        "Alex": "adult/rude/outgoing/positive/male/not-datable/Jeric/Town/summer 13/George 'grandpa' Evelyn 'grandma' Jeric 'husband' Haley ''/Custom_Ridgeside_JericHouse 20 5/Alex",
+        "Jeric": "teen/polite/neutral/neutral/male/not-datable/Alex/Town/winter 2/Alex 'husband' Haley ''/Custom_Ridgeside_JericHouse 18 5/Jeric"
+      }
+  },
+
+  {
+    "LogName": "Dispositions - Poly",
+    "Action": "EditData",
+    "Target": "Data/NPCDispositions",
+    "When": {
+        "Version": "married",
+        "HasSeenEvent": "955807",
+        "Polyamory": "true",
+        },
+    "Entries": {
+        "Alex": "adult/rude/outgoing/positive/male/datable/Jeric/Town/summer 13/George 'grandpa' Evelyn 'grandma' Jeric 'husband' Haley ''/Custom_Ridgeside_JericHouse 20 5/Alex",
+        "Jeric": "teen/polite/neutral/neutral/male/datable/Alex/Town/winter 2/Alex 'husband' Haley ''/Custom_Ridgeside_JericHouse 18 5/Jeric"
+      }
+  },
+
+  {
+    "LogName": "Events",
+    "Action": "Include",
+    "FromFile": "assets/Events/events.json"
+  },
+
+  {
+    "LogName": "General Dialogue",
+    "Action": "Include",
+    "FromFile": "assets/Dialogue/dialogue.json"
+  },
+
+  {
+    "LogName": "Schedules",
+    "Action": "Include",
+    "FromFile": "assets/Schedules/schedules.json"
+  },
+
+  {
+    "LogName": "Alex's Married Dialogue",
+    "Action": "Include",
+    "When": {
+        "Version": "married",
+        "HasSeenEvent": "902207",
+        },
+    "FromFile": "assets/Dialogue/alexmarried.json",
+  },
+
+  {
+    "LogName": "Jeric's Married Dialogue",
+    "Action": "Include",
+    "When": {
+        "Version": "married",
+        "HasSeenEvent": "902207",
+        },
+    "FromFile": "assets/Dialogue/jericmarried.json",
+  },
+
+  {
+    "LogName": "Map Changes",
+    "Action": "EditMap",
+    "Target": "Maps/Custom_Ridgeside_JericHouse",
+    "When": {
+      "Version": "married",
+      "HasSeenEvent": "955807"
+      },
+    "FromFile": "assets/Maps/JericHouse.tmx"
+  },
+
+  {
+      "LogName": "Pixie Outside",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_Ridgeside_RidgesideVillage",
+      "When": {
+        "HasSeenEvent": "955808",
+        "Weather": "Sun, Wind"
+      },
+      "Update": "OnLocationChange, OnTimeChange",
+      "MapTiles": [
+                  {
+          "Position": {
+              "X": "21",
+              "Y": "24"
+              },
+          "Layer": "Back",
+          "SetProperties": {
+          "CustomCompanions": "Spawn 1 Zoedoll.RRHPixie.PixieOutside"
+                     },
+                  },
+               ],
+  },
+
+  {
+      "LogName": "Pixie Inside",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_Ridgeside_JericHouse",
+      "When": {
+        "HasSeenEvent": "955808",
+        "Weather": "Rain, Storm, Snow"
+      },
+      "Update": "OnLocationChange, OnTimeChange",
+      "MapTiles": [
+                  {
+          "Position": {
+              "X": "4",
+              "Y": "6"
+              },
+          "Layer": "Back",
+          "SetProperties": {
+          "CustomCompanions": "Spawn 1 Zoedoll.RRHPixie.PixieInside"
+                     },
+                  },
+               ],
+  }
+
+
+]
+}

@@ -1,0 +1,54 @@
+{
+"Changes": [
+
+  {
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Haley",
+    "Entries": {
+      "AlexJeric1": "Ugh, what do you want?$a#$b#Sorry. Alex is being so weird at the moment, it's left me in a bad mood...$s",
+      "AlexJericMarried": "The wedding was so cute, right? I helped Mrs Mullner with the flowers.$h"
+    }
+  },
+
+  {
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Jeric",
+    "Entries": {
+      "AlexJeric1": "Damn, Alex really blew up at me and Haley... what's his problem?",
+      "AlexJericMarried": "Can't believe I'm a married man! Gotta say, Faye and Emily really helped me nail the fit on those suits. We looked great.$h"
+    }
+  },
+
+  {
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Alex",
+    "Entries": {
+      "AlexJeric1": "I don't want to talk right now. Maybe later. I don't know.$s",
+      "AlexJeric2": "...$a#$b#The annoying thing is... I think you're right.",
+      "AlexJeric3": "Thanks again for the talk! It's given me a lot to think about...",
+      "AlexJericMarried": "Hey, now I'm living with Jeric I guess this means I'm a farmer too!$h"
+    }
+  },
+
+  {
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Evelyn",
+    "Entries": {
+      "AlexJeric1": "Alex hasn't been himself lately. I don't suppose you could have a little chat with him?$s",
+      "AlexJeric2": "Did you talk to Alex? He's been so quiet, like he has something on his mind...",
+      "AlexJeric3": "Did you talk to Alex? He's been so quiet, like he has something on his mind...",
+      "AlexJeric6": "Jeric is such a gentleman!$h#$b#I'm glad Alex is courting a nice boy like him.",
+    }
+  },
+
+  {
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/George",
+    "Entries": {
+      "AlexJeric6": "Hmph. That Jeric lad's been around a lot lately...#$b#He seems alright, I suppose."
+    }
+  },
+
+
+]
+}

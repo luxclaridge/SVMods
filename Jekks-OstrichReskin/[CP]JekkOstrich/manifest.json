@@ -1,0 +1,12 @@
+{
+   "Name": "Jekks Ostrich Reskin",
+   "Author": "JekkBenavu",
+   "Version": "1.21.0",
+   "Description": "Replaces the old ostrich with a new one, Content Patcher version w/ config created by also me. It was hard okay?",
+   "UniqueID": "Jekk.OstrichReskin",
+   "MinimumApiVersion": "2.5",
+   "UpdateKeys": [ "Nexus:7614" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

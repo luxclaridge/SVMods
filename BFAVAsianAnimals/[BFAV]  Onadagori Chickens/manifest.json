@@ -1,0 +1,11 @@
+{
+  "Name": "BFAV Onadagori Chickens",
+  "Author": "stupiddullhans/balveries",
+  "Version": "1.0",
+  "Description": "Adds chickens as coop animals using BFAV.",
+  "UniqueID": "balverines.onadagoribfav",
+  "UpdateKeys": [ "Nexus:6175" ],
+  "ContentPackFor": {
+    "UniqueID": "Paritee.BetterFarmAnimalVariety"
+  }
+}

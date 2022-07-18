@@ -1,0 +1,32 @@
+{
+   "Name": "Jeric and Alex Rival Hearts",
+   "Author": "ZoeDoll",
+   "Version": "1.1",
+   "Description": "A romance between Alex and Jeric (Ridgeside NPC)",
+   "UniqueID": "ZoeDoll.JericAlexRivalHearts",
+   "Dependencies": [
+     {
+      "UniqueID": "Rafseazz.RidgesideVillage"
+      },
+     {
+       "UniqueID": "Lumisteria.LumiTilesheetsIndoor"
+      },
+     {
+       "UniqueID": "gizzymo.canonfriendlyexpansion",
+       "IsRequired": false,
+      },
+     {
+       "UniqueID": "Amaranthacyan.PlatonicPartnersandFriendships",
+       "IsRequired": false
+      },
+      {
+        "UniqueID": "nraittanna.RememberMyBirthday",
+        "IsRequired": false
+       },
+   ],
+   "MinimumApiVersion": "2.0",
+   "UpdateKeys": ["Nexus:9558"],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+   }
+}

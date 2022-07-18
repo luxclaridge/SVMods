@@ -1,0 +1,11 @@
+{
+  "Name": "BFAV ducks",
+  "Author": "stupiddullhans/balverines",
+  "Version": "1.0",
+  "Description": "Adds ducks as coop animals using BFAV.",
+  "UniqueID": "balverines.mandarinbfav",
+  "UpdateKeys": [ "Nexus:6175" ],
+  "ContentPackFor": {
+    "UniqueID": "Paritee.BetterFarmAnimalVariety"
+  }
+}

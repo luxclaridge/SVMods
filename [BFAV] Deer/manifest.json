@@ -1,0 +1,12 @@
+{
+   "Name": "BFAV Deer",
+   "Author": "fablesandfaerietales, eemiestardew",
+   "Version": "1.0.0",
+   "Description": "Adds deer as barn animals using BFAV.",
+   "UniqueID": "fablesandfaerietales.BFAVDeer",
+   "MinimumApiVersion": "2.5",
+   "UpdateKeys": [ "6146" ],
+   "ContentPackFor": {
+      "UniqueID": "Paritee.BetterFarmAnimalVariety"
+   }
+}

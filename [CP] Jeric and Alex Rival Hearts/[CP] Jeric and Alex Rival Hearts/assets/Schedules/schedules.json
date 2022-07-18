@@ -1,0 +1,110 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Alex",
+      "When": {
+        "HasFlag": "AlexJericDating"
+      },
+      "Entries": {
+        "spring_Sat": "800 JoshHouse 8 19 2 alex_football/1000 Town 26 23 1/1500 Beach 42 8 2/2000 JoshHouse 21 4 1 alex_sleep",
+        "summer_Sat": "800 JoshHouse 8 19 2 alex_football/1000 Town 50 68 1/1500 Beach 42 8 2/2000 JoshHouse 21 4 1 alex_sleep",
+        "fall_Sat": "800 JoshHouse 8 19 2 alex_football/1000 Town 26 23 1/1500 Beach 42 8 2/2000 JoshHouse 21 4 1 alex_sleep",
+        "winter_Sat": "800 JoshHouse 8 19 2 alex_football/1000 Town 50 68 1/1500 Saloon 25 1 2/2000 JoshHouse 21 4 1 alex_sleep"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Jeric",
+      "When": {
+        "HasFlag": "AlexJericDating"
+      },
+      "Entries": {
+        "spring_Sat": "800 Town 27 23 3/1500 Beach 41 8 2/2000 Custom_Ridgeside_JericHouse 18 5 0 jeric_sleep",
+        "summer_Sat": "800 Town 50 67 1/1500 Beach 41 8 2/2000 Custom_Ridgeside_JericHouse 18 5 0 jeric_sleep",
+        "fall_Sat": "800 Town 27 23 3/1500 Beach 41 8 2/2000 Custom_Ridgeside_JericHouse 18 5 0 jeric_sleep",
+        "winter_Sat": "800 Town 50 67 1/1500 Saloon 25 22 0/2000 Custom_Ridgeside_JericHouse 18 5 0 jeric_sleep"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Alex",
+      "When": {
+        "Version": "married",
+        "HasFlag": "AlexJericMarried"
+      },
+      "Entries": {
+        "spring": "0 Custom_Ridgeside_JericHouse 20 5 0/800 Custom_Ridgeside_LogCabinHotel3rdFloor 18 7 2 alex_lift_weights/1500 Custom_Ridgeside_RidgesideVillage 23 23 0/2000 Custom_Ridgeside_JericHouse 20 5 0 alex_sleep",
+        "summer": "0 Custom_Ridgeside_JericHouse 20 5 0/610 Beach 30 13 2 square_7_7/1000 Town 88 91 2/1700 BathHouse_MensLocker 3 5 2 alex_lift_weights/2000 Custom_Ridgeside_JericHouse 20 5 0 alex_sleep",
+        "fall": "0 Custom_Ridgeside_JericHouse 20 5 0/800 Custom_Ridgeside_LogCabinHotel3rdFloor 18 7 2 alex_lift_weights/1500 Custom_Ridgeside_RidgesideVillage 23 23 0/2000 Custom_Ridgeside_JericHouse 20 5 0 alex_sleep",
+        "winter": "0 Custom_Ridgeside_JericHouse 20 5 0/800 Custom_Ridgeside_LogCabinHotel3rdFloor 18 7 2 alex_lift_weights/1500 JoshHouse 14 5 2/2000 Custom_Ridgeside_JericHouse 20 5 0 alex_sleep",
+        "rain": "0 Custom_Ridgeside_JericHouse 20 5 0/800 Custom_Ridgeside_LogCabinHotel3rdFloor 18 7 2 alex_lift_weights/2000 Custom_Ridgeside_JericHouse 20 5 0 alex_sleep",
+        "Mon": "0 Custom_Ridgeside_JericHouse 20 5 0/800 JoshHouse 6 18 2/2000 Custom_Ridgeside_JericHouse 20 5 0 alex_sleep",
+        "Sun": "0 Custom_Ridgeside_JericHouse 20 5 0/800 JoshHouse 6 18 2/2000 Custom_Ridgeside_JericHouse 20 5 0 alex_sleep",
+        "Wed": "0 Custom_Ridgeside_JericHouse 20 5 0/800 Town 64 64 2 alex_football/1200 HaleyHouse 7 23 3 alex_sit_left/1630 Town 50 68 1/2000 Custom_Ridgeside_JericHouse 20 5 0 alex_sleep",
+        "summer_16": "0 Custom_Ridgeside_JericHouse 20 5 0/800 Hospital 15 15 3 alex_sit_left \"Strings\\schedules\\Alex:summer_16.000\"/1330 Hospital 4 6 1 \"Strings\\schedules\\Alex:summer_16.001\"/1600 JoshHouse 6 18 2/2000 Custom_Ridgeside_JericHouse 20 5 0 alex_sleep",
+        "winter_17": "0 Custom_Ridgeside_JericHouse 20 5 0/800 Custom_Ridgeside_LogCabinHotel3rdFloor 18 7 2 alex_lift_weights/1500 Beach 27 24 1 \"Strings\\schedules\\Alex:winter_17.000\"/2200 Custom_Ridgeside_JericHouse 20 5 0 alex_sleep",
+        "spring_Sat": "0 Custom_Ridgeside_JericHouse 20 5 0/800 Town 26 23 1/1500 Beach 42 8 2/2000 Custom_Ridgeside_JericHouse 20 5 0 alex_sleep",
+        "summer_Sat": "0 Custom_Ridgeside_JericHouse 20 5 0/800 Town 50 68 1/1500 Beach 42 8 2/2000 Custom_Ridgeside_JericHouse 20 5 0 alex_sleep",
+        "fall_Sat": "0 Custom_Ridgeside_JericHouse 20 5 0/800 Town 26 23 1/1500 Beach 42 8 2/2000 Custom_Ridgeside_JericHouse 20 5 0 alex_sleep",
+        "winter_Sat": "0 Custom_Ridgeside_JericHouse 20 5 0/800 Town 50 68 1/1500 Saloon 25 1 2/2000 Custom_Ridgeside_JericHouse 20 5 0 alex_sleep"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Jeric",
+      "When": {
+        "Version": "married",
+        "HasFlag": "AlexJericMarried"
+      },
+      "Entries": {
+        "spring": "610 Custom_Ridgeside_RidgesideVillage 19 27 3 square_1_5_3/900 Custom_Ridgeside_JericHouse 2 13 2/1800 Custom_Ridgeside_RidgesideVillage 38 28 0 square_3_1_0/2000 Custom_Ridgeside_JericHouse 18 5 0 jeric_sleep",
+        "summer": "610 Custom_Ridgeside_RidgesideVillage 19 27 3 square_1_5_3/900 Custom_Ridgeside_JericHouse 2 13 2/1800 Custom_Ridgeside_RidgesideVillage 38 28 0 square_3_1_0/2000 Custom_Ridgeside_JericHouse 18 5 0 jeric_sleep",
+        "fall": "610 Custom_Ridgeside_RidgesideVillage 19 27 3 square_1_5_3/900 Custom_Ridgeside_JericHouse 2 13 2/1800 Custom_Ridgeside_RidgesideVillage 38 28 0 square_3_1_0/2000 Custom_Ridgeside_JericHouse 18 5 0 jeric_sleep",
+        "winter": "610 Custom_Ridgeside_RidgesideVillage 11 26 3/900 Custom_Ridgeside_JericHouse 2 13 2/1800 Custom_Ridgeside_RidgesideVillage 39 20 3/2000 Custom_Ridgeside_JericHouse 18 5 0 jeric_sleep",
+        "rain": "610 Custom_Ridgeside_RidgesideVillage 39 20 3/900 Custom_Ridgeside_JericHouse 2 13 2/1800 Custom_Ridgeside_JericHouse 12 5 0/2000 Custom_Ridgeside_JericHouse 18 5 0 jeric_sleep",
+        "spring_Sat": "800 Town 27 23 3/1500 Beach 41 8 2/2000 Custom_Ridgeside_JericHouse 18 5 0 jeric_sleep",
+        "summer_Sat": "800 Town 50 67 1/1500 Beach 41 8 2/2000 Custom_Ridgeside_JericHouse 18 5 0 jeric_sleep",
+        "fall_Sat": "800 Town 27 23 3/1500 Beach 41 8 2/2000 Custom_Ridgeside_JericHouse 18 5 0 jeric_sleep",
+        "winter_Sat": "800 Town 50 67 1/1500 Saloon 25 22 0/2000 Custom_Ridgeside_JericHouse 18 5 0 jeric_sleep",
+        "Tue": "800 Town 27 23 2/1500 Beach 41 8 2/1900 Custom_Ridgeside_JericHouse 18 5 0 jeric_sleep",
+        "Thu": "610 Custom_Ridgeside_RidgesideVillage 19 27 3 square_1_5_3/800 SeedShop 6 19 0/1300 Custom_Ridgeside_RidgesideVillage 38 28 0 square_3_1_0/2000 Custom_Ridgeside_JericHouse 18 5 0 jeric_sleep",
+        "winter_17": "610 Custom_Ridgeside_RidgesideVillage 11 26 3/900 Custom_Ridgeside_JericHouse 2 13 2/1200 Beach 11 30 3/2600 Custom_Ridgeside_JericHouse 18 5 0 jeric_sleep"
+      }
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Alex",
+      "When": {
+        "Version": "married",
+        "HasSeenEvent": "902208",
+        "HasMod |contains=nraittanna.RememberMyBirthday": true,
+        "Weather": "rain, storm"
+          },
+      "Entries":  {
+        "spring_14": "0 Custom_Ridgeside_JericHouse 20 5 0/800 Custom_Ridgeside_RidgesideVillage 23 23 0/1200 HaleyHouse 5 8 3 \"Strings\\schedules\\Alex:spring.114\"/2000 Custom_Ridgeside_JericHouse 20 5 0 alex_sleep",
+        "summer_13": "0 Custom_Ridgeside_JericHouse 20 5 0/610 Beach 30 13 2 square_7_7/1100 HaleyHouse 5 6 1 \"Strings\\schedules\\Alex:summer.113\"/1600 JoshHouse JoshHouse 8 19 2/2000 JoshHouse 1 20 1 \"Strings\\schedules\\Alex:summer.013\"/2230 Custom_Ridgeside_JericHouse 20 5 0 alex_sleep",
+        "fall_24": "0 Custom_Ridgeside_JericHouse 20 5 0/800 Custom_Ridgeside_RidgesideVillage 23 23 0/1100 JoshHouse 5 20 3 \"Strings\\schedules\\Alex:fall.024\"/1550 Town 50 68 1/1840 JoshHouse 8 19 2/2000 Custom_Ridgeside_JericHouse 20 5 0 alex_sleep",
+        "winter_20": "0 Custom_Ridgeside_JericHouse 20 5 0/800 Custom_Ridgeside_RidgesideVillage 23 23 0/1000 JoshHouse 5 20 3 \"Strings\\schedules\\Alex:winter.020\"/1650 JoshHouse 14 5 2/1800 Town 50 68 1/1930 JoshHouse 8 19 2/2100 Custom_Ridgeside_JericHouse 20 5 0 alex_sleep"
+        }
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Alex",
+      "When": {
+        "Version": "married",
+        "HasSeenEvent": "902208",
+        "HasMod |contains=nraittanna.RememberMyBirthday": true,
+        "Weather": "sun, wind"
+          },
+      "Entries":  {
+        "spring_14": "0 Custom_Ridgeside_JericHouse 20 5 0/800 Custom_Ridgeside_RidgesideVillage 23 23 0/1200 Beach 17 8 3 \"Strings\\schedules\\Alex:spring.114\"/2000 Custom_Ridgeside_JericHouse 20 5 0 alex_sleep",
+        "summer_13": "0 Custom_Ridgeside_JericHouse 20 5 0/610 Beach 30 13 2 square_7_7/1100 Beach 15 8 1 \"Strings\\schedules\\Alex:summer.113\"/1600 JoshHouse JoshHouse 8 19 2/2000 JoshHouse 1 20 1 \"Strings\\schedules\\Alex:summer.013\"/2230 Custom_Ridgeside_JericHouse 20 5 0 alex_sleep",
+        "fall_24": "0 Custom_Ridgeside_JericHouse 20 5 0/800 Custom_Ridgeside_RidgesideVillage 23 23 0/1100 JoshHouse 5 20 3 \"Strings\\schedules\\Alex:fall.024\"/1550 Town 50 68 1/1840 JoshHouse 8 19 2/2000 Custom_Ridgeside_JericHouse 20 5 0 alex_sleep",
+        "winter_20": "0 Custom_Ridgeside_JericHouse 20 5 0/800 Custom_Ridgeside_RidgesideVillage 23 23 0/1000 JoshHouse 5 20 3 \"Strings\\schedules\\Alex:winter.020\"/1650 JoshHouse 14 5 2/1800 Town 50 68 1/1930 JoshHouse 8 19 2/2100 Custom_Ridgeside_JericHouse 20 5 0 alex_sleep"
+        }
+    }
+  ]
+}

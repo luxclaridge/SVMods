@@ -1,0 +1,18 @@
+{
+    "Name": "Pied Feather",
+    "Description": "A large decorative feather.",
+    "Category": "AnimalGoods",
+    "Edibility": -300,
+    "Price": 220,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes":
+    {
+        "Love": ["Elliott", "Sophia"],
+		"Like": ["Emily", "Leah", "Haley"],
+        "Dislike": ["Alex"],
+    },
+       "ContextTags": [
+        "color_white",
+    ]
+}

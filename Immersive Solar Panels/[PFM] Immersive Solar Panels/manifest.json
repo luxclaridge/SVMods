@@ -1,0 +1,11 @@
+{
+	"Name": "[PFM] Immersive Solar Panels",
+	"Author": "ForryS",
+	"Version": "1.0.0",
+	"Description": "Adds solar panels which produce batteries without the need for stormy weather.",
+	"UniqueID": "forrys.pfm.imsopanels",
+	"UpdateKeys": [ "Nexus:8789" ],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.ProducerFrameworkMod"
+	}
+}

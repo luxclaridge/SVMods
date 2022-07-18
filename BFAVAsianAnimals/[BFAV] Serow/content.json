@@ -1,0 +1,33 @@
+{
+	"Format": "1.0",
+	"Categories": [
+		{
+			"Action": "Create",
+			"Category": "Serow",
+			"Types": [
+				{
+					"Type": "Serow",
+					"DeluxeProduceLuck": 0.2,
+					"Data": "2/5/436/438/goat/24/64/84/64/24/64/84/64/1/false/Barn/32/32/32/32/10/5/Milk Pail/644/4000/Serow/Barn",
+					"Sprites": {
+						"Adult": "assets/serow.png",
+						"Baby": "assets/kid.png"
+					}
+				},
+			],
+			"Buildings": [
+				"Deluxe Barn",
+			],
+			"AnimalShop": {
+				"Name": "Serow",
+				"Description": "A type of Asian goat that will produce milk.",
+				"Price": 5000,
+				"Icon": "assets\\animal_shop_serow.png",
+			},
+			"ForceRemoveFromShop": false,
+			"ForceOverrideTypes": true,
+			"ForceOverrideBuildings": true,
+			"ForceOverrideExclude": true
+		}
+	]
+}

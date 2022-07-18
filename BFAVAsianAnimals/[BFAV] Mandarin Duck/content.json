@@ -1,0 +1,45 @@
+{
+	"Format": "1.0",
+	"Categories": [
+		{
+			"Action": "Create",
+			"Category": "Mandarin Duck",
+			"Types": [
+				{
+					"Type": "Hen Mandarin Duck",
+					"DeluxeProduceLuck": 0.2,
+					"Data": "2/5/442/444/Duck/36/64/64/64/36/64/64/64/0/false/Coop/16/16/16/16/15/5/null/639/1000/Hen Mandarin Duck/Coop",
+					"Sprites": {
+						"Adult": "assets/female.png",
+						"Baby": "assets/duckling.png"
+					}
+				},
+				{
+					"Type": "Drake Mandarin Duck",
+					"DeluxeProduceLuck": 0.2,
+					"Data": "2/5/685/774/Duck/36/64/64/64/36/64/64/64/0/false/Coop/16/16/16/16/15/5/null/639/1000/Drake Mandarin Duck/Coop",
+					"Sprites": {
+						"Adult": "assets/male.png",
+						"Baby": "assets/duckling.png"
+					}
+				},
+			],
+			"Buildings": [
+				"Deluxe Coop",
+			],
+			"AnimalShop": {
+				"Name": "Mandarin Duck",
+				"Description": "A beautiful water fowl.",
+				"Price": 2500,
+				"Icon": "assets\\animal_shop_mandarin.png",
+				"Exclude": [
+					"Void Chicken"
+				]
+			},
+			"ForceRemoveFromShop": false,
+			"ForceOverrideTypes": true,
+			"ForceOverrideBuildings": true,
+			"ForceOverrideExclude": true
+		}
+	]
+}

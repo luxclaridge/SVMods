@@ -1,0 +1,13 @@
+{
+   "Name": "Improved Clint",
+   "Author": "SoftPandaBoi",
+   "Version": "1.1.10",
+   "Description": "Tries to improve on Clint by giving him sort of a character arc and more of a personality.",
+   "UniqueID": "SoftPandaBoi.ImprovedClint",
+   "MinimumApiVersion": "3.12.2",
+   "UpdateKeys": ["Nexus:10048"],
+   "ContentPackFor": {
+    	"UniqueID": "Pathoschild.ContentPatcher",
+    	"MinimumVersion": "1.23.0"
+   }
+}

@@ -1,0 +1,17 @@
+﻿{
+  "Name": "[JA] Immersive Solar Panels",
+  "Author": "ForryS",
+  "Version": "1.0.0",
+  "Description": "Adds solar panels which produce batteries without the need for stormy weather.",
+  "UniqueID": "forrys.ja.imsopanels",
+  "UpdateKeys": [ "Nexus:8789" ],
+  "ContentPackFor": {
+		"UniqueID": "spacechase0.JsonAssets"
+	},
+	"Dependencies": [
+	{
+		"UniqueID": "forrys.pfm.imsopanels",
+		"IsRequired": "true"
+	}
+ ]
+}

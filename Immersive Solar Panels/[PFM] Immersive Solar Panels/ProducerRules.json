@@ -1,0 +1,18 @@
+[
+	{
+		"ProducerName": "Iridium Solar Panel",
+		"InputIdentifier": null,
+		"MinutesUntilReady": 2560,
+		"OutputIdentifier": 787,
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+	},
+	{
+		"ProducerName": "Radioactive Solar Panel",
+		"InputIdentifier": null,
+		"MinutesUntilReady": 720,
+		"OutputIdentifier": 787,
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+	}
+]

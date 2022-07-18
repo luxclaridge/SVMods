@@ -1,0 +1,36 @@
+{
+	"Format": "1.0",
+	"Categories": [
+		{
+			"Action": "Create",
+			"Category": "Lady Amherst's Pheasant",
+			"Types": [
+				{
+					"Type": "Lady Amherst's Pheasant",
+					"DeluxeProduceLuck": 0.2,
+					"Data": "1/5/176/174/cluck/36/64/64/64/36/64/64/64/0/false/Coop/16/16/16/16/15/5/null/639/1000/Lady Amherst's Pheasant/Coop",
+					"Sprites": {
+						"Adult": "assets/pheasant.png",
+						"Baby": "assets/voidchick.png"
+					}
+				},
+			],
+			"Buildings": [
+				"Deluxe Coop",
+			],
+			"AnimalShop": {
+				"Name": "Lady Amherst's Pheasant",
+				"Description": "A beautiful game fowl.",
+				"Price": 3000,
+				"Icon": "assets\\animal_shop_pheasant.png",
+				"Exclude": [
+					"Void Chicken"
+				]
+			},
+			"ForceRemoveFromShop": false,
+			"ForceOverrideTypes": true,
+			"ForceOverrideBuildings": true,
+			"ForceOverrideExclude": true
+		}
+	]
+}

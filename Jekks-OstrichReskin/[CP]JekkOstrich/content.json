@@ -1,0 +1,16 @@
+{
+   "Format": "1.21.0",
+   "Changes": [
+      {
+         "Action": "Load",
+         "Target": "Animals/BabyOstrich",
+         "FromFile": "assets/BabyOstrich.png"
+      },
+
+      {
+         "Action": "EditImage",
+         "Target": "Animals/Ostrich",
+         "FromFile": "assets/Ostrich.png"
+      },
+   ]
+}

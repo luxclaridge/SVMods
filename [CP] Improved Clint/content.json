@@ -1,0 +1,208 @@
+{
+	"Format": "1.23.0",
+	"Changes": [
+        {
+            "LogName": "Disposition",
+            "Action": "EditData",
+            "Target": "Data/NPCDispositions",
+            "Fields": {      
+                "Clint": {
+                    5: "datable",
+                }
+            },
+            "When": {
+                "HasSeenEvent": "100480003"
+            },
+            "Update": "OnLocationChange"
+        },
+        {
+            "LogName": "Portraits",
+            "Action": "Load",
+            "Target": "Portraits/Clint",
+            "FromFile": "assets/portraits/Clint.png"
+        },
+        {
+            "LogName": "Sprites",
+            "Action": "Load",
+            "Target": "Characters/Clint",
+            "FromFile": "assets/sprites/Clint.png",
+            "When": {
+                "HasMod |contains=DSVTeam.DiverseSeasonalOutfits.WillyClintLinus": false
+            }
+        },
+        {
+            "LogName": "Blacksmith Sprites",
+            "Action": "EditImage",
+            "Target": "Characters/Clint",
+            "FromFile": "assets/sprites/Clint_Forge.png",
+            "ToArea": { "X": 0, "Y": 128, "Width": 64, "Height": 224 },
+            "When": {
+                "LocationName": "Blacksmith",
+                "HasMod |contains=DSVTeam.DiverseSeasonalOutfits.WillyClintLinus": false
+            },
+            "Update": "OnLocationChange"
+        },
+        {
+            "LogName": "Mail",
+            "Action": "EditData",
+            "Target": "data/mail",
+            "Entries": {
+                "MC_HarveysPlan": "Hey @,^^You're close to Clint right? As you might've noticed, he's not in a good place emotionally. I belive that it is in his best interests to go to therapy. I've brought this up to him a few times but he never listens to me. Do you think you could help me convince him? I've asked him to come to the clinic, tomorrow at 1pm. I hope to see you there.^^Harvey[#]Harvey's Plan",
+                "MC_ClintScared": "Hi @^^ Uhm, it's Clint. I'm writing you this letter because... Well, I have therapy tomorrow and I'm kind of scared. C-Can you meet me at the BusStop tomorrow at around 4pm? I just need someone to give me that last push I need. Thanks.[#]Pre-therapy Anxiety"
+            }
+        },
+        {
+            "LogName": "Engagement Dialogue",
+            "Action": "EditData",
+            "Target": "Data/EngagementDialogue",
+            "Entries": {
+                "Clint0": "Uhm, I never thought this would happen... Thank you.",
+                "Clint1": "I'm just so excited!$1"
+            }
+        },
+        {
+            "LogName": "Dialogue",
+            "Action": "Include",
+            "FromFile": "assets/dialogue/dialogue.json"
+        },
+        {
+            "LogName": "Ginger Island Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Clint",
+            "Entries": {
+                "Resort_Leaving": "Well, that didn't turn out like I was imagining, but it was still fun.",
+                "Resort_Shore": "H-Heh... The sand is so hot... I should've brought sandles!",
+                "Resort": "I don't really know what to do here... But it's always nice to just take a break.",
+            },
+            "When": {
+                "Hearts:Clint": "6, 7, 8, 9, 10"
+            }
+        },
+        {
+            "LogName": "Ginger Island Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Clint",
+            "Entries": {
+                "Resort_Chair": "I finally remembered to bring sunscreen...",
+                "Resort": "@! It's nice to see you here! Wanna hang out?",
+            },
+            "When": {
+                "HasSeenEvent": "10048003",
+                "Hearts:Clint": "9, 10, 11, 12, 13, 14"
+            }
+        },
+        {
+            "LogName": "Marriage Dialogue",
+            "Action": "Load",
+            "Target": "Characters/Dialogue/MarriageDialogueClint",
+            "FromFile": "assets/dialogue/marriageDialogue.json"
+        },
+        {
+            "LogName": "Marriage Schedule",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Clint",
+            "Entries": {
+                "marriage_Mon": "700 Blacksmith 3 13 2/1500 BusStop -1 23 3",
+                "marriage_Tue": "700 Blacksmith 3 13 2/1500 BusStop -1 23 3",
+                "marriage_Wed": "700 Blacksmith 3 13 2/1500 BusStop -1 23 3",
+                "marriage_Fri": "850 CommunityCenter 62 14 0/1700 Saloon 19 23 3/2400 BusStop -1 23 3",
+                "CommunityCenter_Replacement": "JojaMart 27 5 0"
+                }
+        },
+        {
+            "LogName": "Marriage Schedule",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Clint",
+            "Entries": {
+                "Thu": "1100 LeahHouse  8 7 0/1400 BusStop -1 23 3",
+            },
+            "When": {
+                "Hearts:Clint": "14",
+                "Hearts:Leah": "6, 7, 8, 9, 10, 11, 12, 13, 14"
+            }
+        },
+        {
+            "LogName": "Spouse Room",
+            "Action": "EditData",
+            "Target": "Data/SpouseRooms",
+            "Entries": {
+                "Clint": "Custom_ClintsSpouseRoom/0"
+            }
+        },
+        {
+            "LogName": "Spouse Room",
+            "Action": "Load",
+            "Target": "Maps/Custom_ClintsSpouseRoom",
+            "FromFile": "assets/maps/SpouseRoom.tmx"
+        },
+        {
+            "LogName": "Spouse Room",
+            "Action": "Load",
+            "Target": "Maps/Custom_ClintsSpouseRoom",
+            "FromFile": "assets/maps/SpouseRoomFinal.tmx",
+            "When": {
+                "HasSeenEvent": "100480013"
+            }
+        },
+        {
+            "LogName": "Spouse Patio",
+            "Action": "EditData",
+            "Target": "Data/SpousePatios",
+            "Entries": {
+                "Clint": "Custom_ClintsSpousePatio/0/16 16 16 17 17 17 18 18 18 17 17 17 19 19 19 17 17 17 16 16 16/0 0"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/Custom_ClintsSpousePatio",
+            "FromFile": "assets/maps/spousePatio.tmx"
+        },
+        {
+            "LogName": "Events",
+            "Action": "Include",
+            "FromFile": "assets/events.json"
+        },
+        {
+            "Logname": "Events",
+            "Action": "EditData",
+            "Target": "Data/Events/Blacksmith",
+            "Entries": {
+                "100480015": "none/7 14/farmer 5 19 0 Clint 3 13 2/skippable/pause 150/move farmer 0 -2 0/pause 150/move farmer -2 0 3/pause 150/move farmer 0 -2 0/speak Clint \"Oh, @! Are you going to get the Amethyst for Emily?\"/question fork1 \"...#Yeah#It's kind of creepy to get me to do it for you...\"/fork CreepQuest/pause 150/speak Clint \"Oh great! Thanks @!$1\"/friendship Clint 50/end",
+                "CreepQuest": "pause 150/speak Clint \"W-What! But...$10\"/showFrame Clint 51/emote Clint 12/pause 150/speak Clint \"...You're right *sigh*$2\"/pause 150/speak Clint \"Can you give it to her anyways? J-Just don't tell her it was from me.$11\"/pause 150/speak Clint \"...Thanks$2\"/friendship Clint 150/addMailReceived MC_ClintCreepyQuest/addConversationTopic MC_ClintRealizesCreep/end"
+            },
+            "When": {
+                "HasActiveQuest": "110"
+            }
+        },
+        {
+            "LogName": "Quest Event",
+            "Action": "EditData",
+            "Target": "Data/Quests",
+            "Fields": {
+                "110": {
+                    2: "Clint wants you to give Emily an amethyst.",
+                    9: "Oh, my favorite stone! You're so sweet!$h#$b#It's beautiful! Thank you! *smooch*$h",
+                }
+            },
+            "When": {
+                "HasFlag": "MC_ClintCreepyQuest"
+            }
+        },
+        {
+            "LogName": "Quest Event",
+            "Action": "EditData",
+            "Target": "Data/Quests",
+            "Fields": {
+                "110": {
+                    2: "Clint wants you to get him an amethyst",
+                    3: "Bring Clint an Amethyst.",
+                    4: "Clint 66",
+                    9: "Oh! Thanks @! I'm going to give this to Emily, to apologize for how I've acted around her...",
+                }
+            },
+            "When": {
+                "HasSeenEvent": "100480003"
+            }
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+  "Name": "BFAV pheasants",
+  "Author": "stupiddullhans/balverines",
+  "Version": "1.0",
+  "Description": "Adds pheasants as coop animals using BFAV.",
+  "UniqueID": "balverines.pheasatbfav",
+  "UpdateKeys": [ "Nexus:6175" ],
+  "ContentPackFor": {
+    "UniqueID": "Paritee.BetterFarmAnimalVariety"
+  }
+}

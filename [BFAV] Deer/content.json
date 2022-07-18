@@ -1,0 +1,38 @@
+{
+	"Format": "1.0",
+	"Categories": [
+       // Deer for BFAV
+		{
+			"Action": "Create",
+			"Category": "Deer",
+			"Types": [
+				{
+					"Type": "Deer",
+					"DeluxeProduceLuck": 1.0,
+					"Data": "2/10/436/438/goat/24/64/84/64/24/64/84/64/1/false/Barn/32/32/32/32/10/5/Milk Pail/644/6000/Deer/Barn",
+					"Sprites": {
+						"Adult": "assets/Deer.png",
+						"Baby": "assets/BabyDeer.png"
+					}
+				}
+			],
+			"Buildings": [
+				"Big Barn",
+				"Deluxe Barn",
+			],
+			"AnimalShop": {
+				"Name": "Deer",
+				"Description": "These docile deer love wandering and produce gourmet milk if treated well!",
+				"Price": 6000,
+				"Icon": "assets\\animal_shop_deer.png",
+				"Exclude": [
+					"Void Chicken"
+				]
+			},
+			"ForceRemoveFromShop": false,
+			"ForceOverrideTypes": true,
+			"ForceOverrideBuildings": true,
+			"ForceOverrideExclude": true
+		}
+	]
+}

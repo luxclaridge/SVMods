@@ -1,0 +1,42 @@
+{
+	"Format": "1.0",
+	"Categories": [
+		{
+			"Action": "Create",
+			"Category": "Zebu",
+			"Types": [
+				{
+					"Type": "Belted Zebu",
+					"DeluxeProduceLuck": 0.2,
+					"Data": "1/5/184/186/cow/36/64/64/64/36/64/64/64/1/false/Barn/32/32/32/32/15/5/Milk Pail/639/1500/Belted Zebu/Barn",
+					"Sprites": {
+						"Adult": "assets/beltedzebu.png",
+						"Baby": "assets/beltedcalf.png"
+					}
+				},
+				{
+					"Type": "Freckled Zebu",
+					"DeluxeProduceLuck": 0.2,
+					"Data": "1/5/184/186/cow/36/64/64/64/36/64/64/64/1/false/Barn/32/32/32/32/15/5/Milk Pail/639/1500/Freckled Zebu/Coop",
+					"Sprites": {
+						"Adult": "assets/freckledzebu.png",
+						"Baby": "assets/freckledcalf.png"
+					}
+				},
+			],
+			"Buildings": [
+				"Deluxe Barn",
+			],
+			"AnimalShop": {
+				"Name": "Zebu",
+				"Description": "A type of cow from Asia.",
+				"Price": 5000,
+				"Icon": "assets\\animal_shop_zebu.png",
+			},
+			"ForceRemoveFromShop": false,
+			"ForceOverrideTypes": true,
+			"ForceOverrideBuildings": true,
+			"ForceOverrideExclude": true
+		}
+	]
+}

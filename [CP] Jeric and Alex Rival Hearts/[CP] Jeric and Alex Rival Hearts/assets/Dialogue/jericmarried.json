@@ -1,0 +1,25 @@
+{
+"Changes": [
+  {
+  "Action": "EditData",
+  "Target": "Characters/Dialogue/Jeric",
+  "Entries": {
+    "Mon8": "{{Random:Hey there, @. I gotta say, you're looking good.#$b#All that hard work on the farm, huh?$h ++ I need to check up on George and Evelyn sometime this week.... got any tips for winning the old guy over?$h|inputSeparator=++}}",
+    "Tue8": "{{Random:It's hard to make a profit with chickens when Alex keeps eating all the eggs...$s#$b#Worth it to see those muscles, though.$7++Well, look who it is!$h#$b#How's it going? We should hang out some time. I wanna show you some new designs I made!|inputSeparator=++}}",
+    "Wed8": "{{Random:Oh, hi! How have you been lately?#$b#Anything exciting going on?#$e#We should grab coffee or a drink sometime when we're not both working.++Been a real busy week so far for me - I'm definitely looking forward to a nice night in with the husband. Never thought I'd be this much of a homebody!$h|inputSeparator=++}}",
+    "Thu8": "{{Random:It took Seb a good while to finally warm up to me.$h#$b#He can be very shy around people he doesn't know.#$e#He's a good person, though.$h#$b#Don't let his shyness put you off, ok?$h++Hmm, maybe when I go visit Mr and Mrs Mullner I can pick up some spaghetti from the saloon on the way back.#$e#Pika's a genius in the kitchen but Gus really knows his pasta!$h|inputSeparator=++}}",
+    "Fri8": "{{Random:Can you believe that Alex has never been to a club? I need to take him to downtown Zuzu and get him on the dancefloor!$h#$e#Not this weekend though. Way too much to do on the farm...++Hey, let me know if you need any help around the farm.$h#$b#I know you got it, but it never hurts to help each other out, right?|inputSeparator=++}}",
+    "Sat8": "{{Random:Haley visited the other day and we talked about what's been going on lately.#$e#She's real sweet once you get to know her.#$b#She's got a soft spot for sunflowers, funny enough.$h++Ah, it's good to take a day off and just relax with people you care about.#$b#Not everything's about the hustle, right?$h|inputSeparator=++}}",
+    "Sun8": "{{Random:My farm is doing great!$h#$b#Amazing harvest this week, turned a tidy profit.#$e#How about you? Anything neat happen last week?++Wish I could stop to chat for longer, but I've got to get back to work.#$b#No rest for the wicked, right?$7}}",
+    "Mon10": "{{Random:Hey there, @. I gotta say, you're looking good.$6#$b#All that hard work on the farm, huh? ++ I need to check up on George and Evelyn sometime this week.... got any tips for winning the old guy over?$h|inputSeparator=++}}",
+    "Tue10": "{{Random:It's hard to make a profit with chickens when Alex keeps eating all the eggs...$s#$b#Worth it to see those muscles, though.$7++Well, look who it is!$h#$b#How's it going? We should hang out some time. I wanna show you some new designs I made!|inputSeparator=++}}",
+    "Wed10": "{{Random:Oh, hi! How have you been lately?#$b#Anything exciting going on?#$e#We should grab coffee or a drink sometime when we're not both working.++Been a real busy week so far for me - I'm definitely looking forward to a nice night in with the husband. Never thought I'd be this much of a homebody!$h|inputSeparator=++}}",
+    "Thu10": "{{Random:It took Seb a good while to finally warm up to me.$h#$b#He can be very shy around people he doesn't know.#$e#He's a good person, though.$h#$b#Don't let his shyness put you off, ok?$h++Hmm, maybe when I go visit Mr and Mrs Mullner I can pick up some spaghetti from the saloon on the way back.#$e#Pika's a genius in the kitchen but Gus really knows his pasta!$h|inputSeparator=++}}",
+    "Fri10": "{{Random:Can you believe that Alex has never been to a club? I need to take him to downtown Zuzu and get him on the dancefloor!$h#$e#Not this weekend though. Way too much to do on the farm...++Hey, let me know if you need any help around the farm.$h#$b#I know you got it, but it never hurts to help each other out, right?|inputSeparator=++}}",
+    "Sat10": "{{Random:Haley visited the other day and we talked about what's been going on lately.#$e#She's real sweet once you get to know her.#$b#She's got a soft spot for sunflowers, funny enough.$h++Ah, it's good to take a day off and just relax with people you care about.#$b#Not everything's about the hustle, right?$h|inputSeparator=++}}",
+    "Sun10": "{{Random:My farm is doing great!$h#$b#Amazing harvest this week, turned a tidy profit.#$e#How about you? Anything neat happen last week?++Wish I could stop to chat for longer, but I've got to get back to work.#$b#No rest for the wicked, right?$7}}",
+  }
+},
+
+]
+}

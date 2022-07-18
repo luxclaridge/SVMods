@@ -1,0 +1,11 @@
+{
+  "Name": "BFAV serows",
+  "Author": "stupiddullhans/balverines",
+  "Version": "1.0",
+  "Description": "Adds Serow goats using BFAV.",
+  "UniqueID": "balverines.serowbfav",
+  "UpdateKeys": [ "Nexus:6175" ],
+  "ContentPackFor": {
+    "UniqueID": "Paritee.BetterFarmAnimalVariety"
+  }
+}

@@ -1,0 +1,36 @@
+{
+	"Format": "1.0",
+	"Categories": [
+		{
+			"Action": "Create",
+			"Category": "Chabo Chicken",
+			"Types": [
+				{
+					"Type": "Chabo Chicken",
+					"DeluxeProduceLuck": 0.2,
+					"Data": "1/5/176/174/cluck/36/64/64/64/36/64/64/64/0/false/Coop/16/16/16/16/15/5/null/639/1000/Chabo Chicken/Coop",
+					"Sprites": {
+						"Adult": "assets/Chabo.png",
+						"Baby": "assets/whitechick.png"
+					}
+				},
+			],
+			"Buildings": [
+				"Deluxe Coop",
+			],
+			"AnimalShop": {
+				"Name": "Chabo Chicken",
+				"Description": "A fancy type of chicken.",
+				"Price": 2500,
+				"Icon": "assets\\animal_shop_chabo.png",
+				"Exclude": [
+					"Void Chicken"
+				]
+			},
+			"ForceRemoveFromShop": false,
+			"ForceOverrideTypes": true,
+			"ForceOverrideBuildings": true,
+			"ForceOverrideExclude": true
+		}
+	]
+}

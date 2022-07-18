@@ -309,6 +309,569 @@
       }
     },
     {
+      "Category": "Canary",
+      "Types": [
+        {
+          "Data": "1/3/176/174/detector/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/4/7/null/641/1500/Yellow Canary/Coop",
+          "DeluxeProduceLuck": 0.02,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Arrbyte's Canaries\\[BFAV] Canary\\assets/yellowCanary.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Arrbyte's Canaries\\[BFAV] Canary\\assets/baby_Yellow.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Yellow Canary"
+        },
+        {
+          "Data": "1/3/176/174/detector/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/4/7/null/641/1500/Red Canary/Coop",
+          "DeluxeProduceLuck": 0.02,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Arrbyte's Canaries\\[BFAV] Canary\\assets/redCanary.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Arrbyte's Canaries\\[BFAV] Canary\\assets/baby_Yellow.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Red Canary"
+        }
+      ],
+      "Buildings": [
+        "Coop",
+        "Big Coop",
+        "Deluxe Coop"
+      ],
+      "AnimalShop": {
+        "Name": "Canarys",
+        "Description": "A yellow bird.",
+        "Icon": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Arrbyte's Canaries\\[BFAV] Canary\\assets/canary_shop.png",
+        "Exclude": null
+      }
+    },
+    {
+      "Category": "Onadagori Chicken",
+      "Types": [
+        {
+          "Data": "1/5/176/174/cluck/36/64/64/64/36/64/64/64/0/false/Coop/16/16/16/16/15/5/null/639/1000/Onadagori Chicken/Coop",
+          "DeluxeProduceLuck": 0.2,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\BFAVAsianAnimals\\[BFAV]  Onadagori Chickens\\assets/Onadagori.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\BFAVAsianAnimals\\[BFAV]  Onadagori Chickens\\assets/bluechick.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Onadagori Chicken"
+        }
+      ],
+      "Buildings": [
+        "Deluxe Coop"
+      ],
+      "AnimalShop": {
+        "Name": "Onadagori Chicken",
+        "Description": "A rare and valuable chicken.",
+        "Icon": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\BFAVAsianAnimals\\[BFAV]  Onadagori Chickens\\assets/animal_shop_ona.png",
+        "Exclude": [
+          "Void Chicken"
+        ]
+      }
+    },
+    {
+      "Category": "Lady Amherst's Pheasant",
+      "Types": [
+        {
+          "Data": "1/5/176/174/cluck/36/64/64/64/36/64/64/64/0/false/Coop/16/16/16/16/15/5/null/639/1000/Lady Amherst's Pheasant/Coop",
+          "DeluxeProduceLuck": 0.2,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\BFAVAsianAnimals\\[BFAV] Amhersts Pheasants\\assets/pheasant.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\BFAVAsianAnimals\\[BFAV] Amhersts Pheasants\\assets/voidchick.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Lady Amherst's Pheasant"
+        }
+      ],
+      "Buildings": [
+        "Deluxe Coop"
+      ],
+      "AnimalShop": {
+        "Name": "Lady Amherst's Pheasant",
+        "Description": "A beautiful game fowl.",
+        "Icon": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\BFAVAsianAnimals\\[BFAV] Amhersts Pheasants\\assets/animal_shop_pheasant.png",
+        "Exclude": [
+          "Void Chicken"
+        ]
+      }
+    },
+    {
+      "Category": "Central Asian Wild Boar",
+      "Types": [
+        {
+          "Data": "1/10/430/-1/pig/24/64/84/64/24/64/84/64/1/false/Barn/32/32/32/32/20/5/null/640/16000/Central Asian Wild Boar/Barn",
+          "DeluxeProduceLuck": 0.2,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\BFAVAsianAnimals\\[BFAV] Central Asian Boar\\assets/boar.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\BFAVAsianAnimals\\[BFAV] Central Asian Boar\\assets/boarlet.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Central Asian Wild Boar"
+        }
+      ],
+      "Buildings": [
+        "Deluxe Barn"
+      ],
+      "AnimalShop": {
+        "Name": "Central Asian Wild Boar",
+        "Description": "A type of wild pig.",
+        "Icon": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\BFAVAsianAnimals\\[BFAV] Central Asian Boar\\assets/animal_shop_boar.png",
+        "Exclude": null
+      }
+    },
+    {
+      "Category": "Chabo Chicken",
+      "Types": [
+        {
+          "Data": "1/5/176/174/cluck/36/64/64/64/36/64/64/64/0/false/Coop/16/16/16/16/15/5/null/639/1000/Chabo Chicken/Coop",
+          "DeluxeProduceLuck": 0.2,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\BFAVAsianAnimals\\[BFAV] Chabo Chickens\\assets/Chabo.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\BFAVAsianAnimals\\[BFAV] Chabo Chickens\\assets/whitechick.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Chabo Chicken"
+        }
+      ],
+      "Buildings": [
+        "Deluxe Coop"
+      ],
+      "AnimalShop": {
+        "Name": "Chabo Chicken",
+        "Description": "A fancy type of chicken.",
+        "Icon": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\BFAVAsianAnimals\\[BFAV] Chabo Chickens\\assets/animal_shop_chabo.png",
+        "Exclude": [
+          "Void Chicken"
+        ]
+      }
+    },
+    {
+      "Category": "Mandarin Duck",
+      "Types": [
+        {
+          "Data": "2/5/442/444/Duck/36/64/64/64/36/64/64/64/0/false/Coop/16/16/16/16/15/5/null/639/1000/Hen Mandarin Duck/Coop",
+          "DeluxeProduceLuck": 0.2,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\BFAVAsianAnimals\\[BFAV] Mandarin Duck\\assets/female.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\BFAVAsianAnimals\\[BFAV] Mandarin Duck\\assets/duckling.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Hen Mandarin Duck"
+        },
+        {
+          "Data": "2/5/685/774/Duck/36/64/64/64/36/64/64/64/0/false/Coop/16/16/16/16/15/5/null/639/1000/Drake Mandarin Duck/Coop",
+          "DeluxeProduceLuck": 0.2,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\BFAVAsianAnimals\\[BFAV] Mandarin Duck\\assets/male.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\BFAVAsianAnimals\\[BFAV] Mandarin Duck\\assets/duckling.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Drake Mandarin Duck"
+        }
+      ],
+      "Buildings": [
+        "Deluxe Coop"
+      ],
+      "AnimalShop": {
+        "Name": "Mandarin Duck",
+        "Description": "A beautiful water fowl.",
+        "Icon": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\BFAVAsianAnimals\\[BFAV] Mandarin Duck\\assets/animal_shop_mandarin.png",
+        "Exclude": [
+          "Void Chicken"
+        ]
+      }
+    },
+    {
+      "Category": "Serow",
+      "Types": [
+        {
+          "Data": "2/5/436/438/goat/24/64/84/64/24/64/84/64/1/false/Barn/32/32/32/32/10/5/Milk Pail/644/4000/Serow/Barn",
+          "DeluxeProduceLuck": 0.2,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\BFAVAsianAnimals\\[BFAV] Serow\\assets/serow.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\BFAVAsianAnimals\\[BFAV] Serow\\assets/kid.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Serow"
+        }
+      ],
+      "Buildings": [
+        "Deluxe Barn"
+      ],
+      "AnimalShop": {
+        "Name": "Serow",
+        "Description": "A type of Asian goat that will produce milk.",
+        "Icon": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\BFAVAsianAnimals\\[BFAV] Serow\\assets/animal_shop_serow.png",
+        "Exclude": null
+      }
+    },
+    {
+      "Category": "Zebu",
+      "Types": [
+        {
+          "Data": "1/5/184/186/cow/36/64/64/64/36/64/64/64/1/false/Barn/32/32/32/32/15/5/Milk Pail/639/1500/Belted Zebu/Barn",
+          "DeluxeProduceLuck": 0.2,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\BFAVAsianAnimals\\[BFAV] Zebu\\assets/beltedzebu.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\BFAVAsianAnimals\\[BFAV] Zebu\\assets/beltedcalf.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Belted Zebu"
+        },
+        {
+          "Data": "1/5/184/186/cow/36/64/64/64/36/64/64/64/1/false/Barn/32/32/32/32/15/5/Milk Pail/639/1500/Freckled Zebu/Coop",
+          "DeluxeProduceLuck": 0.2,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\BFAVAsianAnimals\\[BFAV] Zebu\\assets/freckledzebu.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\BFAVAsianAnimals\\[BFAV] Zebu\\assets/freckledcalf.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Freckled Zebu"
+        }
+      ],
+      "Buildings": [
+        "Deluxe Barn"
+      ],
+      "AnimalShop": {
+        "Name": "Zebu",
+        "Description": "A type of cow from Asia.",
+        "Icon": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\BFAVAsianAnimals\\[BFAV] Zebu\\assets/animal_shop_zebu.png",
+        "Exclude": null
+      }
+    },
+    {
+      "Category": "Pigeons",
+      "Types": [
+        {
+          "Data": "1/3/180/180/none/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/7/4/null/641/5000/Pigeon/Coop",
+          "DeluxeProduceLuck": 0.0,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Pigeons\\[BFAV] Pigeons\\assets/pigeon.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Pigeons\\[BFAV] Pigeons\\assets/babypigeon.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Pigeon"
+        },
+        {
+          "Data": "1/3/176/176/none/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/7/4/null/641/5000/Pioneer Pigeon/Coop",
+          "DeluxeProduceLuck": 0.0,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Pigeons\\[BFAV] Pigeons\\assets/pioneerpigeon.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Pigeons\\[BFAV] Pigeons\\assets/babypioneerpigeon.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Pioneer Pigeon"
+        },
+        {
+          "Data": "1/3/176/176/none/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/7/4/null/641/5000/Racing Pigeon/Coop",
+          "DeluxeProduceLuck": 0.0,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Pigeons\\[BFAV] Pigeons\\assets/racingpigeon.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Pigeons\\[BFAV] Pigeons\\assets/babyracingpigeon.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Racing Pigeon"
+        },
+        {
+          "Data": "1/3/180/180/none/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/7/4/null/641/5000/Modena Pigeon/Coop",
+          "DeluxeProduceLuck": 0.0,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Pigeons\\[BFAV] Pigeons\\assets/modenapigeon.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Pigeons\\[BFAV] Pigeons\\assets/babymodenapigeon.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Modena Pigeon"
+        },
+        {
+          "Data": "1/3/176/Olive Branch/none/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/4/7/null/641/5000/White Dove/Coop",
+          "DeluxeProduceLuck": 0.2,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Pigeons\\[BFAV] Pigeons\\assets/Whitedove.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Pigeons\\[BFAV] Pigeons\\assets/BabyWhitedove.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "White Dove"
+        },
+        {
+          "Data": "1/3/176/176/none/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/4/7/null/641/5000/Mourning Dove/Coop",
+          "DeluxeProduceLuck": 0.0,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Pigeons\\[BFAV] Pigeons\\assets/mourningdove.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Pigeons\\[BFAV] Pigeons\\assets/Babymourningdove.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Mourning Dove"
+        }
+      ],
+      "Buildings": [
+        "Deluxe Coop"
+      ],
+      "AnimalShop": {
+        "Name": "Pigeon",
+        "Description": "These pigeons will leave eggs for you every day once grown!",
+        "Icon": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Pigeons\\[BFAV] Pigeons\\assets/animal_shop_doves.png",
+        "Exclude": [
+          "Void Chicken"
+        ]
+      }
+    },
+    {
+      "Category": "Deer",
+      "Types": [
+        {
+          "Data": "2/10/436/438/goat/24/64/84/64/24/64/84/64/1/false/Barn/32/32/32/32/10/5/Milk Pail/644/6000/Deer/Barn",
+          "DeluxeProduceLuck": 1.0,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Deer\\assets/Deer.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Deer\\assets/BabyDeer.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Deer"
+        }
+      ],
+      "Buildings": [
+        "Big Barn",
+        "Deluxe Barn"
+      ],
+      "AnimalShop": {
+        "Name": "Deer",
+        "Description": "These docile deer love wandering and produce gourmet milk if treated well!",
+        "Icon": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Deer\\assets/animal_shop_deer.png",
+        "Exclude": [
+          "Void Chicken"
+        ]
+      }
+    },
+    {
+      "Category": "Frog",
+      "Types": [
+        {
+          "Data": "2/5/259/70/croak/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/7/null/639/2500/American Green Tree Frog/Coop",
+          "DeluxeProduceLuck": 0.0,
+          "Localization": {
+            "ko": [
+              "미국청개구리",
+              "닭장"
+            ]
+          },
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Frog Friends\\assets/AmericanGreenTreeFrog.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Frog Friends\\assets/AmericanGreenTreeFrog.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "American Green Tree Frog"
+        },
+        {
+          "Data": "2/5/259/64/croak/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/7/null/639/2500/Red-Eyed Tree Frog/Coop",
+          "DeluxeProduceLuck": 0.0,
+          "Localization": {
+            "ko": [
+              "붉은눈청개구리",
+              "닭장"
+            ]
+          },
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Frog Friends\\assets/RedEyedTreeFrog.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Frog Friends\\assets/RedEyedTreeFrog.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Red-Eyed Tree Frog"
+        },
+        {
+          "Data": "2/5/259/347/croak/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/7/null/639/2500/Clown Tree Frog/Coop",
+          "DeluxeProduceLuck": 0.0,
+          "Localization": {
+            "ko": [
+              "어릿광대청개구리",
+              "닭장"
+            ]
+          },
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Frog Friends\\assets/ClownTreeFrog.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Frog Friends\\assets/ClownTreeFrog.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Clown Tree Frog"
+        },
+        {
+          "Data": "2/5/422/62/croak/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/7/null/639/2500/Blue Poison Dart Frog/Coop",
+          "DeluxeProduceLuck": 0.0,
+          "Localization": {
+            "ko": [
+              "푸른독개구리",
+              "닭장"
+            ]
+          },
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Frog Friends\\assets/BluePoisonDartFrog.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Frog Friends\\assets/BluePoisonDartFrog.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Blue Poison Dart Frog"
+        },
+        {
+          "Data": "2/5/420/336/croak/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/7/null/639/2500/Golden Poison Dart Frog/Coop",
+          "DeluxeProduceLuck": 0.0,
+          "Localization": {
+            "ko": [
+              "황금독개구리",
+              "닭장"
+            ]
+          },
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Frog Friends\\assets/GoldenPoisonDartFrog.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Frog Friends\\assets/GoldenPoisonDartFrog.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Golden Poison Dart Frog"
+        },
+        {
+          "Data": "2/5/420/745/croak/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/7/null/639/2500/Strawberry Poison Dart Frog/Coop",
+          "DeluxeProduceLuck": 0.0,
+          "Localization": {
+            "ko": [
+              "딸기독화살개구리",
+              "닭장"
+            ]
+          },
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Frog Friends\\assets/StrawberryPoisonDartFrog.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Frog Friends\\assets/StrawberryPoisonDartFrog.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Strawberry Poison Dart Frog"
+        },
+        {
+          "Data": "2/5/420/62/croak/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/7/null/639/2500/Amazonian Poison Dart Frog/Coop",
+          "DeluxeProduceLuck": 0.0,
+          "Localization": {
+            "ko": [
+              "아마존독개구리",
+              "닭장"
+            ]
+          },
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Frog Friends\\assets/AmazonianPoisonDartFrog.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Frog Friends\\assets/AmazonianPoisonDartFrog.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Amazonian Poison Dart Frog"
+        },
+        {
+          "Data": "2/5/422/66/croak/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/7/null/639/2500/Purple Fluorescent Frog/Coop",
+          "DeluxeProduceLuck": 0.0,
+          "Localization": {
+            "ko": [
+              "보라색형광개구리",
+              "닭장"
+            ]
+          },
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Frog Friends\\assets/PurpleFluorescentFrog.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Frog Friends\\assets/PurpleFluorescentFrog.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Purple Fluorescent Frog"
+        },
+        {
+          "Data": "2/5/82/64/croak/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/7/null/639/2500/Fire-Bellied Toad/Coop",
+          "DeluxeProduceLuck": 0.0,
+          "Localization": {
+            "ko": [
+              "무당개구리",
+              "닭장"
+            ]
+          },
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Frog Friends\\assets/FireBelliedToad.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Frog Friends\\assets/FireBelliedToad.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Fire-Bellied Toad"
+        },
+        {
+          "Data": "2/5/86/347/croak/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/7/null/639/2500/Pale Frog/Coop",
+          "DeluxeProduceLuck": 0.0,
+          "Localization": {
+            "ko": [
+              "창백한개구리",
+              "닭장"
+            ]
+          },
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Frog Friends\\assets/PaleFrog.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Frog Friends\\assets/PaleFrog.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Pale Frog"
+        },
+        {
+          "Data": "2/5/80/60/croak/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/7/null/639/2500/Northern Glass Frog/Coop",
+          "DeluxeProduceLuck": 0.0,
+          "Localization": {
+            "ko": [
+              "북부유리개구리",
+              "닭장"
+            ]
+          },
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Frog Friends\\assets/NorthernGlassFrog.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Frog Friends\\assets/NorthernGlassFrog.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Northern Glass Frog"
+        },
+        {
+          "Data": "2/5/90/394/croak/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/7/null/639/2500/Desert Rain Frog/Coop",
+          "DeluxeProduceLuck": 0.0,
+          "Localization": {
+            "ko": [
+              "사막비개구리",
+              "닭장"
+            ]
+          },
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Frog Friends\\assets/DesertRainFrog.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Frog Friends\\assets/DesertRainFrog.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Desert Rain Frog"
+        }
+      ],
+      "Buildings": [
+        "Coop",
+        "Big Coop",
+        "Deluxe Coop"
+      ],
+      "AnimalShop": {
+        "Name": "Frog",
+        "Description": "These industrious amphibian friends will find small items for you, sometimes even minerals. There are twelve different varieties!",
+        "Icon": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Frog Friends\\assets/animal_shop_frog.png",
+        "Exclude": [
+          "Void Chicken"
+        ]
+      }
+    },
+    {
       "Category": "Ox",
       "Types": [
         {
@@ -370,6 +933,79 @@
       }
     },
     {
+      "Category": "Peafowl",
+      "Types": [
+        {
+          "Data": "1/3/Blue Feather/Peafowl Egg/cluck/8/32/48/32/8/32/48/32/0/false/Coop/16/18/16/18/3/8/null/641/1000/Blue Peafowl/Coop",
+          "DeluxeProduceLuck": 0.0,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Peafowl\\[BFAV] Peafowl\\assets/BluePeacock.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Peafowl\\[BFAV] Peafowl\\assets/Baby BluePeacock.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Blue Peacock"
+        },
+        {
+          "Data": "1/3/White Feather/Peafowl Egg/cluck/8/32/48/32/8/32/48/32/0/false/Coop/16/18/16/18/3/8/null/641/1000/White Peafowl/Coop",
+          "DeluxeProduceLuck": 0.0,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Peafowl\\[BFAV] Peafowl\\assets/WhitePeacock.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Peafowl\\[BFAV] Peafowl\\assets/Baby WhitePeacock.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "White Peacock"
+        },
+        {
+          "Data": "1/3/Purple Feather/Peafowl Egg/cluck/8/32/48/32/8/32/48/32/0/false/Coop/16/18/16/18/3/8/null/641/1000/Purple Peafowl/Coop",
+          "DeluxeProduceLuck": 0.0,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Peafowl\\[BFAV] Peafowl\\assets/PurplePeacock.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Peafowl\\[BFAV] Peafowl\\assets/Baby PurplePeacock.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Purple Peacock"
+        },
+        {
+          "Data": "1/3/Cameo Feather/Peafowl Egg/cluck/8/32/48/32/8/32/48/32/0/false/Coop/16/18/16/18/3/8/null/641/1000/Cameo Peafowl/Coop",
+          "DeluxeProduceLuck": 0.0,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Peafowl\\[BFAV] Peafowl\\assets/CameoPeacock.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Peafowl\\[BFAV] Peafowl\\assets/Baby CameoPeacock.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Cameo Peacock"
+        },
+        {
+          "Data": "1/3/Pied Feather/Peafowl Egg/cluck/8/32/48/32/8/32/48/32/0/false/Coop/16/18/16/18/3/8/null/641/1000/Piebald Peafowl/Coop",
+          "DeluxeProduceLuck": 0.0,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Peafowl\\[BFAV] Peafowl\\assets/PiedPeacock.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Peafowl\\[BFAV] Peafowl\\assets/Baby PiedPeacock.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Piebald Peacock"
+        }
+      ],
+      "Buildings": [
+        "Coop",
+        "Big Coop",
+        "Deluxe Coop"
+      ],
+      "AnimalShop": {
+        "Name": "Peafowl",
+        "Description": "A beautiful bird kept for its looks and stray feathers. Lays medium eggs.",
+        "Icon": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Peafowl\\[BFAV] Peafowl\\assets/animal_shop_peafowl.png",
+        "Exclude": [
+          "Void Chicken"
+        ]
+      }
+    },
+    {
       "Category": "Rooster",
       "Types": [
         {
@@ -395,6 +1031,475 @@
         "Exclude": [
           "Void Chicken"
         ]
+      }
+    },
+    {
+      "Category": "Draft Horse",
+      "Types": [
+        {
+          "Data": "1/5/Manure/Horse Hair/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/4000/Draft Horse/Barn",
+          "DeluxeProduceLuck": 0.4,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/draft bay 1.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/draft bay 1 baby.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Draft Horse 1"
+        },
+        {
+          "Data": "1/5/Manure/Horse Hair/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/4000/Draft Horse/Barn",
+          "DeluxeProduceLuck": 0.4,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/draft bay 2.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/draft bay 2 baby.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Draft Horse 2"
+        },
+        {
+          "Data": "1/5/Manure/Horse Hair/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/4000/Draft Horse/Barn",
+          "DeluxeProduceLuck": 0.4,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/draft bay 3.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/draft bay 3 baby.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Draft Horse 3"
+        },
+        {
+          "Data": "1/5/Manure/Horse Hair/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/4000/Draft Horse/Barn",
+          "DeluxeProduceLuck": 0.4,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/draft black 1.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/draft black 1 baby.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Draft Horse 4"
+        },
+        {
+          "Data": "1/5/Manure/Horse Hair/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/4000/Draft Horse/Barn",
+          "DeluxeProduceLuck": 0.4,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/draft black 2.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/draft black 2 baby.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Draft Horse 5"
+        },
+        {
+          "Data": "1/5/Manure/Horse Hair/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/4000/Draft Horse/Barn",
+          "DeluxeProduceLuck": 0.4,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/draft black 3.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/draft black 3 baby.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Draft Horse 6"
+        },
+        {
+          "Data": "1/5/Manure/Horse Hair/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/4000/Draft Horse/Barn",
+          "DeluxeProduceLuck": 0.4,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/draft chestnut 1.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/draft chestnut 1 baby.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Draft Horse 7"
+        },
+        {
+          "Data": "1/5/Manure/Horse Hair/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/4000/Draft Horse/Barn",
+          "DeluxeProduceLuck": 0.4,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/draft chestnut 2.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/draft chestnut 2 baby.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Draft Horse 8"
+        },
+        {
+          "Data": "1/5/Manure/Horse Hair/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/4000/Draft Horse/Barn",
+          "DeluxeProduceLuck": 0.4,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/draft chestnut 3.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/draft chestnut 3 baby.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Draft Horse 9"
+        },
+        {
+          "Data": "1/5/Manure/Horse Hair/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/4000/Draft Horse/Barn",
+          "DeluxeProduceLuck": 0.4,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/draft dk grey 1.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/draft dk grey 1 baby.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Draft Horse 10"
+        },
+        {
+          "Data": "1/5/Manure/Horse Hair/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/4000/Draft Horse/Barn",
+          "DeluxeProduceLuck": 0.4,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/draft dk grey 2.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/draft dk grey 2 baby.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Draft Horse 11"
+        },
+        {
+          "Data": "1/5/Manure/Horse Hair/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/4000/Draft Horse/Barn",
+          "DeluxeProduceLuck": 0.4,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/draft dk grey 3.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/draft dk grey 3 baby.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Draft Horse 12"
+        },
+        {
+          "Data": "1/5/Manure/Horse Hair/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/4000/Draft Horse/Barn",
+          "DeluxeProduceLuck": 0.4,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/draft dun 1.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/draft dun 1 baby.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Draft Horse 13"
+        },
+        {
+          "Data": "1/5/Manure/Horse Hair/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/4000/Draft Horse/Barn",
+          "DeluxeProduceLuck": 0.4,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/draft dun 2.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/draft dun 2 baby.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Draft Horse 14"
+        },
+        {
+          "Data": "1/5/Manure/Horse Hair/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/4000/Draft Horse/Barn",
+          "DeluxeProduceLuck": 0.4,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/draft dun 3.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/draft dun 3 baby.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Draft Horse 15"
+        },
+        {
+          "Data": "1/5/Manure/Horse Hair/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/4000/Draft Horse/Barn",
+          "DeluxeProduceLuck": 0.4,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/draft lt grey 1.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/draft lt grey 1 baby.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Draft Horse 16"
+        },
+        {
+          "Data": "1/5/Manure/Horse Hair/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/4000/Draft Horse/Barn",
+          "DeluxeProduceLuck": 0.4,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/draft lt grey 2.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/draft lt grey 2 baby.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Draft Horse 17"
+        },
+        {
+          "Data": "1/5/Manure/Horse Hair/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/4000/Draft Horse/Barn",
+          "DeluxeProduceLuck": 0.4,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/draft lt grey 3.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/draft lt grey 3 baby.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Draft Horse 18"
+        },
+        {
+          "Data": "1/5/Manure/Horse Hair/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/4000/Draft Horse/Barn",
+          "DeluxeProduceLuck": 0.4,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/draft palomino 1.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/draft palomino 1 baby.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Draft Horse 19"
+        },
+        {
+          "Data": "1/5/Manure/Horse Hair/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/4000/Draft Horse/Barn",
+          "DeluxeProduceLuck": 0.4,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/draft palomino 2.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/draft palomino 2 baby.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Draft Horse 20"
+        },
+        {
+          "Data": "1/5/Manure/Horse Hair/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/4000/Draft Horse/Barn",
+          "DeluxeProduceLuck": 0.4,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/draft palomino 3.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/draft palomino 3 baby.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Draft Horse 21"
+        }
+      ],
+      "Buildings": [
+        "Big Barn",
+        "Deluxe Barn"
+      ],
+      "AnimalShop": {
+        "Name": "Draft Horse",
+        "Description": "Adult Draft Horses produce manure each day. They may shed valuable horse hair on occasion, which can be used for cloth.",
+        "Icon": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/draft horse animal shop.png",
+        "Exclude": []
+      }
+    },
+    {
+      "Category": "Sport Horse",
+      "Types": [
+        {
+          "Data": "3/5/Silver Trophy/Gold Trophy/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/10000/Sport Horse/Barn",
+          "DeluxeProduceLuck": 0.0,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/std bay 1.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/std bay 1 baby.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Sport Horse 1"
+        },
+        {
+          "Data": "3/5/Silver Trophy/Gold Trophy/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/10000/Sport Horse/Barn",
+          "DeluxeProduceLuck": 0.0,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/std bay 2.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/std bay 2 baby.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Sport Horse 2"
+        },
+        {
+          "Data": "3/5/Silver Trophy/Gold Trophy/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/10000/Sport Horse/Barn",
+          "DeluxeProduceLuck": 0.0,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/std bay app.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/std bay app baby.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Sport Horse 3"
+        },
+        {
+          "Data": "3/5/Silver Trophy/Gold Trophy/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/10000/Sport Horse/Barn",
+          "DeluxeProduceLuck": 0.0,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/std black 1.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/std black 1 baby.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Sport Horse 4"
+        },
+        {
+          "Data": "3/5/Silver Trophy/Gold Trophy/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/10000/Sport Horse/Barn",
+          "DeluxeProduceLuck": 0.0,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/std black 2.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/std black 2 baby.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Sport Horse 5"
+        },
+        {
+          "Data": "3/5/Silver Trophy/Gold Trophy/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/10000/Sport Horse/Barn",
+          "DeluxeProduceLuck": 0.0,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/std black app.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/std black app baby.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Sport Horse 6"
+        },
+        {
+          "Data": "3/5/Silver Trophy/Gold Trophy/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/10000/Sport Horse/Barn",
+          "DeluxeProduceLuck": 0.0,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/std chestnut 1.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/std chestnut 1 baby.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Sport Horse 7"
+        },
+        {
+          "Data": "3/5/Silver Trophy/Gold Trophy/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/10000/Sport Horse/Barn",
+          "DeluxeProduceLuck": 0.0,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/std chestnut 2.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/std chestnut 2 baby.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Sport Horse 8"
+        },
+        {
+          "Data": "3/5/Silver Trophy/Gold Trophy/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/10000/Sport Horse/Barn",
+          "DeluxeProduceLuck": 0.0,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/std chestnut app.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/std chestnut app baby.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Sport Horse 9"
+        },
+        {
+          "Data": "3/5/Silver Trophy/Gold Trophy/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/10000/Sport Horse/Barn",
+          "DeluxeProduceLuck": 0.0,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/std dk grey 1.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/std dk grey 1 baby.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Sport Horse 10"
+        },
+        {
+          "Data": "3/5/Silver Trophy/Gold Trophy/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/10000/Sport Horse/Barn",
+          "DeluxeProduceLuck": 0.0,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/std dk grey 2.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/std dk grey 2 baby.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Sport Horse 11"
+        },
+        {
+          "Data": "3/5/Silver Trophy/Gold Trophy/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/10000/Sport Horse/Barn",
+          "DeluxeProduceLuck": 0.0,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/std dk grey app.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/std dk grey app baby.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Sport Horse 12"
+        },
+        {
+          "Data": "3/5/Silver Trophy/Gold Trophy/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/10000/Sport Horse/Barn",
+          "DeluxeProduceLuck": 0.0,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/std dun 1.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/std dun 1 baby.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Sport Horse 13"
+        },
+        {
+          "Data": "3/5/Silver Trophy/Gold Trophy/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/10000/Sport Horse/Barn",
+          "DeluxeProduceLuck": 0.0,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/std dun 2.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/std dun 2 baby.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Sport Horse 14"
+        },
+        {
+          "Data": "3/5/Silver Trophy/Gold Trophy/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/10000/Sport Horse/Barn",
+          "DeluxeProduceLuck": 0.0,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/std dun app.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/std dun app baby.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Sport Horse 15"
+        },
+        {
+          "Data": "3/5/Silver Trophy/Gold Trophy/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/10000/Sport Horse/Barn",
+          "DeluxeProduceLuck": 0.0,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/std lt grey 1.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/std lt grey 1 baby.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Sport Horse 16"
+        },
+        {
+          "Data": "3/5/Silver Trophy/Gold Trophy/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/10000/Sport Horse/Barn",
+          "DeluxeProduceLuck": 0.0,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/std lt grey 2.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/std lt grey 2 baby.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Sport Horse 17"
+        },
+        {
+          "Data": "3/5/Silver Trophy/Gold Trophy/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/10000/Sport Horse/Barn",
+          "DeluxeProduceLuck": 0.0,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/std palomino 1.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/std palomino 1 baby.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Sport Horse 18"
+        },
+        {
+          "Data": "3/5/Silver Trophy/Gold Trophy/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/10000/Sport Horse/Barn",
+          "DeluxeProduceLuck": 0.0,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/std palomino 2.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/std palomino 2 baby.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Sport Horse 19"
+        }
+      ],
+      "Buildings": [
+        "Deluxe Barn"
+      ],
+      "AnimalShop": {
+        "Name": "Sport Horse",
+        "Description": "Adult Sport Horses will earn trophies every three days.",
+        "Icon": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets/std horse animal shop.png",
+        "Exclude": []
       }
     }
   ]

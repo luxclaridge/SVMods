@@ -1,0 +1,16 @@
+{
+	"Name": "[PFM] Peafowl Products",
+	"Author": "cantabileChaos",
+	"Version": "1.0.0",
+	"Description": "Allows peafowl eggs to be made into mayo.",
+	"UniqueID": "cantabilechaos.peafowleggsForProducerFrameworkMod",
+	"MinimumApiVersion": "3.0.0",
+	"Dependencies": [
+		{
+			"UniqueID": "DIGUS.ProducerFrameworkMod"
+		}
+	],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.ProducerFrameworkMod"
+	}
+}

@@ -1,0 +1,11 @@
+{
+   "Name": "Kitty Tiger Slimes",
+   "Author": "v1nc3nz0",
+   "Version": "1.0.0",
+   "Description": "Kitty cat slime retexture mod.",
+   "UniqueID": "v1nc3nz0.catslimes",
+   "MinimumApiVersion": "1.0.0",
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

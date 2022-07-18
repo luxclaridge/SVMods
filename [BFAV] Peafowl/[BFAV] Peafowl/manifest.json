@@ -1,0 +1,12 @@
+{
+   "Name": "[BFAV] Peafowl",
+   "Author": "cantabileChaos",
+   "Version": "1.0.0",
+   "Description": "Adds classic blue peecocks and a few color morphs",
+   "UniqueID": "cantabilechaos.BFAVPeafowl",
+   "MinimumApiVersion": "3.0",
+   "ContentPackFor": {
+	"UniqueID": "Paritee.BetterFarmAnimalVariety",
+	"MinimumVersion": "3.0.0-unofficial"
+  	}
+}

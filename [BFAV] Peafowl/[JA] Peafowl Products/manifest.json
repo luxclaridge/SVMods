@@ -1,0 +1,10 @@
+{
+  "Name": "[JA] Peafowl Products",
+  "Author": "cantabileChaos",
+  "Version": "1.0.0",
+  "Description": "Adds multiple feather colors and peafowl eggs.",
+  "UniqueID": "cantabilechaos.PeafowlProducts",
+  "ContentPackFor": {
+    "UniqueID": "spacechase0.JsonAssets"
+  }
+}
